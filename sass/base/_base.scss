@@ -1,0 +1,26 @@
+html {
+  font-size: 10px;
+  background-color: $color-background;
+  color: $color-text;
+}
+
+body {
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: 'Open Sans', 'Verdana', sans-serif;
+}
+  
+ul, 
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+  
+a {
+  text-decoration: none;
+  color: $color-text;
+}

@@ -1,6 +1,20 @@
-/* General */
-body {
+/* Import vendors */
+@import "vendors/normalize.css";
+/* Import abstracts */
+/* Import base */
+html {
   font-size: 10px;
+  background-color: white;
+  color: #403F3D;
+}
+
+body {
+  font-family: "Open Sans", "Verdana", sans-serif;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-family: "Open Sans", "Verdana", sans-serif;
 }
 
 ul,
@@ -12,46 +26,26 @@ ol {
 
 a {
   text-decoration: none;
-  color: black;
+  color: #403F3D;
 }
 
-.main section,
-.footer {
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans"), url(../../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  font-weight: 700;
+  src: local("Open Sans"), url(../../fonts/OpenSans-Bold.ttf);
+}
+/* Import pages */
+/* Home. Welcome */
+.main section {
   margin-top: 20px;
 }
 
-/* Wrapper */
-.wrapper {
-  max-width: 1440px;
-  margin: auto;
-  font-size: 1.6em;
-}
-
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 125%;
-  border-bottom: 1px solid gainsboro;
-}
-
-.nav__list {
-  display: flex;
-}
-
-.nav__item:not(:last-child) {
-  padding-right: 40px;
-}
-
-.region-list {
-  display: none;
-}
-
-/* Main. Welcome */
 .welcome-section {
   height: 30vh;
 }
@@ -59,10 +53,6 @@ a {
 .welcome-section__content-container {
   width: 40%;
   padding: 80px 20px;
-}
-
-.welcome-section__title {
-  font-size: 1.6rem;
 }
 
 .welcome-section__description {
@@ -93,7 +83,36 @@ a {
   padding: 80px 20px;
 }
 
-/* Footer */
+/* Import layout */
+.wrapper {
+  max-width: 1440px;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 125%;
+  border-bottom: 1px solid gainsboro;
+}
+
+.nav__list {
+  display: flex;
+  font-weight: 700;
+}
+
+.nav__item:not(:last-child) {
+  padding-right: 40px;
+}
+
+.region-list {
+  display: none;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -102,6 +121,7 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   border-top: 1px solid gainsboro;
+  margin-top: 20px;
 }
 
 .enjoy__list {
@@ -109,6 +129,6 @@ a {
   gap: 20px;
 }
 
-/* Buttons */
+/* Import components */
 
 /*# sourceMappingURL=style.css.map */

@@ -1,112 +1,22 @@
-/* General */
-body {
-  font-size: 10px;
-}
+/* Import vendors */
+@import "vendors/normalize.css";
 
-ul, 
-ol {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
+/* Import abstracts */
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
-a {
-  text-decoration: none;
-  color: black;
-}
+/* Import base */
+@import "base/base";
+@import "base/typography";
 
-.main section, 
-.footer {
-  margin-top: 20px;
-}
+/* Import pages */
+@import "pages/home";
+@import "pages/highpoint";
 
-/* Wrapper */
-.wrapper {
-  max-width: 1440px;
-  margin: auto;
-  font-size: 1.6em;
-}
+/* Import layout */
+@import "layout/wrapper";
+@import "layout/header";
+@import "layout/footer";
 
-/* Header */
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 125%;
-  border-bottom: 1px solid gainsboro;
-}
-
-.nav__list {
-  display: flex;
-}
-
-.nav__item:not(:last-child){
-  padding-right: 40px;
-}
-
-.region-list {
-  display: none;
-}
-
-/* Main. Welcome */
-.welcome-section {
-  height: 30vh;
-}
-
-.welcome-section__content-container {
-  width: 40%;
-  padding: 80px 20px;
-}
-
-.welcome-section__title {
-  font-size: 1.6rem;
-}
-
-.welcome-section__description {
-  line-height: 125%;
-}
-
-/* Main. Search */
-.search-section__title {
-  text-align: center;
-}
-
-.search-container {
-  display: flex;
-}
-
-.search-form {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Main. News */
-.news-section {
-  height: 30vh;
-}
-
-.news-section__content-container {
-  width: 40%;
-  padding: 80px 20px;
-}
-
-/* Footer */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 60px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-top: 1px solid gainsboro;
-}
-
-.enjoy__list {
-  display: flex;
-  gap: 20px;
-}
-
-/* Buttons */
+/* Import components */
+@import "components/buttons.scss";
