@@ -1,22 +1,48 @@
 /* Home. Welcome */
-.main section{
-  margin-top: 20px;
-}
-
 .welcome-section {
-  height: 30vh;
+  background-image: url(../../img/home/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
 }
 
-.welcome-section__content-container {
+.welcome-section__container {
   width: 40%;
-  padding: 80px 20px;
+  padding: 100px 20px;
+}
+
+.welcome-section__content {
+ background-color: $color-background-text;
+ padding: 20px 20px;
+ border-radius: 10px;
+ margin-bottom: 20px;
 }
 
 .welcome-section__description {
-  line-height: 125%;
+  line-height: 150%;
+  text-align: justify;
 }
 
 /* Main. Search */
+.search-section {
+  margin-top: 20px;
+}
+
+.search-container {
+  margin-top: 20px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: absolute;
+}
+
+.filter-select {
+ width: 250px;
+}
+
 .search-section__title {
   text-align: center;
 }
@@ -26,8 +52,7 @@
 }
 
 .search-form {
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 /* Main. News */

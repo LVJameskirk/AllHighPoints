@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Все высшие точки</title>
   <link rel="stylesheet" href="/sass/style.css">
-  <link rel="shortcut icon" href="img/logo.png" type="image/png">
+  <link rel="shortcut icon" href="img/logo/logo.png" type="image/png">
 </head>
 <body>
   <div class="wrapper">
@@ -17,7 +17,7 @@
         
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item">Мир</li>
+          <li class="nav__item"><a href="">Мир</a></li>
           <li class="nav__item"><a href="">Россия</a>
             <ul class="region-list">
               <li class="region-list__type">Республики
@@ -130,8 +130,8 @@
             </ul>
           </li>
           <li class="nav__item"><a href="">Новости</a></li>
-          <li class="nav__item"><a href="">О проекте</a></li>
           <li class="nav__item"><a href="">Мерч</a></li>
+          <li class="nav__item"><a href="">О проекте</a></li>
         </ul>
       </nav> 
     
@@ -143,146 +143,181 @@
 
     <main class="main">
       <section class="welcome-section">
-        <div class="welcome-section__content-container">
-          <h1 class="welcome-section__title">Высшие точки России!</h1>
-          <p class="welcome-section__description">Добро пожаловать! Здесь вы найдёте всю подробную 
-            информацию о высших точках регионов России, а также сможете стать участником проекта
-          </p>
+        <div class="welcome-section__container">
+          <div class="welcome-section__content">
+            <h1 class="welcome-section__title">Высшие точки Мира и России!</h1>
+            <p class="welcome-section__description">Добро пожаловать! Здесь вы найдёте всю подробную 
+              информацию о высших точках всех стран мира и регонов России,
+              а также сможете стать участником нашего сообщества!
+            </p>
+          </div>
           <button class="button become-button">Стать участником проекта</button>
         </div>
       </section>
 
       <section class="search-section">
-        <h2 class="search-section__title">Найти высшую точку</h2>
+        <h2 class="search-section__title">Найти высшую точку Мира</h2>
 
         <div class="search-container">
           <div class="filter-container">
-            <span class="filter">Фильтр</span>
-            <ul class="filter-list">
-              <li class="filter-list__type">Республики</li>
-              <li class="filter-list__type">Края</li>
-              <li class="filter-list__type">Области</li>
-              <li class="filter-list__type">Города федерального значения</li>
-              <li class="filter-list__type">Автономная область</li>
-              <li class="filter-list__type">Автономные округа</li>
-            </ul>
+            <select class="filter-select" name="continent" id="continent">
+              <option class="filter-option" value="">Фильтр по континентам</option>
+              <option class="filter-option" value="Eurasia">Евразия</option>
+              <option class="filter-option" value="North America">Северная Америка</option>
+              <option class="filter-option" value="South America">Южная Америка</option>
+              <option class="filter-option" value="Africa">Африка</option>
+              <option class="filter-option" value="Australia">Австралия</option>
+              <option class="filter-option" value="Antarctica">Антарктида</option>
+              <option class="filter-option" value="Island states">Островные государства</option>
+            </select>
+          </div>
+  
+            <form class="search-form" action="" method="get">
+              <input class="search-form__field" type="search" placeholder="Название страны">
+              <button class="search-form__button" type="submit">Поиск</button>
+            </form>
+          </div>
+
+          <div class="highpoints-grid">
+            <!-- TODO: Реализовать контейнер с карточками высших точек -->
+          </div>
+        <section class="search-section">
+
+      <section class="search-section">
+        <h2 class="search-section__title">Найти высшую точку России</h2>
+
+        <div class="search-container">
+          <div class="filter-container">
+            <select class="filter-select" name="continent" id="continent">
+              <option class="filter-option" value="">Фильтр по регионам</option>
+              <option class="filter-option" value="Eurasia">Республики</option>
+              <option class="filter-option" value="North America">Края</option>
+              <option class="filter-option" value="South America">Области</option>
+              <option class="filter-option" value="Africa">Города федерального значения</option>
+              <option class="filter-option" value="Australia">Автономная область</option>
+              <option class="filter-option" value="Antarctica">Антарктида</option>
+              <option class="filter-option" value="Island states">Автономные округа</option>
+            </select>
           </div>
   
           <form class="search-form" action="" method="get">
-            <input class="search-form__field" type="search" placeholder="Укажите регион">
+            <input class="search-form__field" type="search" placeholder="Название региона">
             <button class="search-form__button" type="submit">Поиск</button>
           </form>
         </div>
-
-        <ul class="region-list">
-          <li class="region-list__type">Республики
-            <ol>
-              <li>Адыгея</li>
-              <li>Алтай</li>
-              <li>Башкортостан</li>
-              <li>Бурятия</li>
-              <li>Дагестан</li>
-              <li>Ингушетия</li>
-              <li>Кабардино-Балкарская Республика</li>
-              <li>Калмыкия</li>
-              <li>Карачаево-Черкесская Республика</li>
-              <li>Кареллия</li>
-              <li>Коми</li>
-              <li>Марий Эл</li>
-              <li>Мордовия</li>
-              <li>Саха (Якутия)</li>
-              <li>Северная Осетия - Алания</li>
-              <li>Татарстан</li>
-              <li>Тыва</li>
-              <li>Удмуртская республика</li>
-              <li>Хакассия</li>
-              <li>Чеченская</li>
-              <li>Чувашия</li>
-            </ol>
-          </li>
-          <li class="region-list__type">Края
-            <ol>
-              <li>Алтайский</li>
-              <li>Забайкальский</li>
-              <li>Камчатский</li>
-              <li>Краснодарский</li>
-              <li>Красноярский</li>
-              <li>Пермский</li>
-              <li>Приморский</li>
-              <li>Ставропольский</li>
-              <li>Хабаровский</li>
-            </ol>
-          </li>
-          <li class="region-list__type">Области
-            <ol>
-              <li>Амурская</li>
-              <li>Архангельская</li>
-              <li>Астраханская</li>
-              <li>Белгородская</li>
-              <li>Брянская</li>
-              <li>Владимирская</li>
-              <li>Волгоградская</li>
-              <li>Вологодская</li>
-              <li>Воронежская</li>
-              <li>Ивановская</li>
-              <li>Иркутская</li>
-              <li>Калининградская</li>
-              <li>Калужская</li>
-              <li>Кемеровская</li>
-              <li>Кировская</li>
-              <li>Костромская</li>
-              <li>Курганская</li>
-              <li>Курская</li>
-              <li>Ленинградская</li>
-              <li>Липецкая</li>
-              <li>Магаданская</li>
-              <li>Московская</li>
-              <li>Мурманская</li>
-              <li>Нижегородская</li>
-              <li>Новгородская</li>
-              <li>Новосибирская</li>
-              <li>Омская</li>
-              <li>Оренбургская</li>
-              <li>Орловская</li>
-              <li>Пензенская</li>
-              <li>Псковская</li>
-              <li>Ростовская</li>
-              <li>Рязанская</li>
-              <li>Самарская</li>
-              <li>Саратовская</li>
-              <li>Сахалинская</li>
-              <li>Свердловская</li>
-              <li>Смоленская</li>
-              <li>Тамбовская</li>
-              <li>Тверская</li>
-              <li>Томская</li>
-              <li>Тульская</li>
-              <li>Тюменская</li>
-              <li>Ульяновская</li>
-              <li>Челябинская</li>
-              <li>Ярославская</li>
-            </ol>
-          </li>
-          <li class="region-list__type">Города федерального значения
-            <ol>
-              <li>Москва</li>
-              <li>Санкт-Петербург</li>
-            </ol>
-          </li>
-          <li class="region-list__type">Автономная область
-            <ol>
-              <li>Еврейская</li>
-            </ol>
-          </li>
-          <li class="region-list__type">Автономные округа
-            <ol>
-              <li>Ненецкий</li>
-              <li>Ханты-Мансийский - Югра</li>
-              <li>Чукотский</li>
-              <li>Ямало-Ненецкий</li>
-            </ol>
-          </li>
-        </ul>
+       
+        <div class="highpoints-grid">
+          <!-- TODO: Реализовать контейнер с карточками высших точек -->
+          <ul class="highpoints-list">
+            <li class="highpoints-list__type"><span class="highpoints-list__type-name">Республики:</span>
+              <ol class="highpoints-list__type-of">
+                <li class="highpoints-list__item">Адыгея</li>
+                <li class="highpoints-list__item">Алтай</li>
+                <li class="highpoints-list__item">Башкортостан</li>
+                <li class="highpoints-list__item">Бурятия</li>
+                <li class="highpoints-list__item">Дагестан</li>
+                <li class="highpoints-list__item">Ингушетия</li>
+                <li class="highpoints-list__item">Кабардино-Балкарская Республика</li>
+                <li class="highpoints-list__item">Калмыкия</li>
+                <li class="highpoints-list__item">Карачаево-Черкесская Республика</li>
+                <li class="highpoints-list__item">Кареллия</li>
+                <li class="highpoints-list__item">Коми</li>
+                <li class="highpoints-list__item">Марий Эл</li>
+                <li class="highpoints-list__item">Мордовия</li>
+                <li class="highpoints-list__item">Саха (Якутия)</li>
+                <li class="highpoints-list__item">Северная Осетия - Алания</li>
+                <li class="highpoints-list__item">Татарстан</li>
+                <li class="highpoints-list__item">Тыва</li>
+                <li class="highpoints-list__item">Удмуртская республика</li>
+                <li class="highpoints-list__item">Хакассия</li>
+                <li class="highpoints-list__item">Чеченская</li>
+                <li class="highpoints-list__item">Чувашия</li>
+              </ol>
+            </li>
+            <li class="region-list__type">Края
+              <ol>
+                <li>Алтайский</li>
+                <li>Забайкальский</li>
+                <li>Камчатский</li>
+                <li>Краснодарский</li>
+                <li>Красноярский</li>
+                <li>Пермский</li>
+                <li>Приморский</li>
+                <li>Ставропольский</li>
+                <li>Хабаровский</li>
+              </ol>
+            </li>
+            <li class="region-list__type">Области
+              <ol>
+                <li>Амурская</li>
+                <li>Архангельская</li>
+                <li>Астраханская</li>
+                <li>Белгородская</li>
+                <li>Брянская</li>
+                <li>Владимирская</li>
+                <li>Волгоградская</li>
+                <li>Вологодская</li>
+                <li>Воронежская</li>
+                <li>Ивановская</li>
+                <li>Иркутская</li>
+                <li>Калининградская</li>
+                <li>Калужская</li>
+                <li>Кемеровская</li>
+                <li>Кировская</li>
+                <li>Костромская</li>
+                <li>Курганская</li>
+                <li>Курская</li>
+                <li>Ленинградская</li>
+                <li>Липецкая</li>
+                <li>Магаданская</li>
+                <li>Московская</li>
+                <li>Мурманская</li>
+                <li>Нижегородская</li>
+                <li>Новгородская</li>
+                <li>Новосибирская</li>
+                <li>Омская</li>
+                <li>Оренбургская</li>
+                <li>Орловская</li>
+                <li>Пензенская</li>
+                <li>Псковская</li>
+                <li>Ростовская</li>
+                <li>Рязанская</li>
+                <li>Самарская</li>
+                <li>Саратовская</li>
+                <li>Сахалинская</li>
+                <li>Свердловская</li>
+                <li>Смоленская</li>
+                <li>Тамбовская</li>
+                <li>Тверская</li>
+                <li>Томская</li>
+                <li>Тульская</li>
+                <li>Тюменская</li>
+                <li>Ульяновская</li>
+                <li>Челябинская</li>
+                <li>Ярославская</li>
+              </ol>
+            </li>
+            <li class="region-list__type">Города федерального значения
+              <ol>
+                <li>Москва</li>
+                <li>Санкт-Петербург</li>
+              </ol>
+            </li>
+            <li class="region-list__type">Автономная область
+              <ol>
+                <li>Еврейская</li>
+              </ol>
+            </li>
+            <li class="region-list__type">Автономные округа
+              <ol>
+                <li>Ненецкий</li>
+                <li>Ханты-Мансийский - Югра</li>
+                <li>Чукотский</li>
+                <li>Ямало-Ненецкий</li>
+              </ol>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <section class="news-section">

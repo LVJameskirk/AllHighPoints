@@ -17,10 +17,10 @@
 
 .header .logo-icon {
   display: inline-block;
-  background-image: url("../../img/logo.jpg");
+  background-image: url("../../img/logo/logo.jpg");
   background-size: cover;
   height: 64px;
-  width: 64px;
+  min-width: 64px;
   margin-right: 10px;
 }
 

@@ -1,0 +1,15 @@
+.button {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 3px solid $color-border;
+    background-color: $color-border;
+    color: $color-text-buttons;
+    border-radius: 10px;
+}
+
+.welcome-section .become-button {
+    margin: 0px 5px;
+    padding: 15px 25px;
+    font-size: 1.5em;
+    border-radius: 15px;
+}
