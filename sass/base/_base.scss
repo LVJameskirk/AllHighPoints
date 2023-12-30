@@ -32,3 +32,11 @@ h1,
 h2 {
   line-height: 150%;
 }
+
+.disable {
+  display: none;
+}
+
+.not-clickable {
+  cursor: default;
+}

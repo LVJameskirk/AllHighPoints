@@ -37,6 +37,14 @@ h2 {
   line-height: 150%;
 }
 
+.disable {
+  display: none;
+}
+
+.not-clickable {
+  cursor: default;
+}
+
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
@@ -207,15 +215,50 @@ h2 {
   font-size: 1.6em;
   font-weight: 700;
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .highpoints-list__type-of {
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, minmax(186px, 310px));
+  margin-bottom: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(22%, 310px));
   grid-template-rows: repeat(506px);
   gap: 40px;
+}
+
+.highpoints-list__item {
+  border: 2px solid rgb(5, 110, 171);
+  border-radius: 20px;
+  height: 400px;
+}
+
+.highpoints-item__img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.highpoints-item__info-container {
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.highpoints-item__flag {
+  background-image: url(/img/flags/flag-adygea.jpg);
+  background-size: contain;
+  display: inline-block;
+  width: 128px;
+  height: 80px;
+  position: absolute;
+  border-top-left-radius: 20px;
+}
+
+.highpoints-item__title {
+  font-size: 1.4em;
+  font-weight: 700;
 }
 
 /* Import components */

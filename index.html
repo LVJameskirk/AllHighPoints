@@ -17,7 +17,7 @@
         
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a href="">Мир</a></li>
+          <li class="nav__item"><a class="not-clickable" title="Скоро добавим" href="">Мир*</a></li>
           <li class="nav__item"><a href="">Россия</a>
             <ul class="region-list">
               <li class="region-list__type">Республики
@@ -155,7 +155,7 @@
         </div>
       </section>
 
-      <section class="search-section">
+      <section class="search-section disable">
         <h2 class="search-section__title">Найти высшую точку Мира</h2>
 
         <div class="search-container">
@@ -181,11 +181,12 @@
           <div class="highpoints-grid">
             <!-- TODO: Реализовать контейнер с карточками высших точек -->
           </div>
-        <section class="search-section">
+        </section>
 
       <section class="search-section">
         <h2 class="search-section__title">Найти высшую точку России</h2>
 
+        <<!-- TODO: Реализовать выбор не через филтр, а табы, как в кофе-хауз-->
         <div class="search-container">
           <div class="filter-container">
             <select class="filter-select" name="continent" id="continent">
@@ -211,7 +212,15 @@
           <ul class="highpoints-list">
             <li class="highpoints-list__type"><span class="highpoints-list__type-name">Республики:</span>
               <ol class="highpoints-list__type-of">
-                <li class="highpoints-list__item">Адыгея</li>
+                <li class="highpoints-list__item">
+                  <span class="highpoints-item__flag"></span>
+                  <div class="highpoints-item__img-container">
+                    <img class="highpoints-item__img" src="/img/Russia-oblasti/Владимирская.jpg" alt="Coffee image">        
+                  </div>
+                  <div class="highpoints-item__info-container">
+                    <span class="highpoints-item__title">Адыгея</span>
+                  </div>
+                </li>
                 <li class="highpoints-list__item">Алтай</li>
                 <li class="highpoints-list__item">Башкортостан</li>
                 <li class="highpoints-list__item">Бурятия</li>
@@ -234,8 +243,8 @@
                 <li class="highpoints-list__item">Чувашия</li>
               </ol>
             </li>
-            <li class="region-list__type">Края
-              <ol>
+            <li class="highpoints-list__type"><span class="highpoints-list__type-name">Края:</span>
+              <ol class="highpoints-list__type-of">
                 <li>Алтайский</li>
                 <li>Забайкальский</li>
                 <li>Камчатский</li>
