@@ -24,6 +24,26 @@
 }
 
 /* Main. Search */
+.region-tabs__list {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.region-tabs__item {
+  padding: 10px 15px;
+  border: 1px solid $color-border;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.item-active {
+  background-color: $color-border;
+  color: $color-text-buttons;
+}
+
 .search-section {
   margin-top: 20px;
 }

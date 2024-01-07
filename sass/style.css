@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Import vendors */
 @import "vendors/normalize.css";
 /* Import abstracts */
@@ -27,6 +28,7 @@ a {
 
 h1,
 h2,
+h3,
 p {
   padding: 0px;
   margin: 0px;
@@ -71,7 +73,7 @@ h2 {
 }
 
 .welcome-section__content {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   padding: 20px 20px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -83,6 +85,26 @@ h2 {
 }
 
 /* Main. Search */
+.region-tabs__list {
+  margin: 20px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.region-tabs__item {
+  padding: 10px 15px;
+  border: 1px solid rgb(5, 110, 171);
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.item-active {
+  background-color: rgb(5, 110, 171);
+  color: #f1f1f1;
+}
+
 .search-section {
   margin-top: 20px;
 }
@@ -122,6 +144,80 @@ h2 {
 .news-section__content-container {
   width: 40%;
   padding: 80px 20px;
+}
+
+.banner-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+}
+
+.banner-section__container {
+  width: 30%;
+  padding: 100px 20px;
+}
+
+.banner-section__content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.banner-section__description {
+  line-height: 150%;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.highpoint-article {
+  margin-top: 20px;
+  display: flex;
+}
+
+.highpoint-info {
+  padding: 20px 30px;
+  line-height: 150%;
+  border-right: 1px solid rgb(5, 110, 171);
+}
+
+.highpoint-article__items {
+  display: flex;
+  justify-content: left;
+  padding-left: 30px;
+  align-items: center;
+  gap: 60px;
+}
+
+.highpoint-article__item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.highpoint-article__item__description {
+  font-weight: 700;
+}
+
+.highpoint-aside {
+  padding: 0px 20px;
+  width: 50vw;
+}
+
+.highpoint-aside__title {
+  margin-bottom: 10px;
+}
+
+.highpoint-aside__video {
+  width: 100%;
+  height: 22vh;
+  border-radius: 20px;
+}
+
+/* Баннеры */
+.banner-adigea {
+  background-image: url(../../img/Russia-republics/Adigea.jpg);
 }
 
 /* Import layout */
@@ -228,37 +324,47 @@ h2 {
 }
 
 .highpoints-list__item {
-  border: 2px solid rgb(5, 110, 171);
+  border: 3px solid rgb(5, 110, 171);
   border-radius: 20px;
-  height: 400px;
+  height: 450px;
 }
 
 .highpoints-item__img {
   width: 100%;
   height: 200px;
-  border-radius: 20px;
-}
-
-.highpoints-item__info-container {
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
+  border-radius: 16px;
 }
 
 .highpoints-item__flag {
-  background-image: url(/img/flags/flag-adygea.jpg);
-  background-size: contain;
   display: inline-block;
-  width: 128px;
-  height: 80px;
+  width: 100px;
   position: absolute;
-  border-top-left-radius: 20px;
+  border-top-left-radius: 16px;
+}
+
+.highpoints-item__high {
+  display: inline-block;
+  position: absolute;
+  margin-left: 220px;
+  margin-top: 5px;
+  color: #f1f1f1;
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .highpoints-item__title {
   font-size: 1.4em;
   font-weight: 700;
+  color: rgb(5, 110, 171);
+}
+
+.highpoints-item__info-container {
+  padding: 10px 20px;
+  gap: 10px;
+}
+
+.highpoints-item__description {
+  margin-top: 10px;
 }
 
 /* Import components */
@@ -269,6 +375,7 @@ h2 {
   background-color: rgb(5, 110, 171);
   color: #f1f1f1;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .welcome-section .become-button {
