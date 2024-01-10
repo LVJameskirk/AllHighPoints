@@ -10,12 +10,12 @@
   // box-shadow: 1px 3px 3px $color-border;
 }
 
-.logo {
+.logo a {
   display: flex;
   align-items: center;
 }
 
-.header .logo-icon {
+.header .logo__icon {
   display: inline-block;
   background-image: url("../../img/logo/logo.jpg");
   background-size: cover;
@@ -24,7 +24,7 @@
   margin-right: 10px;
 }
 
-.header .logo-title {
+.header .logo__title {
   font-size: 1.4em;
   font-weight: 700;
 }

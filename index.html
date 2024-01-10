@@ -11,23 +11,24 @@
   <div class="wrapper">
     <header class="header">
       <div class="logo">
-        <span class="logo-icon"></span>
-        <span class="logo-title">Все высшие точки</span>
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
       </div>
         
       <nav class="nav">
         <ul class="nav__list">
-          <li class="nav__item"><a class="not-clickable" title="Скоро добавим" href="">Мир*</a></li>
-          <li class="nav__item"><a href="">Россия</a>
-          <li class="nav__item"><a href="">Новости</a></li>
-          <li class="nav__item"><a href="">Мерч</a></li>
-          <li class="nav__item"><a href="">О проекте</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Россия</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="">О проекте</a></li>
         </ul>
       </nav> 
     
-      <form cass="login-form">
-        <button class="button login-button">Войти</button>
-        <button class="button become-button">Стать участником проекта</button>
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
       </form>
     </header>  
 
@@ -41,7 +42,7 @@
               а также сможете стать участником нашего сообщества!
             </p>
           </div>
-          <button class="button become-button">Стать участником проекта</button>
+          <button class="button enjoy-button">Стать участником проекта</button>
         </div>
       </section>
 
@@ -155,7 +156,23 @@
                 <li class="highpoints-list__item">Карачаево-Черкесская Республика</li>
                 <li class="highpoints-list__item">Кареллия</li>
                 <li class="highpoints-list__item">Коми</li>
-                <li class="highpoints-list__item">Марий Эл</li>
+                <li class="highpoints-list__item">
+                  <a href="/highpoints/republics/mari_el.html">
+                    <img class="highpoints-item__flag" src="/img/flags/Mordovia.png" alt="Flag image">
+                    <span class="highpoints-item__high">279</span>
+                    <div class="highpoints-item__img-container">
+                      <img class="highpoints-item__img" src="/img/Russia-republics/Mordovia.jpg" alt="Highpoint image">
+                    </div>
+                    <div class="highpoints-item__info-container">
+                      <span class="highpoints-item__title">Марий Эл</span>
+                      <span class="highpoints-item__federal-okrug">(ПФО)</span>
+                      <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чукша</strong> — горная 
+                        вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                        Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                        «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                    </div>
+                  </a>
+                </li>
                 <li class="highpoints-list__item">
                   <a href="/highpoints/republics/adigea.html">
                     <img class="highpoints-item__flag" src="/img/flags/Mordovia.png" alt="Flag image">
@@ -279,8 +296,8 @@
   
     <footer class="footer">
       <div class="logo">
-        <span class="logo-icon"></span>
-        <span class="logo-title">Все высшие точки</span>
+        <span class="logo__icon"></span>
+        <span class="logo__title">Все высшие точки</span>
       </div>
       
       <div class="enjoy">

@@ -28,18 +28,12 @@
   display: flex;
 }
 
-.highpoint-info {
-    padding: 20px 30px;
-    line-height: 150%;
-    border-right: 1px solid $color-border;
-}
-
 .highpoint-article__items {
     display: flex;
     justify-content: left;
     padding-left: 30px;
     align-items: center;
-    gap: 60px;
+    gap: 50px;
 }
 
 .highpoint-article__item {
@@ -52,6 +46,26 @@
     font-weight: 700;
 }
 
+.highpoint-article__subtitle {
+  margin-top: 20px;
+  padding-left: 30px;
+}
+
+
+.highpoint-article__info {
+  padding: 20px 30px 0px;
+  line-height: 150%;
+  border-right: 1px solid $color-border;
+}
+
+.highpoint-article__content {
+  padding: 20px 30px 0px;
+}
+
+.altimeter-img{
+  width: 300px;
+}
+
 .highpoint-aside {
     padding: 0px 20px;
     width: 50vw;
@@ -59,6 +73,10 @@
 
 .highpoint-aside__title {
     margin-bottom: 10px;
+}
+
+.highpoint-aside__routes {
+  margin-bottom: 20px;
 }
 
 .highpoint-aside__video {
@@ -70,4 +88,8 @@
   /* Баннеры */
 .banner-adigea {
   background-image: url(../../img/Russia-republics/Adigea.jpg);
+}
+
+.banner-mari_el {
+  background-image: url(../../img/Russia-republics/Mari_el.png);
 }

@@ -10,7 +10,7 @@
     // box-shadow: 1px -2px 3px 3px $color-border;
   }
 
-  .footer .logo-icon {
+  .footer .logo__icon {
     display: inline-block;
     background-image: url("../../img/logo/logo.jpg");
     background-size: cover;
@@ -19,7 +19,7 @@
     margin-right: 10px;
   }
 
-  .footer .logo-title {
+  .footer .logo__title {
     font-size: 1.2em;
     font-weight: 700;
   }
