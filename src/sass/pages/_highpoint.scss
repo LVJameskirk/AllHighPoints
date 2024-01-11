@@ -1,0 +1,222 @@
+.banner-section {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+}
+
+.banner-section__container {
+  width: 30%;
+  padding: 100px 20px;
+}
+s
+.banner-section__content {
+ background-color: $color-background-text;
+ padding: 20px 20px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+}
+
+.banner-section__description {
+  line-height: 150%;
+  text-align: justify;
+  font-size: 1.1em;
+}
+
+.highpoint-article {
+  margin-top: 20px;
+  display: flex;
+}
+
+.highpoint-article__items {
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    align-items: center;
+    gap: 50px;
+}
+
+.highpoint-article__item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.highpoint-article__contain {
+  display: flex;
+  align-items: center;
+  gap: 5px
+}
+
+.highpoint-article__item__icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+
+/* Icons */
+.icon-field {
+  background-image: url("/img/highpoint/field-icon.png");
+  background-size: cover;
+}
+
+.icon-hills {
+  background-image: url("/img/highpoint/hills-icon.png");
+  background-size: cover;
+}
+
+.icon-forest {
+  background-image: url("/img/highpoint/forest-icon.png");
+  background-size: cover;
+}
+
+.icon-mountains {
+  background-image: url("/img/highpoint/mountains-icon.png");
+  background-size: cover;
+}
+
+.icon-check {
+  background-image: url("/img/highpoint/check-icon.png");
+  background-size: cover;
+}
+
+.icon-dispute {
+  background-image: url("/img/highpoint/dispute-icon.png");
+  background-size: cover;
+}
+
+.icon-search {
+  background-image: url("/img/highpoint/search-icon.png");
+  background-size: cover;
+}
+
+.icon-available {
+  background-image: url("/img/highpoint/available-icon.png");
+  background-size: cover;
+}
+
+.icon-walk {
+  background-image: url("/img/highpoint/walk-icon.png");
+  background-size: cover;
+}
+
+.icon-hike {
+  background-image: url("/img/highpoint/hike-icon.png");
+  background-size: cover;
+}
+
+.icon-expedition {
+  background-image: url("/img/highpoint/expedition-icon.png");
+  background-size: cover;
+}
+
+.icon-access {
+  background-image: url("/img/highpoint/accessibility-icon.png");
+  background-size: cover;
+}
+
+.icon-warning {
+  background-image: url("/img/highpoint/warning-climbing-icon.png");
+  background-size: cover;
+}
+
+.icon-climbing {
+  background-image: url("/img/highpoint/climbing-icon.png");
+  background-size: cover;
+}
+
+.highpoint-article__item__description {
+    font-weight: 700;
+}
+
+.highpoint-article__subtitle {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+  border-top: 1px solid $color-border;
+}
+
+.highpoint-article__map-image-container {
+  margin: 0px 20px;
+}
+
+.highpoint-article__map-image {
+  width: 100%;
+}
+
+.highpoint-article__info {
+  padding: 20px 30px 0px;
+  line-height: 150%;
+  border-right: 1px solid $color-border;
+}
+
+.highpoint-article__content {
+  padding: 20px 30px 20px;
+}
+
+.altimeter-img{
+  width: 300px;
+}
+
+.highpoint-aside {
+    padding: 0px 20px;
+    width: 50vw;
+    min-width: 350px;
+}
+
+.highpoint-aside__title {
+    margin-bottom: 10px;
+}
+
+.highpoint-aside__routes {
+  margin-bottom: 20px;
+}
+
+.highpoint-aside__route {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.highpoint-aside__nakarte-icon {
+  display: inline-block;
+  background-image: url("/img/highpoint/nakarte.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.highpoint-aside__kml-icon {
+  display: inline-block;
+  background-image: url("/img/highpoint/kml.jpg");
+  background-size: cover;
+  width: 21px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.highpoint-aside__gpx-icon {
+  display: inline-block;
+  background-image: url("/img/highpoint/gpx.png");
+  background-size: cover;
+  width: 21px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.highpoint-aside__video {
+    width: 100%;
+    height: 22vh;
+    border-radius: 20px;
+}
+
+  /* Баннеры */
+.banner-adigea {
+  background-image: url(../../img/Russia-republics/Adigea.jpg);
+}
+
+.banner-mari_el {
+  background-image: url(../../img/Russia-republics/Mari_el.png);
+}

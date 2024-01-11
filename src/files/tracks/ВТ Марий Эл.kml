@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Высшая точка Марий Эл</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					49.003903,56.513876
+					49.004289,56.514876
+					49.004654,56.515290
+					49.007113,56.516724
+					49.007360,56.517002
+					49.006920,56.517233
+					49.006373,56.517351
+					49.005804,56.517387
+					49.005396,56.517600
+					49.004999,56.517795
+					49.004152,56.518026
+					49.003218,56.518239
+					49.002770,56.518463
+					49.001783,56.519061
+					49.001097,56.519445
+					49.000781,56.519339
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 2</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					49.003894,56.513863
+					49.003567,56.513786
+					49.002982,56.513726
+					49.002198,56.513646
+					49.001716,56.514076
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>001</name>
+			<Point>
+				<coordinates>-14.941406,50.007739,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>002</name>
+			<Point>
+				<coordinates>25.782717,59.734253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Высота 281 (GGC250m)</name>
+			<Point>
+				<coordinates>49.000766,56.519328,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Смотровая площадка (Высота 284)</name>
+			<Point>
+				<coordinates>49.004034,56.513877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Парковка машины</name>
+			<Point>
+				<coordinates>49.003819,56.513779,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Шлагбаум</name>
+			<Point>
+				<coordinates>49.007241,56.516856,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Высота 278 (GGC2km)</name>
+			<Point>
+				<coordinates>49.001710,56.514076,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Сарай смотрителя</name>
+			<Point>
+				<coordinates>49.004175,56.514110,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

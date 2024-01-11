@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Все высшие точки</title>
-  <link rel="stylesheet" href="/sass/style.css">
-  <link rel="shortcut icon" href="img/logo/logo.png" type="image/png">
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="/src/img/logo/logo.png" type="image/png">
 </head>
 <body>
   <div class="wrapper">
@@ -111,176 +111,1509 @@
         </div> -->
        
         <div class="highpoints-grid">
-          <!-- TODO: Реализовать контейнер с карточками высших точек -->
-          <ul class="highpoints-list">
-            <li class="highpoints-list__type"><span class="highpoints-list__type-name">Республики:</span>
-              <ol class="highpoints-list__type-of">
-                <li class="highpoints-list__item">
-                  <a href="/highpoints/republics/adigea.html">
-                    <img class="highpoints-item__flag" src="/img/flags/flag-adygea.jpg" alt="Flag image">
-                    <span class="highpoints-item__high">3 238</span>
-                    <div class="highpoints-item__img-container">
-                      <img class="highpoints-item__img" src="/img/Russia-republics/Adigea.jpg" alt="Highpoint image">
-                    </div>
-                    <div class="highpoints-item__info-container">
-                      <span class="highpoints-item__title">Адыгея</span>
-                      <span class="highpoints-item__federal-okrug">(ЮФО)</span>
-                      <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
-                        вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
-                        Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
-                        «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
-                    </div>
-                  </a>
-                </li>
-                <li class="highpoints-list__item">
-                  <img class="highpoints-item__flag" src="/img/flags/flag-republic-altai.jpg" alt="Flag image">
+          <ul class="highpoints-list list-republic list-enable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/adigea.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/adygea_flag.svg" alt="Флаг Республики Адыгея">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Адыгея</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/altai_republic.html">
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/altai_republic_flag.svg" alt="Флаг Республики Алтай">
+                  </span>
                   <span class="highpoints-item__high">4 506</span>
-                  <div class="highpoints-item__img-container">
-                    <img class="highpoints-item__img" src="/img/Russia-republics/Altai.jpg" alt="Highpoint image">
-                  </div>
-                  <div class="highpoints-item__info-container">
-                    <span class="highpoints-item__title">Алтай</span>
-                    <span class="highpoints-item__federal-okrug">(СФО)</span>
-                    <p class="highpoints-item__description"><strong class="highpoint-name">Гора Белуха</strong> - высшая 
-                      точка Алтайских гор, одна из высочайших горных вершин России. Венчает Катунский хребет. Через массив 
-                      Белухи проходит граница России и Казахстана. Название вершины происходит от обильного снега, 
-                      покрывающего гору от пика до самого основания.</p>
-                  </div>
-                </li>
-                <li class="highpoints-list__item">Башкортостан</li>
-                <li class="highpoints-list__item">Бурятия</li>
-                <li class="highpoints-list__item">Дагестан</li>
-                <li class="highpoints-list__item">Ингушетия</li>
-                <li class="highpoints-list__item">Кабардино-Балкарская Республика</li>
-                <li class="highpoints-list__item">Калмыкия</li>
-                <li class="highpoints-list__item">Карачаево-Черкесская Республика</li>
-                <li class="highpoints-list__item">Кареллия</li>
-                <li class="highpoints-list__item">Коми</li>
-                <li class="highpoints-list__item">
-                  <a href="/highpoints/republics/mari_el.html">
-                    <img class="highpoints-item__flag" src="/img/flags/Mordovia.png" alt="Flag image">
-                    <span class="highpoints-item__high">279</span>
-                    <div class="highpoints-item__img-container">
-                      <img class="highpoints-item__img" src="/img/Russia-republics/Mordovia.jpg" alt="Highpoint image">
-                    </div>
-                    <div class="highpoints-item__info-container">
-                      <span class="highpoints-item__title">Марий Эл</span>
-                      <span class="highpoints-item__federal-okrug">(ПФО)</span>
-                      <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чукша</strong> — горная 
-                        вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
-                        Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
-                        «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
-                    </div>
-                  </a>
-                </li>
-                <li class="highpoints-list__item">
-                  <a href="/highpoints/republics/adigea.html">
-                    <img class="highpoints-item__flag" src="/img/flags/Mordovia.png" alt="Flag image">
-                    <span class="highpoints-item__high">334</span>
-                    <div class="highpoints-item__img-container">
-                      <img class="highpoints-item__img" src="/img/Russia-republics/Mordovia.jpg" alt="Highpoint image">
-                    </div>
-                    <div class="highpoints-item__info-container">
-                      <span class="highpoints-item__title">Мордовия</span>
-                      <span class="highpoints-item__federal-okrug">(ПФО)</span>
-                      <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
-                        вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
-                        Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
-                        «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
-                    </div>
-                  </a>
-                </li>
-                <li class="highpoints-list__item">Саха (Якутия)</li>
-                <li class="highpoints-list__item">Северная Осетия - Алания</li>
-                <li class="highpoints-list__item">Татарстан</li>
-                <li class="highpoints-list__item">Тыва</li>
-                <li class="highpoints-list__item">Удмуртская республика</li>
-                <li class="highpoints-list__item">Хакассия</li>
-                <li class="highpoints-list__item">Чеченская</li>
-                <li class="highpoints-list__item">Чувашия</li>
-              </ol>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Алтай</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Белуха</strong> - высшая 
+                    точка Алтайских гор, одна из высочайших горных вершин России. Венчает Катунский хребет. Через массив 
+                    Белухи проходит граница России и Казахстана. Название вершины происходит от обильного снега, 
+                    покрывающего гору от пика до самого основания.</p>
+                </div>
+              </a>
             </li>
-            <li class="highpoints-list__type"><span class="highpoints-list__type-name">Края:</span>
-              <ol class="highpoints-list__type-of">
-                <li>Алтайский</li>
-                <li>Забайкальский</li>
-                <li>Камчатский</li>
-                <li>Краснодарский</li>
-                <li>Красноярский</li>
-                <li>Пермский</li>
-                <li>Приморский</li>
-                <li>Ставропольский</li>
-                <li>Хабаровский</li>
-              </ol>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/bashkortostan.html">
+                <div class="highpoints-item__img-container card-bashkortostan">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/bashkortostan_flag.svg" alt="Флаг Республики Башкортостан">
+                  </span>
+                  <span class="highpoints-item__high">1 640</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Башкортостан</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Ямантау</strong> - самая высокая гора 
+                    Южного Урала. К сожалению город у подножия (Межгорье) и  сама гора являются секретными и пребывание там 
+                    допускается только по спецпропуску.</p>
+                </div>
+              </a>
             </li>
-            <li class="region-list__type">Области
-              <ol>
-                <li>Амурская</li>
-                <li>Архангельская</li>
-                <li>Астраханская</li>
-                <li>Белгородская</li>
-                <li>Брянская</li>
-                <li>Владимирская</li>
-                <li>Волгоградская</li>
-                <li>Вологодская</li>
-                <li>Воронежская</li>
-                <li>Ивановская</li>
-                <li>Иркутская</li>
-                <li>Калининградская</li>
-                <li>Калужская</li>
-                <li>Кемеровская</li>
-                <li>Кировская</li>
-                <li>Костромская</li>
-                <li>Курганская</li>
-                <li>Курская</li>
-                <li>Ленинградская</li>
-                <li>Липецкая</li>
-                <li>Магаданская</li>
-                <li>Московская</li>
-                <li>Мурманская</li>
-                <li>Нижегородская</li>
-                <li>Новгородская</li>
-                <li>Новосибирская</li>
-                <li>Омская</li>
-                <li>Оренбургская</li>
-                <li>Орловская</li>
-                <li>Пензенская</li>
-                <li>Псковская</li>
-                <li>Ростовская</li>
-                <li>Рязанская</li>
-                <li>Самарская</li>
-                <li>Саратовская</li>
-                <li>Сахалинская</li>
-                <li>Свердловская</li>
-                <li>Смоленская</li>
-                <li>Тамбовская</li>
-                <li>Тверская</li>
-                <li>Томская</li>
-                <li>Тульская</li>
-                <li>Тюменская</li>
-                <li>Ульяновская</li>
-                <li>Челябинская</li>
-                <li>Ярославская</li>
-              </ol>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/buryatia.html">
+                <div class="highpoints-item__img-container card-buryatia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/buryatia_flag.svg" alt="Флаг Республики Бурятия">
+                  </span>
+                  <span class="highpoints-item__high">3 491</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Бурятия</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Мунку-Сардык</strong> - вершина Саян. 
+                    Расположена на границе Бурятии и Монголии. Хребет Мунку-Сардык имеет явный альпийский рельеф, с горными долинами 
+                    ледникового происхождения.</p>
+                </div>
+              </a>
             </li>
-            <li class="region-list__type">Города федерального значения
-              <ol>
-                <li>Москва</li>
-                <li>Санкт-Петербург</li>
-              </ol>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/dagestan.html">
+                <div class="highpoints-item__img-container card-dagestan">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/dagestan_flag.svg" alt="Флаг Республики Дагестан">
+                  </span>
+                  <span class="highpoints-item__high">4 466</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Дагестан</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Базардюзю</strong> -  вершина 
+                    Водораздельного хребта Большого Кавказа на границе Азербайджана и России (Дагестан). В своем регионе Базардюзю 
+                    является доминирующей возвышенностью и потому привлекает к себе взгляд.</p>
+                </div>
+              </a>
             </li>
-            <li class="region-list__type">Автономная область
-              <ol>
-                <li>Еврейская</li>
-              </ol>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/ingushetia.html">
+                <div class="highpoints-item__img-container card-ingushetia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/ingushetia_flag.svg" alt="Флаг Республики Ингушетия">
+                  </span>
+                  <span class="highpoints-item__high">4 451</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ингушетия</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Шан</strong> - одна из вершин 
+                    главного хребта Большого Кавказа, на границе Грузии и Ингушетии. Название горы переводится как "ледник".
+                    Но, на самом деле, снегами покрыта только вершина горы.</p>
+                </div>
+              </a>
             </li>
-            <li class="region-list__type">Автономные округа
-              <ol>
-                <li>Ненецкий</li>
-                <li>Ханты-Мансийский - Югра</li>
-                <li>Чукотский</li>
-                <li>Ямало-Ненецкий</li>
-              </ol>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/kabardino-balkaria.html">
+                <div class="highpoints-item__img-container card-kabardino-balkaria">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/kabardino-balkaria_flag.svg" alt="Флаг Республики Кабардино-Балкария">
+                  </span>
+                  <span class="highpoints-item__high">5 642</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Кабардино-Балкария</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Эльбрус</strong> - самая высокая 
+                    горная вершина России и Европы, при условии проведения границы между Европой и Азией по Главному 
+                    Кавказскому хребту или южнее. По совместительству, высшая точка в проекте "Все высшие точки России".</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/kalmykia.html">
+                <div class="highpoints-item__img-container card-kalmykia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/kalmykia_flag.svg" alt="Флаг Республики Калмыкия">
+                  </span>
+                  <span class="highpoints-item__high">222</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Калмыкия</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Шаред</strong> -  гора на юге Калмыкии, 
+                    самая высокая точка Ергенинской возвышенности, которая относится к хребту Чолун-Хамур. Для горы характерна 
+                    растительность естественных пастбищ.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/karachay-cherkessia.html">
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/karachay-cherkessia_flag.svg" alt="Флаг Республики Карачаево-Черкессия">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Карачаево-Черкессия</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Белуха</strong> - высшая 
+                    точка Алтайских гор, одна из высочайших горных вершин России. Венчает Катунский хребет. Через массив 
+                    Белухи проходит граница России и Казахстана. Название вершины происходит от обильного снега, 
+                    покрывающего гору от пика до самого основания.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/karelia.html">
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/karelia_flag.svg" alt="Флаг Республики Карелия">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Карелия</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Белуха</strong> - высшая 
+                    точка Алтайских гор, одна из высочайших горных вершин России. Венчает Катунский хребет. Через массив 
+                    Белухи проходит граница России и Казахстана. Название вершины происходит от обильного снега, 
+                    покрывающего гору от пика до самого основания.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/komi.html">
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/komi_flag.svg" alt="Флаг Республики Коми">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title" title="Северо-Западный федеральный округ">Коми</span>
+                  <span class="highpoints-item__federal-okrug">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Белуха</strong> - высшая 
+                    точка Алтайских гор, одна из высочайших горных вершин России. Венчает Катунский хребет. Через массив 
+                    Белухи проходит граница России и Казахстана. Название вершины происходит от обильного снега, 
+                    покрывающего гору от пика до самого основания.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/mari_el.html">                   
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/mari_el_flag.svg" alt="Флаг Республики Марий Эл">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Марий Эл</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чукша</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/mordovia.html"> 
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/mordovia_flag.svg" alt="Флаг Республики Мордовия">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Мордовия</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/sakha.html"> 
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/sakha_flag.svg" alt="Флаг Республики Саха (Якутия)">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Саха (Якутия)</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/severnya_ossetia.html"> 
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/north_ossetia_flag.svg" alt="Флаг Республики Северная Осетия (Алания)">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Северная Осетия (Алания)</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/tatarstan.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/tatarstan_flag.svg" alt="Флаг Республики Татарстан">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Татарстан</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/tuva.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/tuva_flag.svg" alt="Флаг Республики Тыва">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тыва</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/udmurtia.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/udmurtia_flag.svg" alt="Флаг Республики Удмуртия">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Удмуртия</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/hakassia.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/hakassia_flag.svg" alt="Флаг Республики Хакасия">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Хакасия</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/chechen_republic.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/chechen_republic_flag.svg" alt="Флаг Республики Чечня">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Чечня</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/chuvashia.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/chuvashia_flag.svg" alt="Флаг Республики Чувашия">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Чувашия</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-krai list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/altai_krai.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/altai_krai_flag.svg" alt="Флаг Алтайского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Алтайский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/zabaykalsky.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/zabaykalsky_flag.svg" alt="Флаг Забайкальского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Забайкальский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/kamchatka.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/kamchatka_flag.svg" alt="Флаг Камчатского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Камчатский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/krasnodar.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/krasnodar_flag.svg" alt="Флаг Краснодарского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Краснодарский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/krasnoyarsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/krasnoyarsk_flag.svg" alt="Флаг Красноярского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Красноярский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/perm.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/perm_flag.svg" alt="Флаг Пермского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Пермский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/primorsky.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/primorsky_flag.svg" alt="Флаг Приморского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Приморский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/stavropol.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/stavropol_flag.svg" alt="Флаг Ставропольского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ставропольский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/habarovsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/habarovsk_flag.svg" alt="Флаг Хабаровского края">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Хабаровский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-region list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/amur.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/amur_flag.svg" alt="Флаг Амурской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Амурская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/arkhangelsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/arkhangelsk_flag.svg" alt="Флаг Архангельской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Архангельская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/astrakhan.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/astrakhan_flag.svg" alt="Флаг Астраханской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Астраханская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/belgorod.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/belgorod_flag.svg" alt="Флаг Белгородской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Белгородская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/bryansk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/bryansk_flag.svg" alt="Флаг Брянской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Брянская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/vladimir.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/vladimir_flag.svg" alt="Флаг Владимирской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Владимирская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/volgograd.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/volgograd_flag.svg" alt="Флаг Волгоградской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Волгоградская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/vologda.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/vologda_flag.svg" alt="Флаг Вологодской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Вологодская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/voronezh.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/voronezh_flag.svg" alt="Флаг Воронежской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Воронежская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/ivanovo.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/ivanovo_flag.svg" alt="Флаг Ивановской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ивановская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/irkutsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/irkutsk_flag.svg" alt="Флаг Иркутской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Иркутская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kaliningrad.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kaliningrad_flag.svg" alt="Флаг Калининградской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Калининградская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kaluga.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kaluga_flag.svg" alt="Флаг Калужской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Калужская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kemerovo.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kemerovo_flag.svg" alt="Флаг Кемеровской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Кемеровская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kirov.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kirov_flag.svg" alt="Флаг Кировской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Кировская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kostroma.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kostroma_flag.svg" alt="Флаг Костромской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Костромская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kurgan.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kurgan_flag.svg" alt="Флаг Курганской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Курганская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kursk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kursk_flag.svg" alt="Флаг Курской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Курская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/leningrad.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/leningrad_flag.svg" alt="Флаг Ленинградской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ленинградская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/lipetsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/lipetsk_flag.svg" alt="Флаг Липецкой области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Липецкая область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/magadan.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/magadan_flag.svg" alt="Флаг Магаданской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Магаданская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/moscow_oblast.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/moscow_oblast_flag.svg" alt="Флаг Московской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Московская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/murmansk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/murmansk_flag.svg" alt="Флаг Мурманской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Мурманская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/nizhny_novgorod.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/nizhny_novgorod_flag.svg" alt="Флаг Нижегородской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Нижегородская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/novgorod.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/novgorod_flag.svg" alt="Флаг Новгородской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Новгородская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/novosibirsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/novosibirsk_flag.svg" alt="Флаг Новосибирской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Новосибирская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/omsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/omsk_flag.svg" alt="Флаг Омской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Омская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/orenburg.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/orenburg_flag.svg" alt="Флаг Оренбургской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Оренбургская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/oryol.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/oryol_flag.svg" alt="Флаг орловской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Орловская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/penza.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/penza_flag.svg" alt="Флаг Пензенской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Пензенская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/pskov.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/pskov_flag.svg" alt="Флаг Псковской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Псковская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/rostov.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/rostov_flag.svg" alt="Флаг Ростовской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ростовская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/ryazan.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/ryazan_flag.svg" alt="Флаг Рязанской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Рязанская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/samara.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/samara_flag.svg" alt="Флаг Самарской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Самарская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/saratov.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/saratov_flag.svg" alt="Флаг Саратовской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Саратовская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/sakhalin.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/sakhalin_flag.svg" alt="Флаг Сахалинской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Сахалинская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/sverdlovsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/sverdlovsk_flag.svg" alt="Флаг Свердловской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Свердловская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/smolensk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/smolensk_flag.svg" alt="Флаг Смоленской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Смоленская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tambov.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tambov_flag.svg" alt="Флаг Тамбовской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тамбовская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tver.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tver_flag.svg" alt="Флаг Тверской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тверская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tomsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tomsk_flag.svg" alt="Флаг Томской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Томская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tula.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tula_flag.svg" alt="Флаг Тульской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тульская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tyumen.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tyumen_flag.svg" alt="Флаг Тюменской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тюменская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/ulyanovsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/ulyanovsk_flag.svg" alt="Флаг Ульяновской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ульяновская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/chelyabinsk.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/chelyabinsk_flag.svg" alt="Флаг Челябинской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Челябинская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/yaroslavl.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/yaroslavl_flag.svg" alt="Флаг Ярославской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ярославская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-federal_cities list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/federal_cities/moscow.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/federal_cities/moscow_flag.svg" alt="Флаг города Москвы">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Город Москва</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/federal_cities/saint_petersburg.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/federal_cities/saint_petersburg_flag.svg" alt="Флаг города Санкт-Петербурга">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Город Санкт-Петербург</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-autonomous_region list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_regions/jewish.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_regions/jewish_flag.svg" alt="Флаг Еврейской автономной области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Еврейская автономная область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-autonomous_districts list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/nenets.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/nenets_flag.svg" alt="Флаг Ненецкого автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ненецкий автономный округ</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/hanti_mansyskiy(yugra).html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/hanti_mansyskiy(yugra)_flag.svg" alt="Флаг Ханты-Мансийского автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ханты-Мансийский автономный округ (Югра)</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/chukotka.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/chukotka_flag.svg" alt="Флаг Чукотского автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Чукотский автономный округ</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/yamal-nenets.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/yamal-nenets_flag.svg" alt="Флаг Ямало-Ненецкого автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ямало-Ненецкий автономный округ</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли».</p>
+                </div>
+              </a>
             </li>
           </ul>
         </div>
@@ -312,5 +1645,6 @@
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
   </div>
+  <script src="/src/index.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "style": "sass --watch sass/style.scss sass/style.css",
+    "style": "sass --watch src/sass/style.scss src/sass/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,5 +12,8 @@
     "url": "https://github.com/LVJameskirk/AllHighPoints"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^5.89.0"
+  }
 }

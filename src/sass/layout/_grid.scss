@@ -1,0 +1,70 @@
+/* Highpoints Grid */
+.highpoints-grid {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1360px;
+    align-items: center;
+}
+
+.highpoints-list {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(22%, 310px));
+    grid-template-rows: repeat(506px);
+    gap: 40px;
+}
+
+// .list-disable {
+//     display: none;
+// }
+
+/* Highpoints Cards */
+.highpoints-item {
+    border: 3px solid $color-border;
+    border-radius: 20px;
+    height: 460px;
+}
+
+.highpoints-item__img-container {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.highpoints-item__flag {
+    display: inline-block;
+    width: 90px;
+    position: absolute;
+    border-top-left-radius: 16px;
+}
+
+.highpoints-item__high {
+    display: inline-block;
+    color: $color-text-buttons;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-right: 10px;
+    text-shadow: 1px 1px $color-text;
+}
+
+.highpoints-item__info-container {
+    padding: 10px 20px;
+    gap: 10px;
+}
+
+.highpoints-item__title {
+    font-size: 1.4em;
+    font-weight: 700;
+    color: $color-border;
+}
+
+.highpoints-item__description {
+    margin-top: 10px;
+    line-height: 125%;
+}
