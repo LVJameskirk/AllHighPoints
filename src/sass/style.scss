@@ -12,6 +12,7 @@
 /* Import pages */
 @import "pages/home";
 @import "pages/highpoint";
+@import "pages/about";
 
 /* Import layout */
 @import "layout/wrapper";
@@ -22,3 +23,5 @@
 
 /* Import components */
 @import "components/buttons";
+@import "components/icons-highpoints";
+@import "components/banners";

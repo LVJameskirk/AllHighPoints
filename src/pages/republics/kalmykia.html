@@ -1,11 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Республика Калмыкия</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-kalmykia">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Гора Шаред</h1>
+            <p class="banner-section__description">
+              <span>Республика Калмыкия</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=17/45.64417/44.57932&l=O&q=N%2045%C2%B038%E2%80%B239.54%E2%80%B3%20E%2044%C2%B034%E2%80%B238.06%E2%80%B3&r=45.644317/44.577239/N%2045%C2%B038%E2%80%B239.54%E2%80%B3%20E%2044%C2%B034%E2%80%B238.06%E2%80%B3">
+                N 45°38′39.54″ E 44°34′38.06″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-hills"></span>
+                <span class="highpoint-article__item__description">222 метра</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-available"></span>
+                <span class="highpoint-article__item__description">Доступна всем</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-not-climbing"></span>
+              <span class="highpoint-article__item__description">Восхождение отсутствует</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">Гора Шаред находится на юге Калмыкии, недалеко от посёлка Маныч. Является 
+              самой высокой точкой Ергенинской возвышенности, которая относится к хребту Чолун-Хамур. Для горы характерна 
+              холмистая местность и растительность естественных пастбищ.</p>
+            <p class="highpoint-article__content">
+              Сама точка находится прямо на территории вышки связи. Пытаться проникнуть на которую без разрешения естественно
+              не стоит, поэтому можно ограничиться пребыванием в непосредственной близости от неё.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/kalmykia.jpg" alt="">
+            <p class="highpoint-article__content">
+              Ну или можно взойти на небольшой холм рядом, который венчает старый триангуляционный пункт. Я, например, 
+              именно так и поступил во время своего путешествия.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/triangular-kalmykia.jpg" alt="">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Добраться до горы Шаред довольно просто. Всё что вам нужно сделать, это доехать до посёлка Маныч, 
+              Ики-Бурульский район. От него есть дорога, которая прямо за остановкой сворачивает к вышке связи. По ней вам 
+              и нужно пройти прямо до пункта назначения, ну или проехать. Тут уж решать вам :)
+              <br>
+              <a class="highpoint-page-link" href="#aside__routes">Посмотеть и скачать маршрут</a>
+            </p>
+              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/kalmykia/map-kalmykia.png" alt="">
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <div class="article_check__info">
+              <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
+              <span>Когда: </span><span><strong>27.04.2022</strong></span><br>
+              <span>Устройство проверки - </span><span><strong>Альтиметр (Встроенный в IPhone 12 Pro)</strong></span><br>
+              <span>Зафиксированная высота - </span><span><strong>217 метров</strong></span><br>
+              <span>Координаты - </span><span><strong>N 45°38′18.48″ E 44°35′34.76″</strong></span><br>
+            </div>
+            <img class="altimeter-img" src="/src/img/highpoint-page/republics/kalmykia/altimetr-kalmykia.jpg" alt="">
+            <p class="highpoint-article__content">Данная высота была зафиксирована мной прямо у триангуляционного пункта, а 
+              не рядом с вышкой связи. Поэтому говорить о корректности проверки этой точки не приходится. Тем не менее эти 
+              цифры совпадают с горизонталями 210 метров, на которых и стоит репер. А вот вокруг вышки связи  как раз 
+              проходит 220-ая горионталь, что свидетествует о высоте свыше этого значения.</p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/altimetr-point.png" alt="">
+          </div>
+        </section>
+        <aside class="highpoint-aside">
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=14/45.64354/44.57574&l=S&n2=_&nktl=QBhoZ6P_iirmPgtCWYw8Ug" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Калмыкии.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Калмыкии.gpx">Скачать GPX трек</a>
+            </div>
+          </div>
+          <h3 class="highpoint-aside__title">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/RL5TII2bolE?si=zNcD3mDRSd04mbLb"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

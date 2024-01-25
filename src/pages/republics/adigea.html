@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Республика Адыгея</title>
   <link rel="stylesheet" href="/src/sass/style.css">
-  <link rel="shortcut icon" href="/src/img/logo/logo.png" type="image/png">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
   <div class="wrapper">
@@ -20,12 +20,13 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
           <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
-          <li class="nav__item"><a class="nav__link" href="">Россия</a></li>
-          <li class="nav__item"><a class="nav__link" href="">Новости</a></li>
-          <li class="nav__item"><a class="nav__link" href="">О проекте</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav> 
+      </nav>
     
       <form class="enjoy-form">
         <button class="button enjoy-button">Стать участником проекта</button>
@@ -37,7 +38,12 @@
         <div class="banner-section__container">
           <div class="banner-section__content">
             <h1 class="banner-section__title">Гора Чугуш</h1>
-            <p class="banner-section__description">Республика Адыгея</p>
+            <p class="banner-section__description">
+              <span>Республика Адыгея</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=17/43.79726/40.21000&l=O&q=N%2043%C2%B047%E2%80%B250.15%E2%80%B3%20E%2040%C2%B012%E2%80%B236.01%E2%80%B3&r=43.797264/40.210003/N%2043%C2%B047%E2%80%B250.15%E2%80%B3%20E%2040%C2%B012%E2%80%B236.01%E2%80%B3">
+                N 43°47′50.15″ E 40°12′36.01″</a></strong></span>
+            </p>
           </div>
         </div>
       </section>
@@ -47,29 +53,93 @@
           <div class="highpoint-article__items">
             <div class="highpoint-article__item">
               <span class="highpoint-article__item__title">Высота</span>
-              <span class="highpoint-article__item__description">3 238</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-mountains"></span>
+                <span class="highpoint-article__item__description">3 238 метра</span>
+              </div>
             </div>
             <div class="highpoint-article__item">
-              <span class="highpoint-article__item__title">Координаты</span>
-              <span class="highpoint-article__item__description">N 43°47′47.93″ E 40°12′36.47″</span>
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
             </div>
             <div class="highpoint-article__item">
               <span class="highpoint-article__item__title">Труднодоступность</span>
-              <span class="highpoint-article__item__description">Сложнодоступная</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-hike"></span>
+                <span class="highpoint-article__item__description">Поход</span>
+              </div>
             </div>
             <div class="highpoint-article__item">
               <span class="highpoint-article__item__title">Сложность восхождения</span>
-              <span class="highpoint-article__item__description">Категорийная</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Категорийная (2А, 2Б)</span>
+              </div>
             </div>
           </div>
-          <p class="highpoint-info">Горная вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
-            Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
-            «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">Гора Чугуш — горная вершина в западной части Большого Кавказа, в истоках 
+              реки Белая, является наивысшей точкой Республики Адыгея и девятой по высоте вершиной Краснодарского края. 
+              Протяженность всего горного хребта Чугуш — около 14 километров, со стороны Красной поляны его склоны более 
+              пологие, с севера — скалистые и труднодоступные. Здесь растут буково-пихтовые леса и субальпийские луга, 
+              северные и восточные пики покрыты льдом. Отсюда берут истоки рек Белая, Киш, Чессу и Березовая.</p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/adigea/adigea.png" alt="">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Это серьёзная и труднодоступная вершина расположенна на территории Кавказского Биосферного заповедника, а 
+              значит для её посещения  потребуется специальный пропуск и согласование своего маршрута с администрацией
+              заповедника. Большую часть года территория закрыта, следует обговаривать время посещения заранее.<br>
+              <a class="highpoint-page-link" href="https://www.kavkazzapoved.ru/pravila-nakhozhdeniya-na-territorii" target="_blank">Сайт заповедника</a>
+            </p>
+            <p class="highpoint-article__content">
+              Раздобыть нитку маршрута на карте мне не удалось, но удалось найти несколько описаний разных маршрутов. 
+              <a class="highpoint-page-link"  href="https://intaba.ru/gory-kavkaza/chugush/" target="_blank">Описание маршрутов</a><br>
+            </p>
+            <p class="highpoint-article__content">
+              Существует довольно много разных сайтов (компании и частники), которые предлагают свои программы по 
+              восхождению на Чугуш.<br>
+              <a class="highpoint-page-link"  href="http://icesnowrock.com/ascents/ascent_tshugush" target="_blank">Одно из предложений</a>
+            </p>
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <p class="highpoint-article__content"><strong>Не проверялась</strong></p>
+          </div>
         </section>
         <aside class="highpoint-aside">
+          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Скачать маршруты</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=15/56.51221/49.01773&l=S/K&nktl=_oMSRXjP8hmtv2LU0SIGFw" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/files/tracks/ВТ Марий Эл.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/files/tracks/ВТ Марий Эл.gpx">Скачать GPX трек</a>
+            </div>
+          </div> -->
           <h3 class="highpoint-aside__title">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/iRy3PK5hUE8?si=lUeHqsy5V1ZwI_RN"
+            src="https://www.youtube.com/embed/iRy3PK5hUE8?si=0Y1nnHaOSn04Wvm9"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
@@ -80,16 +150,18 @@
 
     <footer class="footer">
       <div class="logo">
-        <span class="logo__icon"></span>
-        <span class="logo__title">Все высшие точки</span>
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
       </div>
       
       <div class="enjoy">
         <span class="enjoy__title">Присоединяйтесь к нам в: </span>
         <ul class="enjoy__list">
-          <li class="enjoy__item">YouTube</li>
-          <li class="enjoy__item">Дзен</li>
-          <li class="enjoy__item">Telegram</li>
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
         </ul> 
       </div>
 

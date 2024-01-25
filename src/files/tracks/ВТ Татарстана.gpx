@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-01-23T07:21:08.934Z</time>
+	</metadata>
+	<wpt lat="54.445440" lon="52.846041">
+		<name>ВТ Татарстана 376.3</name>
+	</wpt>
+	<wpt lat="54.429716" lon="52.842607">
+		<name>ВТ Татарстана 376.8</name>
+	</wpt>
+	<wpt lat="54.462455" lon="52.838917">
+		<name>Начало грунтовки. Ефановка</name>
+	</wpt>
+	<trk>
+		<name>ВТ Татарстана</name>
+		<trkseg>
+			<trkpt lat="54.462331" lon="52.838831"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.461009" lon="52.838616"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.458888" lon="52.837243"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.457591" lon="52.836471"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.453524" lon="52.835870"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.450855" lon="52.837715"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.449258" lon="52.839088"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.448484" lon="52.839475"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.447611" lon="52.839217"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.446638" lon="52.839260"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.444666" lon="52.839861"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.440773" lon="52.841277"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.438352" lon="52.840848"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.437354" lon="52.839904"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.436181" lon="52.839904"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.434484" lon="52.839174"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.433635" lon="52.839475"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.432387" lon="52.838531"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.431463" lon="52.837801"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.430015" lon="52.837930"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.429716" lon="52.842607"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="54.445490" lon="52.846084"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.444741" lon="52.839861"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

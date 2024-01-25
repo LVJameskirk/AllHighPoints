@@ -26,6 +26,16 @@ a {
   color: #403F3D;
 }
 
+a:hover {
+  color: rgb(5, 110, 171);
+  border-bottom: 1px solid rgb(5, 110, 171);
+}
+
+.logo a:hover,
+.article-section__list a:hover {
+  border-bottom: none;
+}
+
 h1,
 h2,
 h3,
@@ -146,11 +156,12 @@ h2 {
   padding: 80px 20px;
 }
 
+/* Баннер секция */
 .banner-section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 35vh;
+  height: 40vh;
 }
 
 .banner-section__container {
@@ -158,7 +169,7 @@ h2 {
   padding: 100px 20px;
 }
 
-s .banner-section__content {
+.banner-section__content {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px 20px;
   border-radius: 10px;
@@ -171,9 +182,16 @@ s .banner-section__content {
   font-size: 1.1em;
 }
 
+/* Статья. Важные поинты */
 .highpoint-article {
   margin-top: 20px;
   display: flex;
+}
+
+.highpoint-article__info {
+  padding: 20px 30px 0px;
+  line-height: 150%;
+  border-right: 1px solid rgb(5, 110, 171);
 }
 
 .highpoint-article__items {
@@ -202,81 +220,28 @@ s .banner-section__content {
   height: 25px;
 }
 
-/* Icons */
-.icon-field {
-  background-image: url("/img/highpoint/field-icon.png");
-  background-size: cover;
-}
-
-.icon-hills {
-  background-image: url("/img/highpoint/hills-icon.png");
-  background-size: cover;
-}
-
-.icon-forest {
-  background-image: url("/img/highpoint/forest-icon.png");
-  background-size: cover;
-}
-
-.icon-mountains {
-  background-image: url("/img/highpoint/mountains-icon.png");
-  background-size: cover;
-}
-
-.icon-check {
-  background-image: url("/img/highpoint/check-icon.png");
-  background-size: cover;
-}
-
-.icon-dispute {
-  background-image: url("/img/highpoint/dispute-icon.png");
-  background-size: cover;
-}
-
-.icon-search {
-  background-image: url("/img/highpoint/search-icon.png");
-  background-size: cover;
-}
-
-.icon-available {
-  background-image: url("/img/highpoint/available-icon.png");
-  background-size: cover;
-}
-
-.icon-walk {
-  background-image: url("/img/highpoint/walk-icon.png");
-  background-size: cover;
-}
-
-.icon-hike {
-  background-image: url("/img/highpoint/hike-icon.png");
-  background-size: cover;
-}
-
-.icon-expedition {
-  background-image: url("/img/highpoint/expedition-icon.png");
-  background-size: cover;
-}
-
-.icon-access {
-  background-image: url("/img/highpoint/accessibility-icon.png");
-  background-size: cover;
-}
-
-.icon-warning {
-  background-image: url("/img/highpoint/warning-climbing-icon.png");
-  background-size: cover;
-}
-
-.icon-climbing {
-  background-image: url("/img/highpoint/climbing-icon.png");
-  background-size: cover;
-}
-
 .highpoint-article__item__description {
   font-weight: 700;
 }
 
+/* Статья. Навигация */
+.article-section__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.article-section__item {
+  font-size: 20px;
+  border: 1px solid rgb(5, 110, 171);
+  padding: 10px;
+}
+
+.article-section__item:not(:last-child) {
+  border-right: 1px solid rgb(5, 110, 171);
+}
+
+/* Статья. Основной контент */
 .highpoint-article__subtitle {
   margin-top: 20px;
   padding-top: 20px;
@@ -284,28 +249,51 @@ s .banner-section__content {
   border-top: 1px solid rgb(5, 110, 171);
 }
 
-.highpoint-article__map-image-container {
-  margin: 0px 20px;
+.highpoint-article__content {
+  padding: 10px 30px 10px;
+}
+
+.article_check__info {
+  margin-left: 30px;
+  margin-top: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 60%;
+  padding: 5px;
 }
 
 .highpoint-article__map-image {
-  width: 100%;
+  margin-left: 30px;
+  max-width: 800px;
+  border: 1px solid rgb(5, 110, 171);
+  border-radius: 20px;
 }
 
-.highpoint-article__info {
-  padding: 20px 30px 0px;
-  line-height: 150%;
-  border-right: 1px solid rgb(5, 110, 171);
-}
-
-.highpoint-article__content {
-  padding: 20px 30px 20px;
+.highpoint-photo {
+  max-width: 800px;
+  margin-left: 30px;
+  border: 1px solid rgb(5, 110, 171);
+  border-radius: 20px;
 }
 
 .altimeter-img {
   width: 300px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid rgb(5, 110, 171);
+  border-radius: 20px;
 }
 
+.highpoint-page-link {
+  color: rgb(5, 110, 171);
+  font-weight: 700;
+}
+
+.highpoint-page-link:hover {
+  border-bottom: 1px solid rgb(5, 110, 171);
+}
+
+/* Aside */
 .highpoint-aside {
   padding: 0px 20px;
   width: 50vw;
@@ -329,7 +317,7 @@ s .banner-section__content {
 
 .highpoint-aside__nakarte-icon {
   display: inline-block;
-  background-image: url("/img/highpoint/nakarte.png");
+  background-image: url("/src/img/highpoint-page/nakarte.png");
   background-size: cover;
   width: 20px;
   height: 20px;
@@ -338,7 +326,7 @@ s .banner-section__content {
 
 .highpoint-aside__kml-icon {
   display: inline-block;
-  background-image: url("/img/highpoint/kml.jpg");
+  background-image: url("/src/img/highpoint-page/kml.jpg");
   background-size: cover;
   width: 21px;
   height: 20px;
@@ -347,7 +335,7 @@ s .banner-section__content {
 
 .highpoint-aside__gpx-icon {
   display: inline-block;
-  background-image: url("/img/highpoint/gpx.png");
+  background-image: url("/src/img/highpoint-page/gpx.png");
   background-size: cover;
   width: 21px;
   height: 20px;
@@ -360,13 +348,30 @@ s .banner-section__content {
   border-radius: 20px;
 }
 
-/* Баннеры */
-.banner-adigea {
-  background-image: url(../../img/Russia-republics/Adigea.jpg);
+.about-top {
+  display: flex;
 }
 
-.banner-mari_el {
-  background-image: url(../../img/Russia-republics/Mari_el.png);
+.about-photo {
+  background-image: url("/src/img/about/photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 550px;
+  height: 600px;
+  margin: 20px;
+}
+
+.about-info {
+  margin: 20px;
+}
+
+.about-title {
+  padding: 10px;
+}
+
+.about-content {
+  padding: 10px;
 }
 
 /* Import layout */
@@ -431,7 +436,7 @@ s .banner-section__content {
 
 .footer .logo__icon {
   display: inline-block;
-  background-image: url("../../img/logo/logo.jpg");
+  background-image: url("/src/img/logo/logo.jpg");
   background-size: cover;
   height: 50px;
   width: 50px;
@@ -496,7 +501,7 @@ s .banner-section__content {
   font-weight: 700;
   padding-top: 5px;
   padding-right: 10px;
-  text-shadow: 1px 1px #403F3D;
+  text-shadow: 2px 2px #403F3D;
 }
 
 .highpoints-item__info-container {
@@ -548,11 +553,248 @@ s .banner-section__content {
   background-image: url(/src/img/highpoint-card/republics/kalmykia.jpg);
 }
 
-.card-altai-bashkortostan {
-  background-image: url(/src/img/highpoint-card/republics/baskortostan.jpg);
+.card-karachay-cherkessia {
+  background-image: url(/src/img/highpoint-card/republics/karachay-cherkessia.jpg);
+}
+
+.card-karelia {
+  background-image: url(/src/img/highpoint-card/republics/karelia.jpg);
+}
+
+.card-komi {
+  background-image: url(/src/img/highpoint-card/republics/komi.jpg);
+}
+
+.card-mari-el {
+  background-image: url(/src/img/highpoint-card/republics/Mari_el.png);
+}
+
+.card-mordovia {
+  background-image: url(/src/img/highpoint-card/republics/mordovia.jpg);
+}
+
+.card-sacha {
+  background-image: url(/src/img/highpoint-card/republics/sakha.jpg);
+}
+
+.card-severnya_ossetia {
+  background-image: url(/src/img/highpoint-card/republics/severnya_ossetia.jpg);
+}
+
+.card-tatarstan {
+  background-image: url(/src/img/highpoint-card/republics/tatarstan.jpg);
+}
+
+.card-tuva {
+  background-image: url(/src/img/highpoint-card/republics/tuva.jpg);
+}
+
+.card-udmurtia {
+  background-image: url(/src/img/highpoint-card/republics/udmurtia.jpg);
+}
+
+.card-hakasia {
+  background-image: url(/src/img/highpoint-card/republics/hakasia.jpg);
+}
+
+.card-chechen {
+  background-image: url(/src/img/highpoint-card/republics/chechen.jpg);
+}
+
+.card-chuvashia {
+  background-image: url(/src/img/highpoint-card/republics/chuvashia.jpg);
 }
 
 /* Krai */
+.card-altai-krai {
+  background-image: url(/src/img/highpoint-card/krai/altai-krai.jpg);
+}
+
+.card-zabaikalsky {
+  background-image: url(/src/img/highpoint-card/krai/zabaikalsky.jpg);
+}
+
+.card-kamchatka {
+  background-image: url(/src/img/highpoint-card/krai/kamchatka.jpg);
+}
+
+.card-krasnodar {
+  background-image: url(/src/img/highpoint-card/krai/krasnodar.jpeg);
+}
+
+.card-krasnoyarsk {
+  background-image: url(/src/img/highpoint-card/krai/krasnoyarsk.jpg);
+}
+
+.card-perm {
+  background-image: url(/src/img/highpoint-card/krai/perm.jpg);
+}
+
+.card-primorsky {
+  background-image: url(/src/img/highpoint-card/krai/primorsky.jpg);
+}
+
+.card-stavropol {
+  background-image: url(/src/img/highpoint-card/krai/stavropol.png);
+}
+
+.card-habarovsk {
+  background-image: url(/src/img/highpoint-card/krai/habarovsk.jpg);
+}
+
+/* Regions */
+.card-amur {
+  background-image: url(/src/img/highpoint-card/regions/amur.jpg);
+}
+
+.card-arkhangelsk {
+  background-image: url(/src/img/highpoint-card/regions/arkhangelsk.jpg);
+}
+
+.card-astrakhan {
+  background-image: url(/src/img/highpoint-card/regions/astrakhan.jpg);
+}
+
+.card-belgorod {
+  background-image: url(/src/img/highpoint-card/regions/belgorod.png);
+}
+
+.card-bryansk {
+  background-image: url(/src/img/highpoint-card/regions/bryansk.png);
+}
+
+.card-vladimir {
+  background-image: url(/src/img/highpoint-card/regions/vladimir.jpg);
+}
+
+.card-volgograd {
+  background-image: url(/src/img/highpoint-card/regions/volgograd.jpg);
+}
+
+.card-vologda {
+  background-image: url(/src/img/highpoint-card/regions/vologda.jpg);
+}
+
+.card-voronezh {
+  background-image: url(/src/img/highpoint-card/regions/voronezh.jpg);
+}
+
+.card-ivanovo {
+  background-image: url(/src/img/highpoint-card/regions/ivanovo.jpg);
+}
+
+.card-irkutsk {
+  background-image: url(/src/img/highpoint-card/regions/irkutsk.jpg);
+}
+
+.card-kaliningrad {
+  background-image: url(/src/img/highpoint-card/regions/kaliningrad.png);
+}
+
+.card-kaluga {
+  background-image: url(/src/img/highpoint-card/regions/kaluga.png);
+}
+
+.card-kemerovo {
+  background-image: url(/src/img/highpoint-card/regions/kemerovo.jpg);
+}
+
+.card-kirov {
+  background-image: url(/src/img/highpoint-card/regions/kirov.png);
+}
+
+.card-kostroma {
+  background-image: url(/src/img/highpoint-card/regions/kostroma.JPG);
+}
+
+.card-kurgan {
+  background-image: url(/src/img/highpoint-card/regions/kurgan.jpg);
+}
+
+.card-kursk {
+  background-image: url(/src/img/highpoint-card/regions/kursk.jpg);
+}
+
+.card-leningrad {
+  background-image: url(/src/img/highpoint-card/regions/leningrad.jpg);
+}
+
+.card-lipetsk {
+  background-image: url(/src/img/highpoint-card/regions/lipetsk.jpg);
+}
+
+.card-magadan {
+  background-image: url(/src/img/highpoint-card/regions/magadan.jpg);
+}
+
+.card-moscow-oblast {
+  background-image: url(/src/img/highpoint-card/regions/moscow-oblast.JPG);
+}
+
+.card-murmansk {
+  background-image: url(/src/img/highpoint-card/regions/murmansk.jpg);
+}
+
+.card-nizhny-novgorod {
+  background-image: url(/src/img/highpoint-card/regions/nizhny_novgorod.jpg);
+}
+
+.card-novgorod {
+  background-image: url(/src/img/highpoint-card/regions/novgorod.jpg);
+}
+
+.card-novosibirsk {
+  background-image: url(/src/img/highpoint-card/regions/novosibirsk.jpg);
+}
+
+.card-omsk {
+  background-image: url(/src/img/highpoint-card/regions/omsk.jpg);
+}
+
+.card-orenburg {
+  background-image: url(/src/img/highpoint-card/regions/orenburg.jpg);
+}
+
+.card-oryol {
+  background-image: url(/src/img/highpoint-card/regions/oryol.png);
+}
+
+.card-penza {
+  background-image: url(/src/img/highpoint-card/regions/penza.jpg);
+}
+
+.card-pskov {
+  background-image: url(/src/img/highpoint-card/regions/pskov.png);
+}
+
+.card-rostov {
+  background-image: url(/src/img/highpoint-card/regions/rostov.jpg);
+}
+
+.card-ryazan {
+  background-image: url(/src/img/highpoint-card/regions/ryazan.JPG);
+}
+
+.card-samara {
+  background-image: url(/src/img/highpoint-card/regions/samara.jpg);
+}
+
+.card-saratov {
+  background-image: url(/src/img/highpoint-card/regions/saratov.jpg);
+}
+
+.card-sakhalin {
+  background-image: url(/src/img/highpoint-card/regions/sakhalin.jpg);
+}
+
+.card-sverdlovsk {
+  background-image: url(/src/img/highpoint-card/regions/sverdlovsk.jpg);
+}
+
+.card-smolensk {
+  background-image: url(/src/img/highpoint-card/regions/sverdlovsk.jpg);
+}
+
 /* Import components */
 .button {
   padding: 5px 10px;
@@ -569,6 +811,146 @@ s .banner-section__content {
   padding: 15px 25px;
   font-size: 1.5em;
   border-radius: 15px;
+}
+
+/* Icons */
+.icon-field {
+  background-image: url("/src/img/highpoint-page/icons/field-icon.png");
+  background-size: cover;
+}
+
+.icon-hills {
+  background-image: url("/src/img/highpoint-page/icons/hills-icon.png");
+  background-size: cover;
+}
+
+.icon-forest {
+  background-image: url("/src/img/highpoint-page/icons/forest-icon.png");
+  background-size: cover;
+}
+
+.icon-mountains {
+  background-image: url("/src/img/highpoint-page/icons/mountains-icon.png");
+  background-size: cover;
+}
+
+.icon-check {
+  background-image: url("/src/img/highpoint-page/icons/check-icon.png");
+  background-size: cover;
+}
+
+.icon-dispute {
+  background-image: url("/src/img/highpoint-page/icons/dispute-icon.png");
+  background-size: cover;
+}
+
+.icon-search {
+  background-image: url("/src/img/highpoint-page/icons/search-icon.png");
+  background-size: cover;
+}
+
+.icon-available {
+  background-image: url("/src/img/highpoint-page/icons/available-icon.png");
+  background-size: cover;
+}
+
+.icon-walk {
+  background-image: url("/src/img/highpoint-page/icons/walk-icon.png");
+  background-size: cover;
+}
+
+.icon-hike {
+  background-image: url("/src/img/highpoint-page/icons/hike-icon.png");
+  background-size: cover;
+}
+
+.icon-expedition {
+  background-image: url("/src/img/highpoint-page/icons/expedition-icon.png");
+  background-size: cover;
+}
+
+.icon-not-climbing {
+  background-image: url("/src/img/highpoint-page/icons/accessibility-icon.png");
+  background-size: cover;
+}
+
+.icon-climbing-light {
+  background-image: url("/src/img/highpoint-page/icons/warning-climbing-icon.png");
+  background-size: cover;
+}
+
+.icon-climbing-hard {
+  background-image: url("/src/img/highpoint-page/icons/climbing-icon.png");
+  background-size: cover;
+}
+
+/* Баннеры. Республики*/
+.banner-adigea {
+  background-image: url(/src/img/highpoint-page/republics/adigea/banner_adigea.jpg);
+}
+
+.banner-altai-republic {
+  background-image: url(/src/img/highpoint-page/republics/altai_republic/banner-altai.jpg);
+}
+
+.banner-bashkortostan {
+  background-image: url(/src/img/highpoint-page/republics/bashkortostan/banner-bashkortostan.jpg);
+}
+
+.banner-buryatia {
+  background-image: url(/src/img/highpoint-page/republics/buryatia/banner-buryatia.jpg);
+}
+
+.banner-dagestan {
+  background-image: url(/src/img/highpoint-page/republics/dagestan/banner-dagestan.jpg);
+}
+
+.banner-ingushetia {
+  background-image: url(/src/img/highpoint-page/republics/ingushetia/banner-ingushetia.jpg);
+}
+
+.banner-kabardino-balkaria {
+  background-image: url(/src/img/highpoint-page/republics/kabardino-balkaria/banner-kabardino-balkaria.jpg);
+}
+
+.banner-kalmykia {
+  background-image: url(/src/img/highpoint-page/republics/kalmykia/banner-kalmykia.jpg);
+}
+
+.banner-karachay-cherkessia {
+  background-image: url(/src/img/highpoint-page/republics/karachay-cherkessia/banner-karachay-cherkessia.jpg);
+}
+
+.banner-karelia {
+  background-image: url(/src/img/highpoint-page/republics/karelia/banner-karelia.jpg);
+}
+
+.banner-komi {
+  background-image: url(/src/img/highpoint-page/republics/komi/banner-komi.jpg);
+}
+
+.banner-mari_el {
+  background-image: url(/src/img/highpoint-page/republics/mari_el/banner_mari_el.png);
+}
+
+.banner-mordovia {
+  background-image: url(/src/img/highpoint-page/republics/mordovia/banner_mordovia.jpg);
+}
+
+.banner-sakha {
+  background-image: url(/src/img/highpoint-page/republics/sakha/banner-sakha.jpg);
+}
+
+.banner-severnya-ossetia {
+  background-image: url(/src/img/highpoint-page/republics/severnaya_ossetia/banner-severnaa-ossetia.jpg);
+}
+
+.banner-tatarstan {
+  background-image: url(/src/img/highpoint-page/republics/tatarstan/banner-tatarstan.jpg);
+}
+
+.banner-tuva {
+  background-image: url(/src/img/highpoint-page/republics/tuva/banner-tuva.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */

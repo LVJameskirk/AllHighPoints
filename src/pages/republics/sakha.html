@@ -1,11 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Республика Саха (Якутия)</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-sakha">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Гора Победа</h1>
+            <p class="banner-section__description">
+              <span>Республика Саха (Якутия)</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=15/65.17614/146.01727&l=O&q=N%2065%C2%B010%E2%80%B237.96%E2%80%B3%20E%20146%C2%B000%E2%80%B237.91%E2%80%B3&r=65.177211/146.010531/N%2065%C2%B010%E2%80%B237.96%E2%80%B3%20E%20146%C2%B00%E2%80%B237.91%E2%80%B3">
+                N 65°10′37.96″ E 146°00′37.91″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-mountains"></span>
+                <span class="highpoint-article__item__description">3003 метра</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-expedition"></span>
+                <span class="highpoint-article__item__description">Экспедиция</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Категорияйная (2Б-3А)</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">Гора Победа — имеет высоту 3003 метра (Раньше считалось, что её высота - 
+              3147 м, но это устаревшие данные). Гора является высшей точкой массива Буордах и хребта Черского, 
+              высшая точка всего Северо-Востока России. Хребет Черского, будучи обширной горной системой пролегает на 
+              территории 1500 километров в длину с юга на восток. Поэтому, его часто называют - горной страной. 
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/sakha/Gorapobeda.jpg" alt="">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Основная сложность в восхождении на эту вершину связана с её удалённостью от ближайших населённых пунктов. Да и
+              вообще с тем, что Якутия является крайне труднодоступным регионом с плохо развитой инфраструктурой, суровой 
+              погодой и обилием диких, малоисследованных мест. Просто, чтобы вы понимали. До пика Победы от ближайшего посёлка
+              Усть-Нера, расстояние по прямой составляет 146 км. И это очено много.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/sakha/pobeda-s-samoleta.jpg" alt="">
+            <p class="highpoint-article__content">
+            Найти людей, которые бы водили на эту вершину, мне не удалось. А это значит, что сюда потребуется самостоятельная 
+            организация экспедиции. 
+            </p>
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <p class="highpoint-article__content"><strong>Не проверялась</strong></p>
+          </div>
+        </section>
+
+        <aside class="highpoint-aside">
+          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=10/54.11135/58.37997&l=Y&nktl=AI5XyeZ8yU9FXFyOk6dCDQ" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.gpx">Скачать GPX трек</a>
+            </div>
+          </div> -->
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/5JQ9maV9_iw?si=Q_OjNXd7fLwlJ3-t"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

@@ -21,6 +21,16 @@ a {
   color: $color-text;
 }
 
+a:hover {
+  color: $color-border;
+  border-bottom: 1px solid $color-border;
+}
+
+.logo a:hover,
+.article-section__list a:hover {
+  border-bottom:none;
+}
+
 h1, 
 h2,
 h3,

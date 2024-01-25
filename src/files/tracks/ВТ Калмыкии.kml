@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Высшая точка Калмыкии</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					44.538183,45.649655
+					44.539545,45.649658
+					44.547415,45.647978
+					44.551578,45.647438
+					44.558530,45.646778
+					44.564323,45.646088
+					44.568701,45.645368
+					44.572477,45.644378
+					44.574494,45.643778
+					44.575996,45.643568
+					44.577541,45.642773
+					44.589568,45.641385
+					44.590802,45.640748
+					44.592669,45.639405
+					44.593415,45.638674
+					44.593098,45.638239
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 2</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					44.575809,45.643598
+					44.576431,45.644052
+					44.576908,45.644393
+					44.577150,45.644506
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Триангулярный пункт</name>
+			<Point>
+				<coordinates>44.593098,45.638227,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Вышка Связи</name>
+			<Point>
+				<coordinates>44.577193,45.644592,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Съезд в сторону горы Шаред</name>
+			<Point>
+				<coordinates>44.538167,45.649666,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

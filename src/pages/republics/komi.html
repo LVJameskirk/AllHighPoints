@@ -1,11 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Республика Коми</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-komi">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Гора Карпинского</h1>
+            <p class="banner-section__description">
+              <span>Республика Коми</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=14/65.06578/60.19366&l=O/F&q=N%2065%C2%B003%E2%80%B251.97%E2%80%B3%20E%2060%C2%B011%E2%80%B230.88%E2%80%B3&r=65.064436/60.191911/N%2065%C2%B03%E2%80%B251.97%E2%80%B3%20E%2060%C2%B011%E2%80%B230.88%E2%80%B3">
+                N 65°03′51.97″ E 60°11′30.88″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-mountains"></span>
+                <span class="highpoint-article__item__description">1803 метра</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-hike"></span>
+                <span class="highpoint-article__item__description">Поход</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Категорияйная (1Б)</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">Гора Карпинского расположена в 12-километровом горном хребте, 
+              протянувшемся с юга на север от гора Народная. Относится к Приполярному Уралу. Вершина горы представляет 
+              собой обширное плато. Горные склоны покрыты преимущественно тундрой, в предгорьях имеются хвойные леса. Горе 
+              присвоено название в 1927 году в честь первого президента Академии наук СССР А. П. Карпинского — еще при его 
+              жизни. В 1968 году на вершину установлен памятный знак с барельефом ученого. 
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/pik karpinskogo.jpg" alt="">
+            <p class="highpoint-article__content">
+            Включена в проект уральского путешественника Олега Чегодаева - "Высшие вершины Урала".
+            <a class="highpoint-page-link" href="https://www.exje.ru/7summits-of-ural" target="_blank">Подробнее о проекте</a>.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/ural-logo.jpg" alt="">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Вершина горы платообразная, на запад обрывается скальными сбросами. Классический вариант подъема из долины 
+              реки Балбанью с переходом через хребет в более низкой части и восхождением по восточному курумному склону на 
+              вершину. Подробнее о маршруте восхождения на эту вершину и её красотах, можете посмотреть в               
+              <a class="highpoint-page-link" href="#aside__video">видео Олега Чегодаева</a>, посвященного высшим вершинам 
+              Урала.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/pik karpinskogo chegodaev.jpg" alt="">
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <p class="highpoint-article__content"><strong>Не проверялась</strong></p>
+          </div>
+        </section>
+
+        <aside class="highpoint-aside">
+          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=10/54.11135/58.37997&l=Y&nktl=AI5XyeZ8yU9FXFyOk6dCDQ" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.gpx">Скачать GPX трек</a>
+            </div>
+          </div> -->
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/J-HXcQkkTow?si=K0g9ipVQJWgoNar2"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

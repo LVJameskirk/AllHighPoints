@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Мордовии</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					45.879765,54.398374
+					45.880322,54.398649
+					45.881052,54.398474
+					45.880902,54.397038
+					45.884142,54.396938
+					45.884485,54.396713
+					45.886374,54.396588
+					45.888197,54.396388
+					45.889635,54.396026
+					45.889914,54.395738
+					45.889635,54.394377
+					45.889099,54.393202
+					45.888841,54.392478
+					45.889592,54.391691
+					45.890815,54.390816
+					45.891824,54.390116
+					45.891652,54.388292
+					45.891352,54.386455
+					45.891180,54.385368
+					45.892854,54.384519
+					45.893734,54.382982
+					45.894678,54.381282
+					45.896137,54.379583
+					45.898261,54.377970
+					45.898325,54.377271
+					45.897059,54.376746
+					45.898154,54.375321
+					45.899398,54.374183
+					45.900042,54.373346
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Мордовии 339.76</name>
+			<Point>
+				<coordinates>45.892900,54.384510,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Мордовии 339.00</name>
+			<Point>
+				<coordinates>45.881050,54.398450,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Мордовии 340.44</name>
+			<Point>
+				<coordinates>45.900110,54.373310,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Старт</name>
+			<Point>
+				<coordinates>45.879679,54.398337,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

@@ -1,11 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Республика Мордовия</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-mordovia">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Не известная вершина</h1>
+            <p class="banner-section__description">
+              <span>Республика Мордовия</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=14/54.38633/45.89993&l=O/F&nktl=1jM_46qqblRlp8vPA5T2cw">
+                N 54°22′24.81″ E 45°54′00.38″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-forest"></span>
+                <span class="highpoint-article__item__description">337 метров</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-search"></span>
+                <span class="highpoint-article__item__description">Точно не определена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-hike"></span>
+                <span class="highpoint-article__item__description">Доступна всем</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-not-climbing"></span>
+              <span class="highpoint-article__item__description">Восхождение отсутствует</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">Самая высокая точка распологается на Приволжской возвышенности, в Чамзинском 
+              районе. Еще три десятилетия назад вершиной Мордовии была гора Лысая. Ее высота достигала отметки 337,3 м. над 
+              уровнем моря. Гора оказалась в зоне добычи сырья для Алексеевского цементного завода и была срыта (на новой 
+              топографической карте её высота - 329 метров).</p>
+              <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mordovia/Лысая гора.jpg" alt="">
+              <p class="highpoint-article__content">
+              Сейчас в Чамзинском районе распологается сразу несколько лесных точек, которые могут поспорить за звание высшей.
+              К сожалению полноценного исследования по определению новой вершины Мордовии не проводилось. Но я успел 
+              съездить в Мордовию и провести своё. Подробнее об этом читайте далее.
+              </p>
+              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/mordovia/tochki2.png" alt="">
+          </div>              
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Поскольку я не могу достоверно указать вам на высшую точку республики Мордовия, предлагаю пройти маршрут по 
+              всем трём её потенциальным вершинам. Расстояние в одну сторону займёт около 4 км. К сожалению линия маршрута 
+              не точна, она скорее схематична показывает направление вашего движения. Во время моего путешествия мне часто 
+              приходилось идти напрямик и петлять, чтобы пройти в нужное направление. Но дорога там есть, хоть и местами заросшая. 
+              Надеюсь, при изрядной доли везения, вам удастся двигаться по ней. Могу лишь ручаться за вершины, они отмечены 
+              с высокой степенью точности.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>.
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/mordovia/Marshrut.png" alt="">
+            <p class="highpoint-article__content">  
+              В рамках маршрута вы посетите вершину, которая распологается прямо в месте нашей остановки, недалеко от кафе 
+              55 км на трассе Р-178.
+            </p>  
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mordovia/55km.jpg" alt="">
+            <p class="highpoint-article__content">  
+              Углубившись в лес, посетите вторую точку, которая будет находиться в лесу по левую руку от вас. 
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mordovia/334_tochka_one.jpg" alt="">
+            <p class="highpoint-article__content">      
+              А затем, пройдя через поле, окажетесь в небольшом подлеске, где будет распологаться третья точка.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mordovia/334_tochka_two.jpg" alt="">
+            <p class="highpoint-article__content">  
+              Стоит понимать, что точки эти не имеют ярко выраженной возвышенности, поэтому пребывания в непосредственной 
+              близости от этих трёх вершин, будет достаточно для того, чтобы зафикисровать своё посещение высшей точки 
+              Мордовии.
+            </p>
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <div class="article_check__info">
+              <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
+              <span>Когда: </span><span><strong>17.09.2022</strong></span><br>
+              <span>Устройство проверки - </span><span><strong>Альтиметр (Встроенный в IPhone 12 Pro)</strong></span><br>
+              <span>Зафиксированная высота - </span><span><strong>340 метров</strong></span><br>
+              <span>Координаты - </span><span><strong>Точка 1 (N 54°23′55.31″ E 45°52′51.78″).</strong></span>
+              <span><strong>Точка 2 (N 54°23′06.56″ E 45°53′34.73″).</strong></span>
+              <span><strong>Точка 3 (N 54°22′25.71″ E 45°54′00.69″)</strong></span><br>
+            </div>
+            
+            <p class="highpoint-article__content">В дополнение к маршруту прилагаю данные о замерах высоты каждой точки. 
+              Первая точка</p>
+              <img class="altimeter-img" src="/src/img/highpoint-page/republics/mordovia/altimetr_tochka_one.PNG" alt="">
+            <p class="highpoint-article__content">Вторая точка</p>
+            <img class="altimeter-img" src="/src/img/highpoint-page/republics/mordovia/altimetr_tochka_two.PNG.PNG" alt="">
+            <p class="highpoint-article__content">Третья точка</p>
+            <img class="altimeter-img" src="/src/img/highpoint-page/republics/mordovia/altimetr_tochka_three.PNG.PNG" alt="">
+          </div>
+        </section>
+        <aside class="highpoint-aside">
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=14/54.38563/45.90062&l=O/F&nktl=1jM_46qqblRlp8vPA5T2cw" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Мордовии.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Мордовии.gpx">Скачать GPX трек</a>
+            </div>
+          </div>
+          <h3 class="highpoint-aside__title">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/zxCt5FdDDck?si=wf4RsVDCJjO9ofgv"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

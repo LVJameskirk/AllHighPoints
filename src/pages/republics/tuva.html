@@ -1,11 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Республика Тыва</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-tuva">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Гора Монгун-Тайга</h1>
+            <p class="banner-section__description">
+              <span>Республика Тыва</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=15/50.27896/90.12385&l=T/F&q=N%2050%C2%B016%E2%80%B245.49%E2%80%B3%20E%2090%C2%B007%E2%80%B210.42%E2%80%B3&r=50.279303/90.119561/N%2050%C2%B016%E2%80%B245.49%E2%80%B3%20E%2090%C2%B07%E2%80%B210.42%E2%80%B3">
+                N 50°16′45.49″ E 90°07′10.42″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-mountains"></span>
+                <span class="highpoint-article__item__description">3976 метров</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно определена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-hike"></span>
+                <span class="highpoint-article__item__description">Поход</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Категорийная (2А)</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">
+              Гора Монгун-Тайга — самая высокая точка Восточной Сибири. Увенчана сверкающим ледниковым куполом. В ясный день 
+              Монгун-Тайга отливает резким серебристым светом, подтверждая свое название. Здесь постоянно дует сильный 
+              ветер.</p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/tuva/mongun-taiga.jpg" alt="">
+            <p class="highpoint-article__content">
+              Гора расположена в 25 км от села Мугур-Аксы — центра Монгун-Тайгинского района, одной из 
+              самых отдалённых и малонаселённых территорий Тувы. Здесь всего три населённых пункта, большая же часть 
+              населения ведёт кочевой образ жизни, выпасая сарлыков и мелкий рогатый скот. Примерно в 16 км от подножия 
+              Монгун-Тайги проходит граница с Монголией, сам горный массив является кластерным участком биосферного 
+              заповедника «Убсунурская котловина», поэтому на маршруте туристов всегда сопровождают его сотрудники.
+            <a class="highpoint-page-link" href="https://sport-marafon.ru/article/tuva-voskhozhdenie-na-goru-mongun-tayga/">
+              Статья о восхождении на Монгун-Тайгу</a></p>
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              В интернете предложения от организаторов тур походов, хоть и не многочисленные, но имеются. Можете поискать 
+              сами, но <a class="highpoint-page-link" href="https://nomadsclub.ru/events_archive/885-mongun-tayga-tuva.html">вот</a> что нашёл я.
+            </p>
+            <p class="highpoint-article__content">
+              Для посещения Монгун-Тайги необходимы пропуск в пограничную зону и пермит на восхождение:<br>
+              1. Пропуск можно оформить через 
+              <a class="highpoint-page-link" href="https://www.gosuslugi.ru/" target="_blank">Госуслуги</a>.<br>
+              2. Пермит на восхождение. Стоит 2000 рублей. Заявка на посещение Монгун-Тайги отправляется в дирекцию 
+              заповедника «Убсунурская котловина» по электронной почте. Предварительно позвоните в заповедник и уточните, 
+              выдаётся ли пермит в текущем сезоне и какая информация должна содержаться в заявке. Пропуск выдаётся только 
+              лично в руки в Кызыле на усадьбе заповедника. 
+              <a class="highpoint-page-link" href="https://ubsunurtyva.ru/" target="_blank">Сайт заповедника</a>.
+            </p>
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <p class="highpoint-article__content"><strong>Не проверялась</strong></p>
+          </div>
+        </section>
+
+        <aside class="highpoint-aside">
+          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=14/54.44596/52.86552&l=S/F&nktl=wSXqsqJWcCtR3RarzgwXZQ" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Татарстана.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Татарстана.gpx">Скачать GPX трек</a>
+            </div>
+          </div> -->
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/rla_Tg0Aj3I?si=8ihdObQGeI6k65CS"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

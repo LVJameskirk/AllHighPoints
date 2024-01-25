@@ -1,11 +1,174 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Республика Ингушетия</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-ingushetia">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Гора Шан</h1>
+            <p class="banner-section__description">
+              <span>Республика Ингушетия</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=16/42.67743/44.76214&l=O&q=N%2042%C2%B040%E2%80%B233.73%E2%80%B3%20E%2044%C2%B045%E2%80%B222.62%E2%80%B3&r=42.676036/44.756283/N%2042%C2%B040%E2%80%B233.73%E2%80%B3%20E%2044%C2%B045%E2%80%B222.62%E2%80%B3">
+                N 42°40′33.73″ E 44°45′22.62″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-mountains"></span>
+                <span class="highpoint-article__item__description">4 451 метр</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-expedition"></span>
+                <span class="highpoint-article__item__description">Организация экспедиции</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Категорийная (1Б)</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">Гора Шан - одна из вершин главного хребта Большого Кавказа, на границе 
+              Грузии и Ингушетии. Название горы переводится как "ледник". Но, на самом деле, снегами покрыта только 
+              вершина горы. Она впечатляет своими природными чудесами: живописными пейзажами,величественными скалами и 
+              густыми лесами. Гора известна своими многочисленными водопадами, кристально чистыми ручьями и богата 
+              флорой и фауной.</p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/ingushetia/shan.jpg" alt="">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Я обнаружил об этой горе удивительную информацию - <i>в истории современной России и Республики Ингушетии гора Шан 
+              ни разу не была покорена альпинистами</i>. Исследуя все закаулки интернета, я также не нашёл никаких отчётов, 
+              которые бы свидетельствовали о восхождении на неё. Единственное, что удалось обнаружить, это видео в котором 
+              восходителю со стороны Грузии удалось достигнуть одного из пиков стены (4150м). Но в комментариях даже по 
+              этом поводу есть сомнения - точно ли это гора Шан?<br>
+              <a class="highpoint-page-link" href="#aside__video">Видео восхождения на высоту - 4150</a><br>
+            </p>
+            <p class="highpoint-article__content">
+              Но в чём, лично у меня нет никаких сомнений, так это в том, что для восхождения на гору Шан потребуется 
+              организация целой экспедиции с подробным исследованием окрестностей, а также нахождением подходов к этой 
+              вершине. Так или иначе понадобится приобрести альпинисткие навыки, чтобы сюда соваться. Пожалуй это одна из
+              самых сложных вершин регионов России.<br>
+              Ну и поскольку гора Шан находятся в приграничной зоне (на границе с Грузией), желательно взять паспорт и 
+              оформить пропуск у сотрудников пограничной службы. Заявку можно подать через 
+              <a class="highpoint-page-link" href="https://www.gosuslugi.ru/" target="_blank">Госуслуги</a>.
+            </p>
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <p class="highpoint-article__content"><strong>Не проверялась</strong></p>
+          </div>
+        </section>
+
+        <aside class="highpoint-aside">
+          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=10/54.11135/58.37997&l=Y&nktl=AI5XyeZ8yU9FXFyOk6dCDQ" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.gpx">Скачать GPX трек</a>
+            </div>
+          </div> -->
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/YBH3_FuxO1Y?si=mmU1ZhaFGmb4r5uH"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

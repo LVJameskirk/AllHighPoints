@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Татарстана</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					52.838831,54.462331
+					52.838616,54.461009
+					52.837243,54.458888
+					52.836471,54.457591
+					52.835870,54.453524
+					52.837715,54.450855
+					52.839088,54.449258
+					52.839475,54.448484
+					52.839217,54.447611
+					52.839260,54.446638
+					52.839861,54.444666
+					52.841277,54.440773
+					52.840848,54.438352
+					52.839904,54.437354
+					52.839904,54.436181
+					52.839174,54.434484
+					52.839475,54.433635
+					52.838531,54.432387
+					52.837801,54.431463
+					52.837930,54.430015
+					52.842607,54.429716
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 2</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					52.846084,54.445490
+					52.839861,54.444741
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Татарстана 376.3</name>
+			<Point>
+				<coordinates>52.846041,54.445440,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Татарстана 376.8</name>
+			<Point>
+				<coordinates>52.842607,54.429716,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Начало грунтовки. Ефановка</name>
+			<Point>
+				<coordinates>52.838917,54.462455,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

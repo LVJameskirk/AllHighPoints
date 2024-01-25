@@ -1,11 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Республика Алтай</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
+          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav>
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-altai-republic">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Гора Белуха</h1>
+            <p class="banner-section__description">
+              <span>Республика Алтай</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=17/49.80704/86.58990&l=O&q=N%2049%C2%B048%E2%80%B225.35%E2%80%B3%20E%2086%C2%B035%E2%80%B223.65%E2%80%B3&r=49.807042/86.589903/N%2049%C2%B048%E2%80%B225.35%E2%80%B3%20E%2086%C2%B035%E2%80%B223.65%E2%80%B3">
+                N 49°48′25.35″ E 86°35′23.65″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-mountains"></span>
+                <span class="highpoint-article__item__description">4 506 метров</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-hike"></span>
+                <span class="highpoint-article__item__description">Поход</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Категорийная (3А, 3Б)</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">Гора Белуха - высшая точка Алтайских гор, одна из высочайших горных вершин 
+              России. Венчает Катунский хребет. Находится на территории Усть-Коксинского района Республики Алтай. Через 
+              массив Белухи проходит граница России и Казахстана. Со склонов горы берёт начало река Катунь. Название вершины 
+              происходит от обильного снега, покрывающего гору от пика до самого основания. Белуха входит в список десяти 
+              вершин Российской Федерации для присвоения звания «Снежный барс России».</p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/altai_republic/beluha-photo.jpg" alt="">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              В районе Белухи находятся популярные пешие, конные и альпинистские туристические маршруты. На вершину Восточной 
+              Белухи проще всего подниматься с юга, категория 3А, чуть сложнее — от Томских стоянок через перевал Делоне и 
+              ледник Менсу (категория 3А), ещё сложнее — через вершину Делоне. Самый быстрый, но сложный и опасный вариант 
+              — подъём на Белуху по Аккемской стене, категория 3Б туристская, 4А—4Б альпинистская.<br>
+              <a class="highpoint-page-link" href="https://mountainsofearth.ru/marshruti-beluha" target="_blank">О маршрутах</a>
+            </p>
+            <p class="highpoint-article__content">
+              Так как некоторые маршруты и вершина Белухи находятся в приграничной зоне (на границе с Казахстаном), 
+              потребуется паспорт и пропуск, оформленый у сотрудников пограничной службы. Можно подать через Госуслуги.
+              <a class="highpoint-page-link"  href="https://belukha.ru/pravila-pogranichnogo-kontrolya//" target="_blank">Подробнее о пограничных правилах</a><br>
+            </p>
+            <p class="highpoint-article__content">
+              Восхождение на Белуху, как и трекинги к её подножию - популярные туристические направления. Существует 
+              довольно много разных сайтов (компании и частники), которые предлагают свои программы по восхождению на Белуху.<br>
+              <a class="highpoint-page-link"  href="https://mountainsofearth.ru/beluha23" target="_blank">Одно из предложений</a>
+            </p>
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <p class="highpoint-article__content"><strong>Не проверялась</strong></p>
+          </div>
+        </section>
+        <aside class="highpoint-aside">
+          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Скачать маршруты</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=15/56.51221/49.01773&l=S/K&nktl=_oMSRXjP8hmtv2LU0SIGFw" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/files/tracks/ВТ Марий Эл.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/files/tracks/ВТ Марий Эл.gpx">Скачать GPX трек</a>
+            </div>
+          </div> -->
+          <h3 class="highpoint-aside__title">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://youtube.com/embed/ZRdr7k1dO7M?si=k_VzOsZR9C9ARimN"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

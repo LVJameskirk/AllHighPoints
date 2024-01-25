@@ -1,15 +1,16 @@
+/* Баннер секция */
 .banner-section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 35vh;
+  height: 40vh;
 }
 
 .banner-section__container {
   width: 30%;
   padding: 100px 20px;
 }
-s
+
 .banner-section__content {
  background-color: $color-background-text;
  padding: 20px 20px;
@@ -23,9 +24,16 @@ s
   font-size: 1.1em;
 }
 
+/* Статья. Важные поинты */
 .highpoint-article {
   margin-top: 20px;
   display: flex;
+}
+
+.highpoint-article__info {
+  padding: 20px 30px 0px;
+  line-height: 150%;
+  border-right: 1px solid $color-border;
 }
 
 .highpoint-article__items {
@@ -54,81 +62,29 @@ s
   height: 25px;
 }
 
-/* Icons */
-.icon-field {
-  background-image: url("/img/highpoint/field-icon.png");
-  background-size: cover;
-}
-
-.icon-hills {
-  background-image: url("/img/highpoint/hills-icon.png");
-  background-size: cover;
-}
-
-.icon-forest {
-  background-image: url("/img/highpoint/forest-icon.png");
-  background-size: cover;
-}
-
-.icon-mountains {
-  background-image: url("/img/highpoint/mountains-icon.png");
-  background-size: cover;
-}
-
-.icon-check {
-  background-image: url("/img/highpoint/check-icon.png");
-  background-size: cover;
-}
-
-.icon-dispute {
-  background-image: url("/img/highpoint/dispute-icon.png");
-  background-size: cover;
-}
-
-.icon-search {
-  background-image: url("/img/highpoint/search-icon.png");
-  background-size: cover;
-}
-
-.icon-available {
-  background-image: url("/img/highpoint/available-icon.png");
-  background-size: cover;
-}
-
-.icon-walk {
-  background-image: url("/img/highpoint/walk-icon.png");
-  background-size: cover;
-}
-
-.icon-hike {
-  background-image: url("/img/highpoint/hike-icon.png");
-  background-size: cover;
-}
-
-.icon-expedition {
-  background-image: url("/img/highpoint/expedition-icon.png");
-  background-size: cover;
-}
-
-.icon-access {
-  background-image: url("/img/highpoint/accessibility-icon.png");
-  background-size: cover;
-}
-
-.icon-warning {
-  background-image: url("/img/highpoint/warning-climbing-icon.png");
-  background-size: cover;
-}
-
-.icon-climbing {
-  background-image: url("/img/highpoint/climbing-icon.png");
-  background-size: cover;
-}
-
 .highpoint-article__item__description {
     font-weight: 700;
 }
 
+/* Статья. Навигация */
+.article-section__list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+.article-section__item {
+  font-size: 20px;
+  border: 1px solid $color-border;
+  padding: 10px;
+}
+
+.article-section__item:not(:last-child) {
+  border-right: 1px solid $color-border;
+}
+
+/* Статья. Основной контент */
 .highpoint-article__subtitle {
   margin-top: 20px;
   padding-top: 20px;
@@ -136,28 +92,52 @@ s
   border-top: 1px solid $color-border;
 }
 
-.highpoint-article__map-image-container {
-  margin: 0px 20px;
+.highpoint-article__content {
+  padding: 10px 30px 10px;
+}
+
+.article_check__info {
+  margin-left: 30px;
+  margin-top: 20px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 60%;
+  padding: 5px;
 }
 
 .highpoint-article__map-image {
-  width: 100%;
+  margin-left: 30px;
+  max-width: 800px;
+  border: 1px solid $color-border;
+  border-radius: 20px;
 }
 
-.highpoint-article__info {
-  padding: 20px 30px 0px;
-  line-height: 150%;
-  border-right: 1px solid $color-border;
+.highpoint-photo {
+  max-width: 800px;
+  margin-left: 30px;
+  border: 1px solid $color-border;
+  border-radius: 20px;
 }
 
-.highpoint-article__content {
-  padding: 20px 30px 20px;
-}
-
-.altimeter-img{
+.altimeter-img
+{
   width: 300px;
+  margin-left: 30px;
+  margin-top: 10px;
+  border: 1px solid $color-border;
+  border-radius: 20px;
 }
 
+.highpoint-page-link {
+  color: $color-border;
+  font-weight: 700;
+}
+
+.highpoint-page-link:hover {
+  border-bottom: 1px solid $color-border;
+}
+
+/* Aside */
 .highpoint-aside {
     padding: 0px 20px;
     width: 50vw;
@@ -181,7 +161,7 @@ s
 
 .highpoint-aside__nakarte-icon {
   display: inline-block;
-  background-image: url("/img/highpoint/nakarte.png");
+  background-image: url("/src/img/highpoint-page/nakarte.png");
   background-size: cover;
   width: 20px;
   height: 20px;
@@ -190,7 +170,7 @@ s
 
 .highpoint-aside__kml-icon {
   display: inline-block;
-  background-image: url("/img/highpoint/kml.jpg");
+  background-image: url("/src/img/highpoint-page/kml.jpg");
   background-size: cover;
   width: 21px;
   height: 20px;
@@ -199,7 +179,7 @@ s
 
 .highpoint-aside__gpx-icon {
   display: inline-block;
-  background-image: url("/img/highpoint/gpx.png");
+  background-image: url("/src/img/highpoint-page/gpx.png");
   background-size: cover;
   width: 21px;
   height: 20px;
@@ -210,13 +190,4 @@ s
     width: 100%;
     height: 22vh;
     border-radius: 20px;
-}
-
-  /* Баннеры */
-.banner-adigea {
-  background-image: url(../../img/Russia-republics/Adigea.jpg);
-}
-
-.banner-mari_el {
-  background-image: url(../../img/Russia-republics/Mari_el.png);
 }

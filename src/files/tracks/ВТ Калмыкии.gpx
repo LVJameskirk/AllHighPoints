@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-01-18T15:21:37.121Z</time>
+	</metadata>
+	<wpt lat="45.638227" lon="44.593098">
+		<name>Триангулярный пункт</name>
+	</wpt>
+	<wpt lat="45.644592" lon="44.577193">
+		<name>Вышка Связи</name>
+	</wpt>
+	<wpt lat="45.649666" lon="44.538167">
+		<name>Съезд в сторону горы Шаред</name>
+	</wpt>
+	<trk>
+		<name>Высшая точка Калмыкии</name>
+		<trkseg>
+			<trkpt lat="45.649655" lon="44.538183"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.649658" lon="44.539545"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.647978" lon="44.547415"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.647438" lon="44.551578"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.646778" lon="44.558530"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.646088" lon="44.564323"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.645368" lon="44.568701"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.644378" lon="44.572477"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.643778" lon="44.574494"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.643568" lon="44.575996"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.642773" lon="44.577541"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.641385" lon="44.589568"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.640748" lon="44.590802"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.639405" lon="44.592669"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.638674" lon="44.593415"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.638239" lon="44.593098"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="45.643598" lon="44.575809"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.644052" lon="44.576431"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.644393" lon="44.576908"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="45.644506" lon="44.577150"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>
