@@ -147,13 +147,40 @@ h2 {
 }
 
 /* Main. News */
-.news-section {
-  height: 30vh;
+.news-section__content-container {
+  height: 40vh;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 40px;
+  background-image: url(/src/img/news/mari-el.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
 }
 
-.news-section__content-container {
-  width: 40%;
-  padding: 80px 20px;
+.news-section__content {
+  width: 50%;
+  padding-left: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  align-self: self-start;
+}
+
+.news-section__video {
+  width: 50%;
+  height: 100%;
+}
+
+.news-video {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
 }
 
 /* Баннер секция */
@@ -367,11 +394,94 @@ h2 {
 }
 
 .about-title {
-  padding: 10px;
+  padding: 0px 10px 10px;
+  color: rgb(5, 110, 171);
 }
 
 .about-content {
+  padding: 0px 10px 10px;
+}
+
+.project-title {
+  color: rgb(5, 110, 171);
+  text-align: center;
+}
+
+.form-title {
+  text-align: center;
+  color: rgb(5, 110, 171);
   padding: 10px;
+}
+
+.about-warning {
+  padding: 5px 10px;
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.about-link {
+  color: rgb(5, 110, 171);
+  font-weight: 700;
+}
+
+.participants-header {
+  padding: 20px 20px 0px;
+}
+
+.participants-info {
+  padding: 20px 20px;
+}
+
+.header-table {
+  font-size: 1.6em;
+  padding: 20px 20px 10px;
+  text-align: center;
+  color: rgb(5, 110, 171);
+}
+
+.header-FO-table {
+  font-size: 1.4em;
+  padding: 20px 20px 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+caption {
+  font-weight: 700;
+  padding: 10px 5px 10px;
+  text-align: left;
+}
+
+td,
+th {
+  font-size: 0.9em;
+  border: 1px solid #c1c0c0;
+  padding: 5px;
+  line-height: 120%;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+tbody tr .point-done {
+  background-color: rgb(183, 227, 255);
+}
+
+.table-fio {
+  min-width: 145px;
 }
 
 /* Import layout */
@@ -792,7 +902,70 @@ h2 {
 }
 
 .card-smolensk {
-  background-image: url(/src/img/highpoint-card/regions/sverdlovsk.jpg);
+  background-image: url(/src/img/highpoint-card/regions/smolensk.jpg);
+}
+
+.card-tambov {
+  background-image: url(/src/img/highpoint-card/regions/tambov.jpg);
+}
+
+.card-tver {
+  background-image: url(/src/img/highpoint-card/regions/tver.png);
+}
+
+.card-tomsk {
+  background-image: url(/src/img/highpoint-card/regions/tomsk.jpg);
+}
+
+.card-tula {
+  background-image: url(/src/img/highpoint-card/regions/tula.jpg);
+}
+
+.card-tyumen {
+  background-image: url(/src/img/highpoint-card/regions/tyumen.jpg);
+}
+
+.card-ulyanovsk {
+  background-image: url(/src/img/highpoint-card/regions/ulyanovsk.png);
+}
+
+.card-chelyabinsk {
+  background-image: url(/src/img/highpoint-card/regions/chelyabinsk.jpg);
+}
+
+.card-yaroslavl {
+  background-image: url(/src/img/highpoint-card/regions/yaroslavl.jpg);
+}
+
+/* Federal cities */
+.card-moscow {
+  background-image: url(/src/img/highpoint-card/federal_cities/moscow.png);
+}
+
+.card-saint-petersburg {
+  background-image: url(/src/img/highpoint-card/federal_cities/saint-petersburg.jpg);
+}
+
+/* Autonomous region */
+.card-jewish {
+  background-image: url(/src/img/highpoint-card/autonomous_region/jewish.jpg);
+}
+
+/* Autonomous districts */
+.card-nenets {
+  background-image: url(/src/img/highpoint-card/autonomous_districts/nenets.jpg);
+}
+
+.card-yugra {
+  background-image: url(/src/img/highpoint-card/autonomous_districts/yugra.jpg);
+}
+
+.card-chukotka {
+  background-image: url(/src/img/highpoint-card/autonomous_districts/chukotka.png);
+}
+
+.card-yamal-nenets {
+  background-image: url(/src/img/highpoint-card/autonomous_districts/yamal-nenets.jpg);
 }
 
 /* Import components */

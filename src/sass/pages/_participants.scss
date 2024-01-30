@@ -1,0 +1,59 @@
+.participants-header {
+  padding: 20px 20px 0px;
+}
+
+.participants-info {
+  padding: 20px 20px;
+}
+
+.header-table {
+  font-size: 1.6em;
+  padding: 20px 20px 10px;
+  text-align: center;
+  color: rgb(5, 110, 171);
+}
+
+.header-FO-table {
+  font-size: 1.4em;
+  padding: 20px 20px 10px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+caption {
+  font-weight: 700;
+  padding: 10px 5px 10px;
+  text-align: left;
+}
+
+td,
+th {
+  font-size: 0.9em;
+  border: 1px solid #c1c0c0;
+  padding: 5px;
+  line-height: 120%;
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+tbody tr .point-done {
+  background-color: rgb(183, 227, 255);
+}
+
+.table-fio {
+  min-width: 145px;
+}
