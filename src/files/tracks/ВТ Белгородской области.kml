@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Белгородской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					37.196226,51.172546
+					37.196059,51.172543
+					37.191821,51.171810
+					37.191666,51.171884
+					37.190775,51.172566
+					37.190400,51.172654
+					37.187197,51.172597
+					37.184005,51.172465
+					37.182986,51.172368
+					37.181559,51.172475
+					37.176495,51.172375
+					37.171420,51.172247
+					37.170686,51.172311
+					37.170390,51.172378
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 2</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					37.170401,51.172388
+					37.170509,51.172576
+					37.170487,51.173020
+					37.170492,51.173421
+					37.171340,51.173481
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Гора Чугуш</name>
+			<Point>
+				<coordinates>40.209727,43.797407,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Поворот на полевую дорогу</name>
+			<Point>
+				<coordinates>37.196226,51.172539,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Пятачок для парковки машины</name>
+			<Point>
+				<coordinates>37.170385,51.172388,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Белгородской области 276.8</name>
+			<Point>
+				<coordinates>37.171329,51.173481,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

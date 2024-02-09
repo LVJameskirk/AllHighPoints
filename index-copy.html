@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Все высшие точки</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="/src/img/logo/logo.png" type="image/png">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="#russia-section">Поиск</a></li>
+          <li class="nav__item"><a class="nav__link" href="#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav> 
+    
+      <form class="enjoy-form">
+        <button class="button enjoy-button">Стать участником проекта</button>
+      </form>
+    </header>  
+
+    <main class="main">
+      <section class="welcome-section">
+        <div class="welcome-section__container">
+          <div class="welcome-section__content">
+            <h1 class="welcome-section__title">Добро пожаловать!</h1>
+            <p class="welcome-section__description">Здесь вы найдёте подробную информацию обо всех высших точках регонов 
+              России, а также сможете присоединиться к участию в проекте!
+            </p>
+          </div>
+          <button class="button enjoy-button">Стать участником проекта</button>
+        </div>
+      </section>
+
+      <section class="search-section" id="russia-section">
+        <h2 class="search-section__title">Найти высшую точку региона России</h2>
+
+        <div class="region-tabs">
+          <div class="region-tabs__container">
+            <ul class="region-tabs__list">
+              <li class="region-tabs__item item-active">Республики</li>
+              <li class="region-tabs__item">Края</li>
+              <li class="region-tabs__item">Области</li>
+              <li class="region-tabs__item">Города федерального значения</li>
+              <li class="region-tabs__item">Автономная область</li>
+              <li class="region-tabs__item">Автономные округа</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Фильтр и поиск
+        <div class="search-container">
+          <div class="filter-container">
+            <select class="filter-select" name="continent" id="continent">
+              <option class="filter-option" value="">Фильтр по регионам</option>
+              <option class="filter-option" value="Eurasia">Республики</option>
+              <option class="filter-option" value="North America">Края</option>
+              <option class="filter-option" value="South America">Области</option>
+              <option class="filter-option" value="Africa">Города федерального значения</option>
+              <option class="filter-option" value="Australia">Автономная область</option>
+              <option class="filter-option" value="Antarctica">Антарктида</option>
+              <option class="filter-option" value="Island states">Автономные округа</option>
+            </select>
+          </div>
+  
+          <form class="search-form" action="" method="get">
+            <input class="search-form__field" type="search" placeholder="Название региона">
+            <button class="search-form__button" type="submit">Поиск</button>
+          </form>
+        </div> -->
+       
+        <div class="highpoints-grid">
+          <ul class="highpoints-list list-republic list-enable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/adigea.html">
+                <div class="highpoints-item__img-container card-adygea">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/adygea_flag.svg" alt="Флаг Республики Адыгея">
+                  </span>
+                  <span class="highpoints-item__high">3 238</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Адыгея</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чугуш</strong> — горная 
+                    вершина в западной части Большого Кавказа, в истоках реки Белая, является наивысшей точкой 
+                    Республики Адыгея. Название имеет адыгские корни, и по различным версиям переводится как 
+                    «Вершина земли», «Горное пастбище Чуа», «Покровительница деревьев».</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/altai_republic.html">
+                <div class="highpoints-item__img-container card-altai-republic">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/altai_republic_flag.svg" alt="Флаг Республики Алтай">
+                  </span>
+                  <span class="highpoints-item__high">4 506</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Алтай</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Белуха</strong> - высшая 
+                    точка Алтайских гор, одна из высочайших горных вершин России. Венчает Катунский хребет. Через массив 
+                    Белухи проходит граница России и Казахстана. Название вершины происходит от обильного снега, 
+                    покрывающего гору от пика до самого основания.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/bashkortostan.html">
+                <div class="highpoints-item__img-container card-bashkortostan">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/bashkortostan_flag.svg" alt="Флаг Республики Башкортостан">
+                  </span>
+                  <span class="highpoints-item__high">1 640</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Башкортостан</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Ямантау</strong> - самая высокая гора 
+                    Южного Урала. К сожалению город у подножия (Межгорье) и  сама гора являются секретными и пребывание там 
+                    допускается только по спецпропуску.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/buryatia.html">
+                <div class="highpoints-item__img-container card-buryatia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/buryatia_flag.svg" alt="Флаг Республики Бурятия">
+                  </span>
+                  <span class="highpoints-item__high">3 491</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Бурятия</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Мунку-Сардык</strong> - вершина Саян. 
+                    Расположена на границе Бурятии и Монголии. Хребет Мунку-Сардык имеет явный альпийский рельеф, с горными долинами 
+                    ледникового происхождения.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/dagestan.html">
+                <div class="highpoints-item__img-container card-dagestan">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/dagestan_flag.svg" alt="Флаг Республики Дагестан">
+                  </span>
+                  <span class="highpoints-item__high">4 466</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Дагестан</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Базардюзю</strong> -  вершина 
+                    Водораздельного хребта Большого Кавказа на границе Азербайджана и России (Дагестан). В своем регионе Базардюзю 
+                    является доминирующей возвышенностью и потому привлекает к себе взгляд.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/ingushetia.html">
+                <div class="highpoints-item__img-container card-ingushetia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/ingushetia_flag.svg" alt="Флаг Республики Ингушетия">
+                  </span>
+                  <span class="highpoints-item__high">4 451</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ингушетия</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Шан</strong> - одна из вершин 
+                    главного хребта Большого Кавказа, на границе Грузии и Ингушетии. Название горы переводится как "ледник".
+                    Но, на самом деле, снегами покрыта только вершина горы.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/kabardino-balkaria.html">
+                <div class="highpoints-item__img-container card-kabardino-balkaria">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/kabardino-balkaria_flag.svg" alt="Флаг Республики Кабардино-Балкария">
+                  </span>
+                  <span class="highpoints-item__high">5 642</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Кабардино-Балкария</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Эльбрус</strong> - самая высокая 
+                    горная вершина России и Европы, при условии проведения границы между Европой и Азией по Главному 
+                    Кавказскому хребту или южнее. По совместительству, высшая точка в проекте "Все высшие точки России".</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/kalmykia.html">
+                <div class="highpoints-item__img-container card-kalmykia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/kalmykia_flag.svg" alt="Флаг Республики Калмыкия">
+                  </span>
+                  <span class="highpoints-item__high">222</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Калмыкия</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Шаред</strong> - гора на юге Калмыкии, 
+                    самая высокая точка Ергенинской возвышенности, которая относится к хребту Чолун-Хамур. Для горы характерна 
+                    холмистая местность и растительность естественных пастбищ.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/karachay-cherkessia.html">
+                <div class="highpoints-item__img-container card-karachay-cherkessia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/karachay-cherkessia_flag.svg" alt="Флаг Республики Карачаево-Черкессия">
+                  </span>
+                  <span class="highpoints-item__high">4 046</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Карачаево-Черкессия</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Домбай-Ульген</strong> - вершина 
+                    западной части Главного, или Водораздельного, хребта Большого Кавказа (на границе Абхазии и 
+                    Карачаево-Черкесской республики), в истоках реки Теберда. Покрыта вечными снегами и ледниками.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/karelia.html">
+                <div class="highpoints-item__img-container card-karelia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/karelia_flag.svg" alt="Флаг Республики Карелия">
+                  </span>
+                  <span class="highpoints-item__high">577</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Карелия</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Нуорунен</strong> - гора в 
+                    северо-западной части Лоухского района. Самая высокая точка хребта Маанселькя в пределах Республики Карелия. 
+                    Вершина лишена растительности и большую часть года покрыта снегом и льдом, с неё открывается обширная 
+                    панорама окружающих гор.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/komi.html">
+                <div class="highpoints-item__img-container card-komi">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/komi_flag.svg" alt="Флаг Республики Коми">
+                  </span>
+                  <span class="highpoints-item__high">1 803</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Коми</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Карпинского</strong> - вторая 
+                    по высоте (после горы Народная) вершина Урала. Относится к Приполярному Уралу. Вершина горы представляет 
+                    собой обширное плато. Горные склоны покрыты преимущественно тундрой, в предгорьях имеются 
+                    хвойные леса.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/mari_el.html">                   
+                <div class="highpoints-item__img-container card-mari-el">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/mari_el_flag.svg" alt="Флаг Республики Марий Эл">
+                  </span>
+                  <span class="highpoints-item__high">279</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Марий Эл</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Чукша</strong> — представляет
+                    собой холм с довольно редкой растительностью. Расположена в 15 км от районного центра пгт. Морки. 
+                    С вершины открывается потрясающая панорама на весь Моркинский район.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/mordovia.html"> 
+                <div class="highpoints-item__img-container card-mordovia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/mordovia_flag.svg" alt="Флаг Республики Мордовия">
+                  </span>
+                  <span class="highpoints-item__high">337</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Мордовия</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Не известная вершина</strong> — 
+                    находитя на Приволжской возвышенности в Чамзинском районе, недалеко от посёлка Киржеманы. На перекрёстке 
+                    дорог, а также в близлежащем лесу распологается несколько лесных точек, которые могут поспорить за 
+                    звание высшей.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/sakha.html"> 
+                <div class="highpoints-item__img-container card-sacha">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/sakha_flag.svg" alt="Флаг Республики Саха (Якутия)">
+                  </span>
+                  <span class="highpoints-item__high">3 003</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Саха (Якутия)</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Победа</strong> — является высшей 
+                    точкой массива Буордах и хребта Черского, высшая точка всего Северо-Востока России. Раньше считалось, что 
+                    её высота - 3147 м, но это устаревшие данные.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="src/pages/republics/severnya_ossetia.html"> 
+                <div class="highpoints-item__img-container card-severnya_ossetia">
+                  <span>
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/north_ossetia_flag.svg" alt="Флаг Республики Северная Осетия (Алания)">
+                  </span>
+                  <span class="highpoints-item__high">5 033</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Северная Осетия (Алания)</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Казбек</strong> — потенциально 
+                    активный стратовулкан, самый восточный пятитысячник Кавказа. Расположен в восточной части Центрального 
+                    Кавказа, на границе России и Грузии, в восточной части Хохского хребта.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/tatarstan.html">
+                <div class="highpoints-item__img-container card-tatarstan">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/tatarstan_flag.svg" alt="Флаг Республики Татарстан">
+                  </span>
+                  <span class="highpoints-item__high">376</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Татарстан</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Вершина без названия</strong> — 
+                    представляет собой небольшую возвышенность в холмистых лесостепях Бугульминско-Белебеевской возвышенности. 
+                    На точке установлен довольно свежий триангуляционный пункт, никаких других опозновательных знаков нет.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/tuva.html">
+                <div class="highpoints-item__img-container card-tuva">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/tuva_flag.svg" alt="Флаг Республики Тыва">
+                  </span>
+                  <span class="highpoints-item__high">3 976</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тыва</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Монгун-Тайга</strong> — самая 
+                    высокая точка Восточной Сибири. Увенчана сверкающим ледниковым куполом. В ясный день Монгун-Тайга 
+                    отливает резким серебристым светом, подтверждая свое название. Здесь постоянно дует сильный ветер.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/udmurtia.html">
+                <div class="highpoints-item__img-container card-udmurtia">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/udmurtia_flag.svg" alt="Флаг Республики Удмуртия">
+                  </span>
+                  <span class="highpoints-item__high">332</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Удмуртия</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Лесной холм</strong> без 
+                    названия. Находится в Балезинскиом районе, недалеко от деревни Новосёлы. Вход на тропу к высшей точке 
+                    можно заметить идя по лесовозной дороге, тропа помечена оранжевыми лентами. На точке установлена памятная
+                    табличка.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/hakassia.html">
+                <div class="highpoints-item__img-container card-hakasia">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/hakassia_flag.svg" alt="Флаг Республики Хакасия">
+                  </span>
+                  <span class="highpoints-item__high">2 969</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Хакасия</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Пик Кызласова</strong> — назван в 
+                    честь хакасского историка и археолога Л. Р. Кызласова. Получил своё название только в 2016 году, 
+                    по распоряжению правительства РФ. Ранее самой высокой точкой Хакасской республики считалась гора Каратош.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/chechen_republic.html">
+                <div class="highpoints-item__img-container card-chechen">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/chechen_republic_flag.svg" alt="Флаг Республики Чечня">
+                  </span>
+                  <span class="highpoints-item__high">4 493</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Чечня</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Тебулосмта</strong> находится 
+                    на Восточном Кавказе, на границе России (Чечня) и Грузии (Тушетия). Вершина Тебулосмты покрыта вечными 
+                    снегами. Чеченские альпинисты впервые покорили Тебулосмту лишь в 2018 году. Да и вообще альпинисты здесь 
+                    бывают не часто из-за её удалённости.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/republics/chuvashia.html">
+                <div class="highpoints-item__img-container card-chuvashia">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/republics/chuvashia_flag.svg" alt="Флаг Республики Чувашия">
+                  </span>
+                  <span class="highpoints-item__high">305</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Чувашия</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный округ">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Вершина без названия</strong> на 
+                    границе республики Чувашия. Находится на небольшом апендиксе, врезающимся в территорию Ульяновской области
+                    Можно увидеть на картах GGC 250 метров, требует уточнения.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-krai list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/altai_krai.html">
+                <div class="highpoints-item__img-container card-altai-krai">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/altai_krai_flag.svg" alt="Флаг Алтайского края">
+                  </span>
+                  <span class="highpoints-item__high">2 490</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Алтайский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Маяк Шангина</strong> — горная 
+                    вершина западного Алтая. Представляет собой остроконечную вершину обособленного горного массива. До 2013
+                    года вершина была безымянной, а название Маяк Шангина было неофициальным — в честь известного 
+                    исследователя Петра Шангина.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/zabaykalsky.html">
+                <div class="highpoints-item__img-container card-zabaikalsky">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/zabaykalsky_flag.svg" alt="Флаг Забайкальского края">
+                  </span>
+                  <span class="highpoints-item__high">3 072</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Забайкальский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Пик БАМ</strong> — высшая точка 
+                    горного хребта Кодар на Становом нагорье в Забайкальском крае. Вершина названа в честь первых 
+                    изыскателей трассы Байкало-Амурской магистрали.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/kamchatka.html">
+                <div class="highpoints-item__img-container card-kamchatka">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/kamchatka_flag.svg" alt="Флаг Камчатского края">
+                  </span>
+                  <span class="highpoints-item__high">4 754</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Камчатский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Ключевская сопка</strong> — 
+                    действующий стратовулкан на востоке полуострова Камчатка. Самый высокий активный вулкан в Евразии. 
+                    Возраст приблизительно 7000 лет. Высота варьирует от 4750 до 4850 метров и выше над уровнем моря.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/krasnodar.html">
+                <div class="highpoints-item__img-container card-krasnodar">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/krasnodar_flag.svg" alt="Флаг Краснодарского края">
+                  </span>
+                  <span class="highpoints-item__high">3 345</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Краснодарский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Цахвоа</strong> — вершина 
+                    расположена в северной оконечности хребта Герцена, входящего в систему Главного Кавказского хребта. 
+                    На северных склонах горы расположен один из самых больших в Краснодарском крае ледников.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/krasnoyarsk.html">
+                <div class="highpoints-item__img-container card-krasnoyarsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/krasnoyarsk_flag.svg" alt="Флаг Красноярского края">
+                  </span>
+                  <span class="highpoints-item__high">2 922</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Красноярский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Пик Грандиозный</strong> — горная 
+                    вершина в составе хребта Крыжина Восточного Саяна. Массив возвышается над окружающими горами на 
+                    полкилометра и включает три вершины, разделённые ледниками.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/perm.html">
+                <div class="highpoints-item__img-container card-perm">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/perm_flag.svg" alt="Флаг Пермского края">
+                  </span>
+                  <span class="highpoints-item__high">1 469</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Пермский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Тулымский камень</strong> 
+                    — горный хребет на Северном Урале. Длина хребта составляет 35 километров. Самая высокая точка 
+                    хребта 1469 м (гора Острая). Склоны хребта крутые, с уклоном до 45 градусов, особенно его западная 
+                    и восточная части. Зимой здесь сходят лавины.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/primorsky.html">
+                <div class="highpoints-item__img-container card-primorsky">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/primorsky_flag.svg" alt="Флаг Приморского края">
+                  </span>
+                  <span class="highpoints-item__high">1 932</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Приморский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Аник</strong> — является 
+                    частью горной системы Сихотэ-Алинь. Находится на границе Приморского и Хабаровского краёв. Гора редко 
+                    посещается туристами, чему способствуют её значительная удалённость от автодорог и пересечённый 
+                    рельеф с густыми лесами.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/stavropol.html">
+                <div class="highpoints-item__img-container card-stavropol">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/stavropol_flag.svg" alt="Флаг Ставропольского края">
+                  </span>
+                  <span class="highpoints-item__high">1 603</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ставропольский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Кавказский федеральный округ">(СКФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Баран</strong> — 
+                    находится на границе Ставропольского края и Карачаево-Черкесской республики, лишь в 10 километрах от 
+                    Кисловодска. Зимой сюда приезжают кататься на лыжах и санках, а весной, летом и осенью – любители 
+                    конных прогулок.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/krai/habarovsk.html">
+                <div class="highpoints-item__img-container card-habarovsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/krai/habarovsk_flag.svg" alt="Флаг Хабаровского края">
+                  </span>
+                  <span class="highpoints-item__high">2 934</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Хабаровский край</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Берилл</strong> — горная 
+                    вершина на Дальнем Востоке России, на границе Хабаровского края и Якутии. Находится в горной системе 
+                    Сунтар-Хаята.</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-region list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/amur.html">
+                <div class="highpoints-item__img-container card-amur">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/amur_flag.svg" alt="Флаг Амурской области">
+                  </span>
+                  <span class="highpoints-item__high">2 298</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Амурская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Город-Макит</strong> - самая 
+                    высокая вершина хребта Ям-Алинь. Расположена на территории Селемджинского района Амурской области. 
+                    Относительно этой высшей точки есть сомнения.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/arkhangelsk.html">
+                <div class="highpoints-item__img-container card-arkhangelsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/arkhangelsk_flag.svg" alt="Флаг Архангельской области">
+                  </span>
+                  <span class="highpoints-item__high">1 547</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Архангельская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Крузенштерна</strong> — 
+                    уникальная вершина. Она расположена на острове Северный, Новая Земля и является высочайшей горой 
+                    островной Российской Арктики. Возвышается в глубине острова у северо-западного берега.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/astrakhan.html">
+                <div class="highpoints-item__img-container card-astrakhan">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/astrakhan_flag.svg" alt="Флаг Астраханской области">
+                  </span>
+                  <span class="highpoints-item__high">149</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Астраханская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Большое Богдо</strong> — высокий 
+                    вытянутый холм, который представляет собой соляной купол. У подножия горы лежит озеро Баскунчак, его 
+                    уровень на 21 м ниже уровня моря. Высота горы увеличивается с каждым годом примерно на 1 мм из-за 
+                    выпирающего соляного купола.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/belgorod.html">
+                <div class="highpoints-item__img-container card-belgorod">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/belgorod_flag.svg" alt="Флаг Белгородской области">
+                  </span>
+                  <span class="highpoints-item__high">276</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Белгородская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Вершина без названия</strong>.
+                    Представляет собой полевую точку, которая никак не выделяется на местности и о высоте которой мы можем 
+                    судить лишь на основе исследования географических карт. 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/bryansk.html">
+                <div class="highpoints-item__img-container card-bryansk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/bryansk_flag.svg" alt="Флаг Брянской области">
+                  </span>
+                  <span class="highpoints-item__high">288</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Брянская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Бохонова</strong>. 
+                    Располагается на перекрёстке дорог, возле села Алешня, Дубровский район. Находясь на точке вы вряд ли 
+                    поверите, что это "гора", однако если прогуляться по окрестностям, вы обнаружите, что 
+                    перепад высот в некоторых направлениях (к Громовому колодцу) значительный.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/vladimir.html">
+                <div class="highpoints-item__img-container card-vladimir">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/vladimir_flag.svg" alt="Флаг Владимирской области">
+                  </span>
+                  <span class="highpoints-item__high">274</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Владимирская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянный лесной холм</strong>.
+                    Расположен в Александровском районе,к северу от города Искра.
+                    На вершине установлен старый триангуляционный пункт, а на ближайшем дереве прибита памятная табличка.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/volgograd.html">
+                <div class="highpoints-item__img-container card-volgograd">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/volgograd_flag.svg" alt="Флаг Волгоградской области">
+                  </span>
+                  <span class="highpoints-item__high">359</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Волгоградская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Серпокрыловская</strong>.
+                    Находится на Доно-Медведицкой грядек югу от села Перещепное, Котовский район. В 2020 году Волгоградским 
+                    отделением РГО с инициативы Кати и Миши Красновых на точек установлен ярко красная тренога с 
+                    информационной табличкой.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/vologda.html">
+                <div class="highpoints-item__img-container card-vologda">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/vologda_flag.svg" alt="Флаг Вологодской области">
+                  </span>
+                  <span class="highpoints-item__high">304</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Вологодская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Мальгора</strong>. Расположена 
+                    в северной части Вепсовской возвышенности на юго-западе Вытегорского района в 68 километрах на 
+                    юго-восток от Вытегры. Гора труднодоступна, располагается в лесном массиве, покрыта 
+                    хвойными и хвойно-мелколиственными лесами.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/voronezh.html">
+                <div class="highpoints-item__img-container card-voronezh">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/voronezh_flag.svg" alt="Флаг Воронежской области">
+                  </span>
+                  <span class="highpoints-item__high">268</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Воронежская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянная точка в поле</strong>.
+                    Вершина Владимирской области не имеет ярко выраженной возвышенности. Находится в Нижнедевицким районе, 
+                    на границе с Курской областью.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/ivanovo.html">
+                <div class="highpoints-item__img-container card-ivanovo">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/ivanovo_flag.svg" alt="Флаг Ивановской области">
+                  </span>
+                  <span class="highpoints-item__high">212</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ивановская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянный холм</strong>
+                    на границе с Московской областью. Находится недалеко от села Скомово, Гаврилово-Посадский район. 
+                    Является частью Московской возвышенности с великолепным видом на равнинную Ивановскую область.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/irkutsk.html">
+                <div class="highpoints-item__img-container card-irkutsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/irkutsk_flag.svg" alt="Флаг Иркутской области">
+                  </span>
+                  <span class="highpoints-item__high">2 988</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Иркутская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Пик Мартена</strong> — гора, 
+                    расположенная в Кодарском хребте, Становом нагорье, Южно-Сибирская система. Находится в очень 
+                    труднодоступном регионе. Названа в честь французского исследователя Восточной Сибири Жозефа Мартена.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kaliningrad.html">
+                <div class="highpoints-item__img-container card-kaliningrad">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kaliningrad_flag.svg" alt="Флаг Калининградской области">
+                  </span>
+                  <span class="highpoints-item__high">242</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Калининградская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянная вершина</strong> 
+                    восточнее от посёлка Яковлевка, Чистопрудненское сельское поселение, Нестеровский район. 
+                    Основная сложность для посещения в том, что точка находится практически на самой границе с Польшей.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kaluga.html">
+                <div class="highpoints-item__img-container card-kaluga">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kaluga_flag.svg" alt="Флаг Калужской области">
+                  </span>
+                  <span class="highpoints-item__high">279</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Калужская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Лесной холм</strong> — 
+                    платообразный холм в небольшом подлеске, имеющий небольшую относительную высоту. Находится возле деревни 
+                    Коровкино, Мосальский район.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kemerovo.html">
+                <div class="highpoints-item__img-container card-kemerovo">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kemerovo_flag.svg" alt="Флаг Кемеровской области">
+                  </span>
+                  <span class="highpoints-item__high">2 178</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Кемеровская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Верхний Зуб</strong> —
+                    гора на границе Хакасии и Кемеровской области. На склонах — темнохвойная тайга. На склонах 
+                    с высотой 1300 м и более — горная тундра. На вершине накапливаются 
+                    снежники. У подножья многочисленные каровые озёра.                 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kirov.html">
+                <div class="highpoints-item__img-container card-kirov">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kirov_flag.svg" alt="Флаг Кировской области">
+                  </span>
+                  <span class="highpoints-item__high">337</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Кировская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Краснояр</strong>.
+                    Понятие «гора» конечно условное, т.к. Краснояр по сути представляет из себя просто высокий холм.
+                    На склоне горы раньше была одноимённая деревня. Сейчас на её месте заброшенный песчано-гравийный карьер 
+                    а рядом лесопилка.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kostroma.html">
+                <div class="highpoints-item__img-container card-kostroma">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kostroma_flag.svg" alt="Флаг Костромской области">
+                  </span>
+                  <span class="highpoints-item__high">293</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Костромская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Лесно холм Сондоба</strong> 
+                    находится в густых лесах костромской области, а ближайшие к нему деревени находятся на расстояние 
+                    около 10 км. Поэтому будьте готовы на лесную прогулку, благо лесовозные дороги и заросшие тропки тут есть.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kurgan.html">
+                <div class="highpoints-item__img-container card-kurgan">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kurgan_flag.svg" alt="Флаг Курганской области">
+                  </span>
+                  <span class="highpoints-item__high">211</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Курганская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянная полевая точка</strong>. 
+                    Находится прямо в бескрайних полях Курганской области. Ближайший населённый пункт - деревня  Преображенка, 
+                    Сафакулевский район.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/kursk.html">
+                <div class="highpoints-item__img-container card-kursk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/kursk_flag.svg" alt="Флаг Курской области">
+                  </span>
+                  <span class="highpoints-item__high">274</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Курская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Тепловские высоты</strong>.
+                    Очень интересная точка, которая распологается в важном историческом месте для нашей страны - Курской 
+                    дуге. На вершине построен Монумент, который виден уже за несколько километров. Это крайние северные 
+                    отроги Фатежско-Лиговской гряды. 
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/leningrad.html">
+                <div class="highpoints-item__img-container card-leningrad">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/leningrad_flag.svg" alt="Флаг Ленинградской области">
+                  </span>
+                  <span class="highpoints-item__high">291</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ленинградская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Гапсельга</strong>.
+                    самая высокая вершина Вепсовской возвышенности. До вершины придется добираться пешком, так как вокруг
+                    много поваленных деревьев. С возвышенности открывается вид на лес.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/lipetsk.html">
+                <div class="highpoints-item__img-container card-lipetsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/lipetsk_flag.svg" alt="Флаг Липецкой области">
+                  </span>
+                  <span class="highpoints-item__high">262</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Липецкая область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянная точка</strong>
+                    прямо на дороге, в 50 м от перекрёстка трассы Дон и дороги к деревне Плоты. Имеет хороший обзорный 
+                    вид на север. Но вряд ли вы на глаз сумеет определить, что вы находитесь на возвышенности.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/magadan.html">
+                <div class="highpoints-item__img-container card-magadan">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/magadan_flag.svg" alt="Флаг Магаданской области">
+                  </span>
+                  <span class="highpoints-item__high">2 337</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Магаданская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянный пик</strong> 
+                    в хребте Охандя (горный хребет в составе хребта Черского) на севере Сусуманского городского округа. 
+                    Высота была подтверждена местной РГО 25 июля 2020 года. Раньше высшей точкой области было принято 
+                    считать Пик Билибина.            
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/moscow_oblast.html">
+                <div class="highpoints-item__img-container card-moscow-oblast">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/moscow_oblast_flag.svg" alt="Флаг Московской области">
+                  </span>
+                  <span class="highpoints-item__high">310</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Московская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Замри-гора</strong> 
+                    расположена возле деревни Шапкино Можайского района. Высшая точка Московской возвышенности. Холм 
+                    Замри-горы совершенно не крутой, а вершина его больше смахивает на равнину.
+                    В окрестном лесу находится исток реки Москвы.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/murmansk.html">
+                <div class="highpoints-item__img-container card-murmansk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/murmansk_flag.svg" alt="Флаг Мурманской области">
+                  </span>
+                  <span class="highpoints-item__high">1 200</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Мурманская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Юдычвумчорр</strong> — гора с 
+                    обрывистыми стенами и плоской вершиной, расположенная на Кольском полуострове в юго-западном блоке Хибин.
+                    Cамая высокая гора Хибин. Является высшей точкой европейского Заполярья России.                    
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/nizhny_novgorod.html">
+                <div class="highpoints-item__img-container card-nizhny-novgorod">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/nizhny_novgorod_flag.svg" alt="Флаг Нижегородской области">
+                  </span>
+                  <span class="highpoints-item__high">252</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Нижегородская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Лесной холм</strong> недалеко от 
+                    села Торговое Талызино, Сеченовский район. Представляет собой небольшой холм с густым лесом, окруженным
+                    со всех сторон полями.                 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/novgorod.html">
+                <div class="highpoints-item__img-container card-novgorod">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/novgorod_flag.svg" alt="Флаг Новгородской области">
+                  </span>
+                  <span class="highpoints-item__high">300</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Новгородская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Лесной холм</strong>
+                    на Валдайской возвышенности. Располагается на границе с Тверской областью. Ближайший населённый пункт - деревня Верхмарёво, 
+                    Пеновский район.
+                    </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/novosibirsk.html">
+                <div class="highpoints-item__img-container card-novosibirsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/novosibirsk_flag.svg" alt="Флаг Новосибирской области">
+                  </span>
+                  <span class="highpoints-item__high">502</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Новосибирская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Пихтовый гребень</strong>. 
+                    Холм, расположенный на Салаирском кряже на достаточно большом удаление от ближайших населённых пунктов.
+                    Есть также мнение, что на этом же кряже есть точка выше (506 метров), её нужно будет проверить.       
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/omsk.html">
+                <div class="highpoints-item__img-container card-omsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/omsk_flag.svg" alt="Флаг Омской области">
+                  </span>
+                  <span class="highpoints-item__high">150</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Омская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Точка в поле</strong>. 
+                    Поскольку Омская область очень низменный регион, высшая точка там такая же невысокая. Однако несмотря на 
+                    это прямо в поле энтузиастами установлен памятный знак.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/orenburg.html">
+                <div class="highpoints-item__img-container card-orenburg">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/orenburg_flag.svg" alt="Флаг Оренбургской области">
+                  </span>
+                  <span class="highpoints-item__high">667</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Оренбургская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Накас</strong> - 
+                    платообразная вершина, возвышающаяся на севере Тюльганского района, недалеко от границы с Башкортостаном.
+                    Чтобы добраться до вершины нужно совершить небольшой поход (около 20 км). 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/oryol.html">
+                <div class="highpoints-item__img-container card-oryol">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/oryol_flag.svg" alt="Флаг орловской области">
+                  </span>
+                  <span class="highpoints-item__high">285</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Орловская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Заросший участок</strong> посреди
+                   поля. Зимой здесь какой-то космический пейзаж, всё воркуг отдаёт пустотой. А летом наоборот тёплый 
+                   деревенский флёр. Ближайший населённый пункт - деревня Дементьевка, Новодеревеньковский район.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/penza.html">
+                <div class="highpoints-item__img-container card-penza">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/penza_flag.svg" alt="Флаг Пензенской области">
+                  </span>
+                  <span class="highpoints-item__high">342</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Пензенская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Лесное плато Твердыня Духа</strong>.
+                    Находится в лесу, между старым лесом и новыми насаждениями. На точке РГО был установлен огромный булыжник
+                    с информацией о том, что это место является высшей точкой Пензенской области.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/pskov.html">
+                <div class="highpoints-item__img-container card-pskov">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/pskov_flag.svg" alt="Флаг Псковской области">
+                  </span>
+                  <span class="highpoints-item__high">338</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Псковская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Липницкая</strong> —  гора 
+                    в Новоржевском районе Псковской области, одна из вершин Бежаницкой возвышенности. Вершина и склоны 
+                    полностью заросли лесом. У подножия горы расположена деревня Наумково. 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/rostov.html">
+                <div class="highpoints-item__img-container card-rostov">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/rostov_flag.svg" alt="Флаг Ростовской области">
+                  </span>
+                  <span class="highpoints-item__high">306</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ростовская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Южный федеральный округ">(ЮФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Точка в поле </strong> 
+                    возле приграничного пункта пропуска Гуково. Находится на границе с ЛНР, что сильно усложняет её 
+                    посещение в текущих условиях.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/ryazan.html">
+                <div class="highpoints-item__img-container card-ryazan">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/ryazan_flag.svg" alt="Флаг Рязанской области">
+                  </span>
+                  <span class="highpoints-item__high">249</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Рязанская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Полевая точка</strong> 
+                    на самой границе Московской и Рязанской области. Ближайший населённый пункт - деревня Филиппово, 
+                    Рыбновский район. 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/samara.html">
+                <div class="highpoints-item__img-container card-samara">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/samara_flag.svg" alt="Флаг Самарской области">
+                  </span>
+                  <span class="highpoints-item__high">381</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Самарская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Наблюдатель</strong> — 
+                    возвышается на восточной окраине села Зольное, в 35 километрах от трассы М5. К сожалению проход на гору 
+                    сейчас закрыт администрацией Жигулёвского заповедника.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/saratov.html">
+                <div class="highpoints-item__img-container card-saratov">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/saratov_flag.svg" alt="Флаг Саратовской области">
+                  </span>
+                  <span class="highpoints-item__high">369</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Саратовская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Точка рядом с телевышкой</strong>
+                    это максимальная высота Хвалынских гор, находящихся к северо-востоку от областного центра, практически 
+                    на границе с Ульяновской областью. Проход туда естественно запрещён.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/sakhalin.html">
+                <div class="highpoints-item__img-container card-sakhalin">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/sakhalin_flag.svg" alt="Флаг Сахалинской области">
+                  </span>
+                  <span class="highpoints-item__high">2 339</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Сахалинская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Вулкан Алаид</strong> — действующий 
+                    вулкан на острове Атласова Большой Курильской гряды; самый северный и самый высокий вулкан Курильских 
+                    островов.</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/sverdlovsk.html">
+                <div class="highpoints-item__img-container card-sverdlovsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/sverdlovsk_flag.svg" alt="Флаг Свердловской области">
+                  </span>
+                  <span class="highpoints-item__high">1 569</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Свердловская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Конжаковский Камень</strong> — 
+                    гора в южной части Северного Урала, в городском округе Карпинск Свердловской области. Одна из высочайших
+                    вершин Уральских гор (1569 м).</p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/smolensk.html">
+                <div class="highpoints-item__img-container card-smolensk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/smolensk_flag.svg" alt="Флаг Смоленской области">
+                  </span>
+                  <span class="highpoints-item__high">319</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Смоленская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Безымянная вершина</strong>.
+                    Находится возле деревни Марьино (Марьино Гнездо), Вяземский район. Прямо за задним двором одного из 
+                    домов. На точек лежит старая покосившаяся тренога.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tambov.html">
+                <div class="highpoints-item__img-container card-tambov">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tambov_flag.svg" alt="Флаг Тамбовской области">
+                  </span>
+                  <span class="highpoints-item__high">219</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тамбовская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Заросший кустарником холм</strong>, 
+                    который находится прямо в поле, недалеко от дороги. Ближайший населённый пунет - село Краснополье, 
+                    Тамбовский район. Немного грустно, что рядос с холмом местные устроили мусорку.                 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tver.html">
+                <div class="highpoints-item__img-container card-tver">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tver_flag.svg" alt="Флаг Тверской области">
+                  </span>
+                  <span class="highpoints-item__high">346</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тверская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Макушка Валдая</strong> — 
+                    неофициальное название самой высокой точки Валдайской возвышенности и западной части Восточно-Европейской
+                    равнины, которая находится на территории Вышневолоцкого городского округа Тверской области. Представляет 
+                    собой заросший лесной холм.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tomsk.html">
+                <div class="highpoints-item__img-container card-tomsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tomsk_flag.svg" alt="Флаг Томской области">
+                  </span>
+                  <span class="highpoints-item__high">274</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Томская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Сибирский федеральный округ">(СФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Лесная точка</strong> в
+                    километре от деревни Суетиловка, Томский район. Место очень густо заросло кустарником и высокой травой, 
+                    поэтому пробраться к вершине не так просто. Зато на точке есть старый столбик к которому привязана бутылка
+                    с сообщениями от других восходителей.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tula.html">
+                <div class="highpoints-item__img-container card-tula">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tula_flag.svg" alt="Флаг Тульской области">
+                  </span>
+                  <span class="highpoints-item__high">293</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тульская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Плавское плато</strong>.
+                    Является высшей точкой не только Тульской области, но и вообще всей Среднерусской возвышенности, 
+                    на которой находится значительная часть вершин ЦФО. На точке есть столбик, указывающий местоположение
+                    высшей точки.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/tyumen.html">
+                <div class="highpoints-item__img-container card-tyumen">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/tyumen_flag.svg" alt="Флаг Тюменской области">
+                  </span>
+                  <span class="highpoints-item__high">162</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Тюменская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Холм в лесу</strong>. Официальной
+                    информации по высшей точке Тюменской области нет вообще, поэтому её установление было той ещё задачей. 
+                    Удалось зафиксировать  и подтвердить высоту 162 метра на юге от села Колесниково, она была отмечена на
+                    Google картах.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/ulyanovsk.html">
+                <div class="highpoints-item__img-container card-ulyanovsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/ulyanovsk_flag.svg" alt="Флаг Ульяновской области">
+                  </span>
+                  <span class="highpoints-item__high">366</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ульяновская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Приволжский федеральный окург">(ПФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Холм</strong> на Приволжской 
+                    возвышенности. Очень выделяется на местности, что не может не радовать любого восходителя. Холм густо 
+                    зарос лесом, а на пути к вершине вам попадётся куча поваленных стволов деревьев.                 
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/chelyabinsk.html">
+                <div class="highpoints-item__img-container card-chelyabinsk">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/chelyabinsk_flag.svg" alt="Флаг Челябинской области">
+                  </span>
+                  <span class="highpoints-item__high">1 406</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Челябинская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Большой Нургуш</strong> 
+                    имеет платообразную вершину и является частью хребта Нургуш, расположенного в национальном парке
+                    Зюраткуль на территории Саткинского района. Мощная горная цепь тянется на 50 км.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/regions/yaroslavl.html">
+                <div class="highpoints-item__img-container card-yaroslavl">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/regions/yaroslavl_flag.svg" alt="Флаг Ярославской области">
+                  </span>
+                  <span class="highpoints-item__high">292</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ярославская область</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Тархов холм</strong> — холм 
+                    Борисоглебской возвышенности; находится на северо-западе Переславского района, рядом с названной по 
+                    нему деревней Тархов Холм. Склоны холма покрыты в основном лиственным лесом и кустарником.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-federal_cities list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/federal_cities/moscow.html">
+                <div class="highpoints-item__img-container card-moscow">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/federal_cities/moscow_flag.svg" alt="Флаг города Москвы">
+                  </span>
+                  <span class="highpoints-item__high">255</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Город Москва</span>
+                  <span class="highpoints-item__federal-okrug" title="Центральный федеральный округ">(ЦФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Теплостанская возвышенность</strong>.
+                    Вершина находится на юго-западе Москвы. Станция метро Тёплый Стан, Профсоюзная улица, Ясеневский район 
+                    города. Сама точка распологается прямо на парковке, где сейчас установлен столб линии высоковольтных 
+                    передач.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/federal_cities/saint_petersburg.html">
+                <div class="highpoints-item__img-container card-saint-petersburg">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/federal_cities/saint_petersburg_flag.svg" alt="Флаг города Санкт-Петербурга">
+                  </span>
+                  <span class="highpoints-item__high">176</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Город Санкт-Петербург</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Ореховая</strong>.
+                    Холм расположен к юго-западу от Санкт-Петербурга (12 км от КАД) в Красносельском районе,
+                    близ которого находится железнодорожная платформа Дудергоф. Является частью Дудергофских высот.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-autonomous_region list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_regions/jewish.html">
+                <div class="highpoints-item__img-container card-jewish">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_regions/jewish_flag.svg" alt="Флаг Еврейской автономной области">
+                  </span>
+                  <span class="highpoints-item__high">1 421</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Еврейская автономная область</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Студенческая</strong>.
+                    Расположена недалеко от южной оконечности Бурейского хребта, недалеко от границы Хабаровского края. 
+                    Название она получила лишь в 2006 году.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="highpoints-list list-autonomous_districts list-disable">
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/nenets.html">
+                <div class="highpoints-item__img-container card-nenets">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/nenets_flag.svg" alt="Флаг Ненецкого автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">423</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ненецкий автономный округ</span>
+                  <span class="highpoints-item__federal-okrug" title="Северо-Западный федеральный округ">(СЗФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Море-Из</strong> — 
+                    главная вершина хребта Пай-Хой, самого северного хребта Урала. Гора находится примерно в 40 км к 
+                    юго-востоку от пос. Амдерма. Сама гора плоская, округлые формы холма состоят из остатка ледника – морены.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/hanti_mansyskiy(yugra).html">
+                <div class="highpoints-item__img-container card-yugra">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/hanti_mansyskiy(yugra)_flag.svg" alt="Флаг Ханты-Мансийского автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">1 895</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ханты-Мансийский автономный округ (Югра)</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Народная</strong> — высочайшая
+                    гора Урала. Расположена на Приполярном Урале, в пределах национального парка «Югыд ва». Рельеф данного 
+                    района характеризуется наличием каров и цирков, в глубине которых залегают озёра.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/chukotka.html">
+                <div class="highpoints-item__img-container card-chukotka">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/chukotka_flag.svg" alt="Флаг Чукотского автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">1 887</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Чукотский автономный округ</span>
+                  <span class="highpoints-item__federal-okrug" title="Дальневосточный федеральный округ">(ДФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Великая (Чаанталь)</strong>.
+                    Находится на одноимённом хребте в крайне труднодоступном регионе нашей страны. Ближайший населённый 
+                    пункт - посёлок Мыс Шмидта, Иультинский район.   
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="highpoints-item">
+              <a class="highpoints-item__link" href="/src/pages/autonomous_districts/yamal-nenets.html">
+                <div class="highpoints-item__img-container card-yamal-nenets">
+                  <span class="highpoints-item__flag-container">
+                    <img class="highpoints-item__flag" src="/src/img/flags/autonomous_districts/yamal-nenets_flag.svg" alt="Флаг Ямало-Ненецкого автономного округа">
+                  </span>
+                  <span class="highpoints-item__high">1 472</span>
+                </div>
+                <div class="highpoints-item__info-container">
+                  <span class="highpoints-item__title">Ямало-Ненецкий автономный округ</span>
+                  <span class="highpoints-item__federal-okrug" title="Уральский федеральный округ">(УрФО)</span>
+                  <p class="highpoints-item__description"><strong class="highpoint-name">Гора Пайёр</strong> — Высшая точка 
+                    Полярного Урала. Расположена на западном краю уральских гор. Имеет плоскую вершину, отделенную от 
+                    основного склона горы  скалистыми гребнями.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="news-section" id="news-section">
+        <div class="news-section__content-container">
+          <div class="news-section__content">
+            <h2 class="news-section__title">Вышло новое видео!<br> О высшей точке республики Марий Эл!</h2>
+            <p class="news-section__description">Во второй серии моего Большого путешествия в Сибирь я добрался до высшей точки 
+              республики Марий Эл. И на этот раз мне удалось посетить её вершину - гору Чукша, с которой открывается великолепный 
+              вид на близлежащие густые марийские леса и небольшие деревеньки. Высота - 281 метр над уровнем моря.</p>
+          </div>
+          <div class="news-section__video">
+            <iframe class="news-video"
+            src="https://www.youtube.com/embed/ywIk7bZZlFc?si=sk35g9_R_NrTAx2W"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+  
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
+  </div>
+  <script src="/src/index.js"></script>
+</body>
+</html>

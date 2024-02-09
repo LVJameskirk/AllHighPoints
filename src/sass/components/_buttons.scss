@@ -1,16 +1,28 @@
 .button {
     padding: 5px 10px;
-    margin: 5px;
-    border: 3px solid $color-border;
-    background-color: $color-border;
-    color: $color-text-buttons;
     border-radius: 10px;
+    border: 2px solid $color-border;
+    cursor: pointer;
+}
+
+.button:hover {
+    padding: 5px 10px;
+    background-color: $color-border;
+    border: 2px solid $color-border;
+    color: $color-text-buttons;
     cursor: pointer;
 }
 
 .welcome-section .enjoy-button {
-    margin: 0px 5px;
+    display: inline-block;
     padding: 15px 25px;
     font-size: 1.5em;
+    border: 3px solid $color-border;
     border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.welcome-section .enjoy-button:hover {
+    background-color: $color-border;
+    color: $color-text-buttons;
 }

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Костромской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					42.461324,58.778661
+					42.455294,58.779734
+					42.451689,58.779627
+					42.442677,58.778189
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 2</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					42.442784,58.778232
+					42.436669,58.778082
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 3</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					42.436540,58.778146
+					42.420833,58.776687
+					42.417379,58.776902
+					42.411091,58.775421
+					42.397616,58.776988
+					42.393174,58.777782
+					42.379506,58.776945
+					42.373433,58.776301
+					42.367168,58.776516
+					42.362383,58.775657
+					42.348993,58.776838
+					42.346525,58.783253
+					42.350602,58.791064
+					42.347727,58.795549
+					42.341204,58.797802
+					42.332900,58.799432
+					42.331591,58.802458
+					42.330046,58.803617
+					42.328715,58.806750
+					42.325776,58.807264
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 4</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					42.325776,58.807264
+					42.325497,58.807629
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Деревня Семёнково</name>
+			<Point>
+				<coordinates>42.417658,58.776838,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Урочище Черемисино</name>
+			<Point>
+				<coordinates>42.383583,58.777653,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Урочище Пихтино</name>
+			<Point>
+				<coordinates>42.344659,58.779005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Урочище Кленовая</name>
+			<Point>
+				<coordinates>42.349894,58.787159,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Урочище Кстовица</name>
+			<Point>
+				<coordinates>42.348113,58.796621,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Урочище Мякшевицы</name>
+			<Point>
+				<coordinates>42.334509,58.798832,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Урочище Сондоба</name>
+			<Point>
+				<coordinates>42.328715,58.806750,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>гора Сондоба, ВТ</name>
+			<Point>
+				<coordinates>42.325475,58.807651,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Урочище Варварино</name>
+			<Point>
+				<coordinates>42.405255,58.775872,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Деревня Клепинино</name>
+			<Point>
+				<coordinates>42.446776,58.777567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Деревня Кувшиново</name>
+			<Point>
+				<coordinates>42.452827,58.779026,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

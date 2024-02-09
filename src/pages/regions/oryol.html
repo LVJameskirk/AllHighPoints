@@ -1,11 +1,176 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Орловская область</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="/src/img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav> 
+    
+      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-oryol">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Полевая точка</h1>
+            <p class="banner-section__description">
+              <span>Орловская область</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=13/53.00165/37.57347&l=T&q=N%2053%C2%B000'08%2C10%22%20%20E%2037%C2%B032'56%2C20%22&r=53.002250/37.548944/N%2053%C2%B00%E2%80%B28.1%E2%80%B3%20E%2037%C2%B032%E2%80%B256.2%E2%80%B3">
+                N 53°00'08,10"  E 37°32'56,20"</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-field"></span>
+                <span class="highpoint-article__item__description">285 метров</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно определена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-walk"></span>
+                <span class="highpoint-article__item__description">Небольшая прогулка</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-not-climbing"></span>
+              <span class="highpoint-article__item__description">Восхождение отсутствует</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a class="article-section__link" href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a class="article-section__link" href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a class="article-section__link" href="#article-check"><li class="article-section__item">Проверка точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">
+              Высшая точка Орловской области располагается на северо-востоке региона. Вершина является частью Среднерусской
+              возвышенности. Поверхность представляет собой сильно всхолмлённую равнину, расчленённую долинами рек.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/oryol/map-oryol.jpg" alt="">      
+            <p class="highpoint-article__content">
+              Нахоится в Новодеревеньковском районе. Ближайшие населённые пункты: деревни Дементьевка и Дубровка.
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/oryol/map-point-oryol.png" alt="">
+            <p class="highpoint-article__content">
+              Вершина представляет собой заросший участок посреди поля. В центре этого участка Михаил и Катя Красновы 
+              установили флаг Орловской области. Зимой здесь какой-то космический пейзаж, всё воркуг отдаёт пустотой. А летом 
+              наоборот чувствуется тёплый деревенский флёр. 
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/oryol/point-oryol.jpg" alt="">
+          </div>              
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              От дороги, которая ведёт на Дубровку нужно проехать всего 1.5 километра. Припарковавшись на обочине вы сразу 
+              увидите заросший участок, одиноко стоящий прямо посредине поля. До него останется пройти всего 200 метров.
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/oryol/route-oryol.png" alt="">
+            <p class="highpoint-article__content">
+              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+            </p>
+          </div>
+            
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверка точки</h3>
+            <div class="article_check__info">
+              <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
+              <span>Когда: </span><span><strong>31.01.2021</strong></span><br>
+            </div>
+            
+            <p class="highpoint-article__content">
+              К сожалению тогда ещё не фиксировал высоту встроенным альтиметром.
+            </p>
+          </div>
+        </section>
+        <aside class="highpoint-aside">
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=14/52.99892/37.54907&l=S&nktl=3PhBA8y-TEPPsaSPLVmZbg" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Орловской области.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Орловской области.gpx">Скачать GPX трек</a>
+            </div>
+          </div>
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/x6MRHOpdn8Q?si=MAik46AoYm0njB2e"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

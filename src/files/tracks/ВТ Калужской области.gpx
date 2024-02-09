@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-08T06:38:39.227Z</time>
+	</metadata>
+	<wpt lat="54.569472" lon="34.552521">
+		<name>ВТ Калужской области</name>
+	</wpt>
+	<wpt lat="54.563457" lon="34.544163">
+		<name>Старт маршрута</name>
+	</wpt>
+	<trk>
+		<name>ВТ Калужской области</name>
+		<trkseg>
+			<trkpt lat="54.563470" lon="34.544120"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.564291" lon="34.543519"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.564577" lon="34.543583"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.565137" lon="34.544356"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.566157" lon="34.545107"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.567003" lon="34.546652"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.567625" lon="34.547939"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.567874" lon="34.548197"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.569147" lon="34.550507"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.569599" lon="34.551544"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.569647" lon="34.552213"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.569499" lon="34.552488"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

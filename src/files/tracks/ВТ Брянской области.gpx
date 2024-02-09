@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-01T12:03:33.089Z</time>
+	</metadata>
+	<wpt lat="53.631286" lon="33.422325">
+		<name>ВТ Брянской области 288.3</name>
+	</wpt>
+	<wpt lat="53.631865" lon="33.447683">
+		<name>Поворот на дорогу 15Н-506</name>
+	</wpt>
+	<wpt lat="53.631967" lon="33.422449">
+		<name>Место остановки машины</name>
+	</wpt>
+	<trk>
+		<name>ВТ Брянской области</name>
+		<trkseg>
+			<trkpt lat="53.631865" lon="33.447683"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.631980" lon="33.443542"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.631916" lon="33.435237"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.631929" lon="33.427556"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.631967" lon="33.422899"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.631967" lon="33.422449"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.631318" lon="33.422341"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

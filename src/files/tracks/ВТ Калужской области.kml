@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Калужской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					34.544120,54.563470
+					34.543519,54.564291
+					34.543583,54.564577
+					34.544356,54.565137
+					34.545107,54.566157
+					34.546652,54.567003
+					34.547939,54.567625
+					34.548197,54.567874
+					34.550507,54.569147
+					34.551544,54.569599
+					34.552213,54.569647
+					34.552488,54.569499
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Калужской области</name>
+			<Point>
+				<coordinates>34.552521,54.569472,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Старт маршрута</name>
+			<Point>
+				<coordinates>34.544163,54.563457,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

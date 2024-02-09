@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-06T07:20:03.558Z</time>
+	</metadata>
+	<wpt lat="51.687421" lon="38.311896">
+		<name>Старт маршрута</name>
+	</wpt>
+	<wpt lat="51.695620" lon="38.290203">
+		<name>ВТ Воронежской области</name>
+	</wpt>
+	<wpt lat="51.690652" lon="38.300904">
+		<name>Дом на окраине посёлка</name>
+	</wpt>
+	<trk>
+		<name>ВТ Воронежской области</name>
+		<trkseg>
+			<trkpt lat="51.687417" lon="38.311815"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.690443" lon="38.300807"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.690376" lon="38.300571"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.690609" lon="38.300453"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.690829" lon="38.300496"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.691048" lon="38.300325"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.691221" lon="38.299724"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.691704" lon="38.296670"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.691800" lon="38.296518"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.692219" lon="38.294050"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.692205" lon="38.293632"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.692678" lon="38.290830"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.693050" lon="38.290207"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.693409" lon="38.289489"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.695351" lon="38.290197"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.695639" lon="38.290222"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

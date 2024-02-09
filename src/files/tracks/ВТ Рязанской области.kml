@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Рязанской области. Вариант 1</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					38.876199,54.665221
+					38.876781,54.664334
+					38.877726,54.663788
+					38.879013,54.658029
+					38.881044,54.651789
+					38.879671,54.648859
+					38.877354,54.646476
+					38.876553,54.645946
+					38.876467,54.643314
+					38.876810,54.641426
+					38.879042,54.637900
+					38.879585,54.634588
+					38.883276,54.632750
+					38.886623,54.631657
+					38.888769,54.631408
+					38.891344,54.629222
+					38.895035,54.626788
+					38.896151,54.626340
+					38.897009,54.624999
+					38.903446,54.627135
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 2</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					38.903403,54.627102
+					38.902202,54.628345
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Рязанской области</name>
+			<Point>
+				<coordinates>38.902186,54.628294,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Оставили машину</name>
+			<Point>
+				<coordinates>38.877826,54.639588,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Свернули с дороги</name>
+			<Point>
+				<coordinates>38.876195,54.665213,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

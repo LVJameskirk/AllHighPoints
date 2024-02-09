@@ -1,11 +1,178 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Калужская область</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="/src/img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav> 
+    
+      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-kaluga">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Лесной холм</h1>
+            <p class="banner-section__description">
+              <span>Калужская область</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=13/54.57148/34.55887&l=T&q=N%2054%C2%B034%E2%80%B209.85%E2%80%B3%20E%2034%C2%B033%E2%80%B208.93%E2%80%B3&r=54.569403/34.552481/N%2054%C2%B034%E2%80%B29.85%E2%80%B3%20E%2034%C2%B033%E2%80%B28.93%E2%80%B3">
+                N 54°34′09.85″ E 34°33′08.93″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-forest"></span>
+                <span class="highpoint-article__item__description">279 метр</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно определена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-walk"></span>
+                <span class="highpoint-article__item__description">Небольшая прогулка</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-not-climbing"></span>
+              <span class="highpoint-article__item__description">Восхождение отсутствует</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a class="article-section__link" href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a class="article-section__link" href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a class="article-section__link" href="#article-check"><li class="article-section__item">Проверка точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">
+              Высшая точка Калужской области находится на северо-западе области. Там, где протянулась Спас-Деменская гряда, 
+              являющаяся частью смоленско-московской возвышенности. Ближайший населённый пункт - деревни Коровкино, 
+              Мосальский район.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaluga/map-kaluga.jpg" alt="">      
+            <p class="highpoint-article__content">
+              К сожалению на карте выше точка 279 не указана, но она есть на старых генштабовских картах.
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/kaluga/map-point-kaluga.png" alt="">
+            <p class="highpoint-article__content">
+              Высшая точка представляет собой лесной платообразный холм с небольшим подлеском, по которому идёт линия
+              электропередачи. Вид хоть и не сногсшибательный, но всё таки имеется, так как высота относительно ближайшего
+              поля выше метров на 10-20.
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/kaluga/point-kaluga.png" alt="">
+          </div>              
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              От деревни Коровкино до высшей точки меньше километра. Идти удобо, так как тут есть старая сельская дорога.
+              Есть информация, что где-то в лесу есть памятная табличка, обозначающая вершину Калужской области. К сожалению мне 
+              найти её не удалось, но может получится у вас.
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/kaluga/route-kaluga.png" alt="">
+            <p class="highpoint-article__content">
+              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+            </p>
+          </div>
+            
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверка точки</h3>
+            <div class="article_check__info">
+              <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
+              <span>Когда: </span><span><strong>05.09.2020</strong></span><br>
+            </div>
+            
+            <p class="highpoint-article__content">
+              К сожалению я тогда ещё не фиксировал высоту встроенным альтиметром. Надо бы доехать перепроверить.
+            </p>
+          </div>
+        </section>
+        <aside class="highpoint-aside">
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=15/54.56574/34.55049&l=S&nktl=ayd4BOrg6btigtxP-kYmOg" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Калужской области.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Калужской области.gpx">Скачать GPX трек</a>
+            </div>
+          </div>
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/B_z2sb2vfa0?si=Cfqrcrh3astFfZM1"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

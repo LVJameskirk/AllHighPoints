@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-07T16:18:34.321Z</time>
+	</metadata>
+	<wpt lat="56.612054" lon="39.828014">
+		<name>Старт маршрута</name>
+	</wpt>
+	<wpt lat="56.608189" lon="39.826956">
+		<name>ВТ Ивановской области</name>
+	</wpt>
+	<wpt lat="56.607752" lon="39.827106">
+		<name>Напрямик в поле</name>
+	</wpt>
+	<trk>
+		<name>ВТ Ивановской области</name>
+		<trkseg>
+			<trkpt lat="56.612066" lon="39.828014"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.611936" lon="39.827950"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.611853" lon="39.827349"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.611227" lon="39.826126"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.610979" lon="39.825912"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.610838" lon="39.825311"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.610224" lon="39.823637"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.609574" lon="39.822714"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.608972" lon="39.822478"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607767" lon="39.822543"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607578" lon="39.822779"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607578" lon="39.823916"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607673" lon="39.825547"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607673" lon="39.826040"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607703" lon="39.826571"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607750" lon="39.827108"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.607968" lon="39.827026"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.608193" lon="39.826970"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

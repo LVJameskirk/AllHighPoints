@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-08T07:44:41.957Z</time>
+	</metadata>
+	<wpt lat="58.776838" lon="42.417658">
+		<name>Деревня Семёнково</name>
+	</wpt>
+	<wpt lat="58.777653" lon="42.383583">
+		<name>Урочище Черемисино</name>
+	</wpt>
+	<wpt lat="58.779005" lon="42.344659">
+		<name>Урочище Пихтино</name>
+	</wpt>
+	<wpt lat="58.787159" lon="42.349894">
+		<name>Урочище Кленовая</name>
+	</wpt>
+	<wpt lat="58.796621" lon="42.348113">
+		<name>Урочище Кстовица</name>
+	</wpt>
+	<wpt lat="58.798832" lon="42.334509">
+		<name>Урочище Мякшевицы</name>
+	</wpt>
+	<wpt lat="58.806750" lon="42.328715">
+		<name>Урочище Сондоба</name>
+	</wpt>
+	<wpt lat="58.807651" lon="42.325475">
+		<name>гора Сондоба, ВТ</name>
+	</wpt>
+	<wpt lat="58.775872" lon="42.405255">
+		<name>Урочище Варварино</name>
+	</wpt>
+	<wpt lat="58.777567" lon="42.446776">
+		<name>Деревня Клепинино</name>
+	</wpt>
+	<wpt lat="58.779026" lon="42.452827">
+		<name>Деревня Кувшиново</name>
+	</wpt>
+	<trk>
+		<name>ВТ Костромской области</name>
+		<trkseg>
+			<trkpt lat="58.778661" lon="42.461324"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.779734" lon="42.455294"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.779627" lon="42.451689"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.778189" lon="42.442677"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="58.778232" lon="42.442784"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.778082" lon="42.436669"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="58.778146" lon="42.436540"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.776687" lon="42.420833"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.776902" lon="42.417379"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.775421" lon="42.411091"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.776988" lon="42.397616"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.777782" lon="42.393174"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.776945" lon="42.379506"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.776301" lon="42.373433"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.776516" lon="42.367168"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.775657" lon="42.362383"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.776838" lon="42.348993"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.783253" lon="42.346525"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.791064" lon="42.350602"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.795549" lon="42.347727"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.797802" lon="42.341204"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.799432" lon="42.332900"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.802458" lon="42.331591"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.803617" lon="42.330046"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.806750" lon="42.328715"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.807264" lon="42.325776"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="58.807264" lon="42.325776"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.807629" lon="42.325497"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Орловской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					37.535505,52.990438
+					37.547607,52.999789
+					37.550461,53.000809
+					37.548916,53.002229
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Липецкой области</name>
+			<Point>
+				<coordinates>38.252380,52.905439,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Орловской области</name>
+			<Point>
+				<coordinates>37.548927,53.002232,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Поворот на Дубровку</name>
+			<Point>
+				<coordinates>37.535455,52.990415,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

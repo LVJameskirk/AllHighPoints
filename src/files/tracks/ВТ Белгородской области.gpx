@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-01-31T14:49:53.941Z</time>
+	</metadata>
+	<wpt lat="43.797407" lon="40.209727">
+		<name>Гора Чугуш</name>
+	</wpt>
+	<wpt lat="51.172539" lon="37.196226">
+		<name>Поворот на полевую дорогу</name>
+	</wpt>
+	<wpt lat="51.172388" lon="37.170385">
+		<name>Пятачок для парковки машины</name>
+	</wpt>
+	<wpt lat="51.173481" lon="37.171329">
+		<name>ВТ Белгородской области 276.8</name>
+	</wpt>
+	<trk>
+		<name>ВТ Белгородской области</name>
+		<trkseg>
+			<trkpt lat="51.172546" lon="37.196226"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172543" lon="37.196059"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.171810" lon="37.191821"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.171884" lon="37.191666"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172566" lon="37.190775"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172654" lon="37.190400"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172597" lon="37.187197"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172465" lon="37.184005"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172368" lon="37.182986"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172475" lon="37.181559"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172375" lon="37.176495"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172247" lon="37.171420"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172311" lon="37.170686"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172378" lon="37.170390"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="51.172388" lon="37.170401"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.172576" lon="37.170509"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.173020" lon="37.170487"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.173421" lon="37.170492"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="51.173481" lon="37.171340"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

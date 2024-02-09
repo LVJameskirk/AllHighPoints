@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Воронежской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					38.311815,51.687417
+					38.300807,51.690443
+					38.300571,51.690376
+					38.300453,51.690609
+					38.300496,51.690829
+					38.300325,51.691048
+					38.299724,51.691221
+					38.296670,51.691704
+					38.296518,51.691800
+					38.294050,51.692219
+					38.293632,51.692205
+					38.290830,51.692678
+					38.290207,51.693050
+					38.289489,51.693409
+					38.290197,51.695351
+					38.290222,51.695639
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Старт маршрута</name>
+			<Point>
+				<coordinates>38.311896,51.687421,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Воронежской области</name>
+			<Point>
+				<coordinates>38.290203,51.695620,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Дом на окраине посёлка</name>
+			<Point>
+				<coordinates>38.300904,51.690652,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

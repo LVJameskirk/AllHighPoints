@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Ивановской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					39.828014,56.612066
+					39.827950,56.611936
+					39.827349,56.611853
+					39.826126,56.611227
+					39.825912,56.610979
+					39.825311,56.610838
+					39.823637,56.610224
+					39.822714,56.609574
+					39.822478,56.608972
+					39.822543,56.607767
+					39.822779,56.607578
+					39.823916,56.607578
+					39.825547,56.607673
+					39.826040,56.607673
+					39.826571,56.607703
+					39.827108,56.607750
+					39.827026,56.607968
+					39.826970,56.608193
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Старт маршрута</name>
+			<Point>
+				<coordinates>39.828014,56.612054,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Ивановской области</name>
+			<Point>
+				<coordinates>39.826956,56.608189,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Напрямик в поле</name>
+			<Point>
+				<coordinates>39.827106,56.607752,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Брянской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.447683,53.631865
+					33.443542,53.631980
+					33.435237,53.631916
+					33.427556,53.631929
+					33.422899,53.631967
+					33.422449,53.631967
+					33.422341,53.631318
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Брянской области 288.3</name>
+			<Point>
+				<coordinates>33.422325,53.631286,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Поворот на дорогу 15Н-506</name>
+			<Point>
+				<coordinates>33.447683,53.631865,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Место остановки машины</name>
+			<Point>
+				<coordinates>33.422449,53.631967,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

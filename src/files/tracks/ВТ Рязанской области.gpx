@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-09T12:14:52.627Z</time>
+	</metadata>
+	<wpt lat="54.628294" lon="38.902186">
+		<name>ВТ Рязанской области</name>
+	</wpt>
+	<wpt lat="54.639588" lon="38.877826">
+		<name>Оставили машину</name>
+	</wpt>
+	<wpt lat="54.665213" lon="38.876195">
+		<name>Свернули с дороги</name>
+	</wpt>
+	<trk>
+		<name>ВТ Рязанской области. Вариант 1</name>
+		<trkseg>
+			<trkpt lat="54.665221" lon="38.876199"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.664334" lon="38.876781"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.663788" lon="38.877726"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.658029" lon="38.879013"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.651789" lon="38.881044"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.648859" lon="38.879671"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.646476" lon="38.877354"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.645946" lon="38.876553"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.643314" lon="38.876467"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.641426" lon="38.876810"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.637900" lon="38.879042"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.634588" lon="38.879585"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.632750" lon="38.883276"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.631657" lon="38.886623"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.631408" lon="38.888769"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.629222" lon="38.891344"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.626788" lon="38.895035"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.626340" lon="38.896151"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.624999" lon="38.897009"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.627135" lon="38.903446"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+		<trkseg>
+			<trkpt lat="54.627102" lon="38.903403"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.628345" lon="38.902202"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

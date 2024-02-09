@@ -86,7 +86,8 @@ h2 {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px 20px;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  border: 3px solid rgb(5, 110, 171);
 }
 
 .welcome-section__description {
@@ -274,6 +275,10 @@ h2 {
   padding-top: 20px;
   padding-left: 30px;
   border-top: 1px solid rgb(5, 110, 171);
+}
+
+.highpoint-article__subtitle-route {
+  padding-left: 30px;
 }
 
 .highpoint-article__content {
@@ -971,19 +976,31 @@ tbody tr .point-done {
 /* Import components */
 .button {
   padding: 5px 10px;
-  margin: 5px;
-  border: 3px solid rgb(5, 110, 171);
-  background-color: rgb(5, 110, 171);
-  color: #f1f1f1;
   border-radius: 10px;
+  border: 2px solid rgb(5, 110, 171);
+  cursor: pointer;
+}
+
+.button:hover {
+  padding: 5px 10px;
+  background-color: rgb(5, 110, 171);
+  border: 2px solid rgb(5, 110, 171);
+  color: #f1f1f1;
   cursor: pointer;
 }
 
 .welcome-section .enjoy-button {
-  margin: 0px 5px;
+  display: inline-block;
   padding: 15px 25px;
   font-size: 1.5em;
+  border: 3px solid rgb(5, 110, 171);
   border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.welcome-section .enjoy-button:hover {
+  background-color: rgb(5, 110, 171);
+  color: #f1f1f1;
 }
 
 /* Icons */
@@ -1124,6 +1141,55 @@ tbody tr .point-done {
 
 .banner-tuva {
   background-image: url(/src/img/highpoint-page/republics/tuva/banner-tuva.jpg);
+}
+
+/* Баннеры. Области*/
+.banner-belgorod {
+  background-image: url(/src/img/highpoint-page/regions/belgorod/banner-belgorod.png);
+}
+
+.banner-bryansk {
+  background-image: url(/src/img/highpoint-page/regions/bryansk/banner-bryansk.png);
+}
+
+.banner-vladimir {
+  background-image: url(/src/img/highpoint-page/regions/vladimir/banner-vladimir.jpg);
+}
+
+.banner-voronezh {
+  background-image: url(/src/img/highpoint-page/regions/voronezh/banner-voronezh.png);
+}
+
+.banner-ivanovo {
+  background-image: url(/src/img/highpoint-page/regions/ivanovo/banner-ivanovo.jpg);
+}
+
+.banner-kaluga {
+  background-image: url(/src/img/highpoint-page/regions/kaluga/banner-kaluga.png);
+}
+
+.banner-kostroma {
+  background-image: url(/src/img/highpoint-page/regions/kostroma/banner-kostroma.png);
+}
+
+.banner-kursk {
+  background-image: url(/src/img/highpoint-page/regions/kursk/banner-kursk.jpg);
+}
+
+.banner-lipetsk {
+  background-image: url(/src/img/highpoint-page/regions/lipetsk/banner-lipetsk.jpg);
+}
+
+.banner-moscow-oblast {
+  background-image: url(/src/img/highpoint-page/regions/moscow-oblast/banner-moscow-oblast.png);
+}
+
+.banner-oryol {
+  background-image: url(/src/img/highpoint-page/regions/oryol/banner-oryol.jpg);
+}
+
+.banner-ryazan {
+  background-image: url(/src/img/highpoint-page/regions/ryazan/banner-ryazan.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
