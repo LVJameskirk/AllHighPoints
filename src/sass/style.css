@@ -192,6 +192,10 @@ h2 {
   height: 40vh;
 }
 
+.banner-section__title {
+  line-height: 115%;
+}
+
 .banner-section__container {
   width: 30%;
   padding: 100px 20px;
@@ -279,6 +283,7 @@ h2 {
 
 .highpoint-article__subtitle-route {
   padding-left: 30px;
+  margin-bottom: 0px;
 }
 
 .highpoint-article__content {
@@ -803,7 +808,7 @@ tbody tr .point-done {
 }
 
 .card-kaliningrad {
-  background-image: url(/src/img/highpoint-card/regions/kaliningrad.png);
+  background-image: url(/src/img/highpoint-card/regions/kaliningrad.jpg);
 }
 
 .card-kaluga {
@@ -1144,6 +1149,10 @@ tbody tr .point-done {
 }
 
 /* Баннеры. Области*/
+.banner-arkhangelsk {
+  background-image: url(/src/img/highpoint-page/regions/arkhangelsk/banner-arkhangelsk.jpg);
+}
+
 .banner-belgorod {
   background-image: url(/src/img/highpoint-page/regions/belgorod/banner-belgorod.png);
 }
@@ -1156,12 +1165,20 @@ tbody tr .point-done {
   background-image: url(/src/img/highpoint-page/regions/vladimir/banner-vladimir.jpg);
 }
 
+.banner-vologda {
+  background-image: url(/src/img/highpoint-page/regions/vologda/banner-vologda.jpg);
+}
+
 .banner-voronezh {
   background-image: url(/src/img/highpoint-page/regions/voronezh/banner-voronezh.png);
 }
 
 .banner-ivanovo {
   background-image: url(/src/img/highpoint-page/regions/ivanovo/banner-ivanovo.jpg);
+}
+
+.banner-kaliningrad {
+  background-image: url(/src/img/highpoint-page/regions/kaliningrad/banner-kaliningrad.jpg);
 }
 
 .banner-kaluga {
@@ -1174,6 +1191,10 @@ tbody tr .point-done {
 
 .banner-kursk {
   background-image: url(/src/img/highpoint-page/regions/kursk/banner-kursk.jpg);
+}
+
+.banner-leningrad {
+  background-image: url(/src/img/highpoint-page/regions/leningrad/banner-leningrad.jpg);
 }
 
 .banner-lipetsk {
@@ -1190,6 +1211,31 @@ tbody tr .point-done {
 
 .banner-ryazan {
   background-image: url(/src/img/highpoint-page/regions/ryazan/banner-ryazan.jpg);
+}
+
+.banner-smolensk {
+  background-image: url(/src/img/highpoint-page/regions/smolensk/banner-smolensk.jpg);
+}
+
+.banner-tambov {
+  background-image: url(/src/img/highpoint-page/regions/tambov/banner-tambov.jpg);
+}
+
+.banner-tver {
+  background-image: url(/src/img/highpoint-page/regions/tver/banner-tver.jpg);
+}
+
+.banner-tula {
+  background-image: url(/src/img/highpoint-page/regions/tula/banner-tula.jpg);
+}
+
+.banner-yaroslavl {
+  background-image: url(/src/img/highpoint-page/regions/yaroslavl/banner-yaroslavl.jpg);
+}
+
+/* Города федерального значения */
+.banner-moscow {
+  background-image: url(/src/img/highpoint-page/federal_cities/moscow/banner-moscow.png);
 }
 
 /*# sourceMappingURL=style.css.map */

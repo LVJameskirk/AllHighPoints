@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Ярославской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					38.593919,57.094286
+					38.594692,57.093808
+					38.595142,57.093470
+					38.595335,57.092980
+					38.595271,57.092654
+					38.594584,57.092036
+					38.594370,57.091745
+					38.594499,57.091477
+					38.595314,57.091395
+					38.596129,57.091372
+					38.596580,57.091302
+					38.596666,57.091185
+					38.589692,57.084085
+					38.588533,57.082825
+					38.585572,57.074709
+					38.581839,57.073846
+					38.577837,57.073344
+					38.575670,57.072860
+					38.570745,57.071151
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Ярославской области</name>
+			<Point>
+				<coordinates>38.593898,57.094298,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Микляево</name>
+			<Point>
+				<coordinates>38.570702,57.071151,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Дорога к вершине</name>
+			<Point>
+				<coordinates>38.596677,57.091208,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

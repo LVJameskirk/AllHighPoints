@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Тульской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					37.417245,53.477141
+					37.424455,53.475047
+					37.430420,53.471215
+					37.434669,53.468354
+					37.434840,53.467715
+					37.434411,53.467077
+					37.431235,53.465288
+					37.431364,53.464675
+					37.432137,53.463934
+					37.435699,53.461660
+					37.436600,53.460460
+					37.437758,53.455477
+					37.438359,53.455094
+					37.439389,53.454761
+					37.446642,53.456678
+					37.447929,53.456780
+					37.450075,53.456550
+					37.454581,53.453918
+					37.459173,53.452589
+					37.462478,53.451388
+					37.465096,53.450212
+					37.466469,53.449522
+					37.461491,53.446711
+					37.461340,53.446455
+					37.461448,53.446219
+					37.463518,53.444411
+					37.465299,53.443318
+					37.465686,53.443510
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Тульской области</name>
+			<Point>
+				<coordinates>37.465681,53.443497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Старт маршрута</name>
+			<Point>
+				<coordinates>37.417213,53.477109,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Полузаброшенная церковь</name>
+			<Point>
+				<coordinates>37.466447,53.447912,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Заброшенные деревни</name>
+			<Point>
+				<coordinates>37.443695,53.461788,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

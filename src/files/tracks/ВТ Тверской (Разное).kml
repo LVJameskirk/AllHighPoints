@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Тверской (Разное)</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.912173,57.289134
+					33.912517,57.289091
+					33.913198,57.289079
+					33.914298,57.289018
+					33.915161,57.289027
+					33.915623,57.289073
+					33.916496,57.289114
+					33.917767,57.289222
+					33.918217,57.289330
+					33.918657,57.289521
+					33.919887,57.289871
+					33.920934,57.290142
+					33.921873,57.290313
+					33.922334,57.290339
+					33.923158,57.290353
+					33.924349,57.290443
+					33.925159,57.290309
+					33.926151,57.290385
+					33.926482,57.290374
+					33.927524,57.291134
+					33.929790,57.291682
+					33.932086,57.291439
+					33.933976,57.290934
+					33.936455,57.290458
+					33.939866,57.289642
+					33.942643,57.289009
+					33.949153,57.286621
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 2</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.934665,57.265354
+					33.937111,57.267558
+					33.943119,57.270134
+					33.944964,57.271201
+					33.946381,57.274983
+					33.948724,57.285663
+					33.949196,57.286637
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Line 3</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.934622,57.265307
+					33.936939,57.267488
+					33.943634,57.270412
+					33.945179,57.271340
+					33.946381,57.274983
+					33.950887,57.273916
+					33.954280,57.273264
+					33.953759,57.283509
+					33.953627,57.286563
+					33.949228,57.286609
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Тверской (OSM)</name>
+			<Point>
+				<coordinates>33.949202,57.286586,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Поворот с дороги</name>
+			<Point>
+				<coordinates>33.912177,57.289127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Начинается лес?</name>
+			<Point>
+				<coordinates>33.926449,57.290381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Тверской (Topomapper 1km)</name>
+			<Point>
+				<coordinates>33.949151,57.286713,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Тверской (Яндекс карты)</name>
+			<Point>
+				<coordinates>33.948725,57.285633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Высота 350? (CyclOSM)</name>
+			<Point>
+				<coordinates>33.951855,57.288373,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Тверской (GGC 2km)</name>
+			<Point>
+				<coordinates>33.948956,57.286564,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Деревня Починок</name>
+			<Point>
+				<coordinates>33.928249,57.266926,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Памятник основателям Нурмекунде</name>
+			<Point>
+				<coordinates>33.924542,57.268127,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Тверской (ГеокэшерыNew)</name>
+			<Point>
+				<coordinates>33.949333,57.287250,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

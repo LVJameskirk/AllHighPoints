@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-11T06:54:36.832Z</time>
+	</metadata>
+	<wpt lat="53.443497" lon="37.465681">
+		<name>ВТ Тульской области</name>
+	</wpt>
+	<wpt lat="53.477109" lon="37.417213">
+		<name>Старт маршрута</name>
+	</wpt>
+	<wpt lat="53.447912" lon="37.466447">
+		<name>Полузаброшенная церковь</name>
+	</wpt>
+	<wpt lat="53.461788" lon="37.443695">
+		<name>Заброшенные деревни</name>
+	</wpt>
+	<trk>
+		<name>ВТ Тульской области</name>
+		<trkseg>
+			<trkpt lat="53.477141" lon="37.417245"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.475047" lon="37.424455"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.471215" lon="37.430420"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.468354" lon="37.434669"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.467715" lon="37.434840"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.467077" lon="37.434411"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.465288" lon="37.431235"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.464675" lon="37.431364"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.463934" lon="37.432137"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.461660" lon="37.435699"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.460460" lon="37.436600"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.455477" lon="37.437758"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.455094" lon="37.438359"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.454761" lon="37.439389"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.456678" lon="37.446642"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.456780" lon="37.447929"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.456550" lon="37.450075"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.453918" lon="37.454581"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.452589" lon="37.459173"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.451388" lon="37.462478"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.450212" lon="37.465096"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.449522" lon="37.466469"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.446711" lon="37.461491"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.446455" lon="37.461340"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.446219" lon="37.461448"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.444411" lon="37.463518"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.443318" lon="37.465299"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="53.443510" lon="37.465686"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

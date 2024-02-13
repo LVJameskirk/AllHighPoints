@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-11T10:21:21.046Z</time>
+	</metadata>
+	<wpt lat="57.094298" lon="38.593898">
+		<name>ВТ Ярославской области</name>
+	</wpt>
+	<wpt lat="57.071151" lon="38.570702">
+		<name>Микляево</name>
+	</wpt>
+	<wpt lat="57.091208" lon="38.596677">
+		<name>Дорога к вершине</name>
+	</wpt>
+	<trk>
+		<name>ВТ Ярославской области</name>
+		<trkseg>
+			<trkpt lat="57.094286" lon="38.593919"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.093808" lon="38.594692"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.093470" lon="38.595142"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.092980" lon="38.595335"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.092654" lon="38.595271"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.092036" lon="38.594584"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.091745" lon="38.594370"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.091477" lon="38.594499"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.091395" lon="38.595314"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.091372" lon="38.596129"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.091302" lon="38.596580"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.091185" lon="38.596666"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.084085" lon="38.589692"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.082825" lon="38.588533"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.074709" lon="38.585572"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.073846" lon="38.581839"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.073344" lon="38.577837"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.072860" lon="38.575670"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.071151" lon="38.570745"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

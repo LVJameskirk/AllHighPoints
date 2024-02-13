@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Тамбовской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					40.904989,52.560369
+					40.904628,52.560293
+					40.903469,52.560964
+					40.903137,52.561030
+					40.898638,52.563960
+					40.896878,52.565304
+					40.891056,52.567664
+					40.889740,52.568134
+					40.888453,52.569125
+					40.888152,52.577680
+					40.885878,52.580523
+					40.883589,52.583304
+					40.878625,52.592151
+					40.874820,52.595932
+					40.873575,52.596922
+					40.870743,52.597965
+					40.868254,52.600806
+					40.869570,52.601979
+					40.866051,52.605237
+					40.845108,52.622122
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Тамбовской области</name>
+			<Point>
+				<coordinates>40.904922,52.560375,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Сворот на Дубровку</name>
+			<Point>
+				<coordinates>40.845108,52.622087,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Село Краснополье</name>
+			<Point>
+				<coordinates>40.891199,52.573898,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

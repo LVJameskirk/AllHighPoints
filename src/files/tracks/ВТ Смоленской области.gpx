@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-10T07:06:17.925Z</time>
+	</metadata>
+	<wpt lat="55.382972" lon="33.949947">
+		<name>ВТ Смоленской области</name>
+	</wpt>
+	<wpt lat="55.387814" lon="33.964126">
+		<name>Старт маршрута</name>
+	</wpt>
+	<wpt lat="55.385997" lon="33.954034">
+		<name>Поворот на Марьино</name>
+	</wpt>
+	<trk>
+		<name>ВТ Смоленской области</name>
+		<trkseg>
+			<trkpt lat="55.382975" lon="33.949937"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.383039" lon="33.949583"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.382832" lon="33.949084"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.383027" lon="33.948827"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.383252" lon="33.948875"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.383359" lon="33.949068"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.383487" lon="33.949825"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.383765" lon="33.950438"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.383905" lon="33.951243"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.384102" lon="33.951681"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.384319" lon="33.951863"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.385053" lon="33.951992"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.385292" lon="33.952705"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.386021" lon="33.953991"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.384761" lon="33.959695"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.384596" lon="33.960704"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.384675" lon="33.961787"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.385010" lon="33.962935"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.385206" lon="33.963053"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.385912" lon="33.963182"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="55.387814" lon="33.964126"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

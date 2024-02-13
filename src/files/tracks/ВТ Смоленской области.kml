@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Смоленской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					33.949937,55.382975
+					33.949583,55.383039
+					33.949084,55.382832
+					33.948827,55.383027
+					33.948875,55.383252
+					33.949068,55.383359
+					33.949825,55.383487
+					33.950438,55.383765
+					33.951243,55.383905
+					33.951681,55.384102
+					33.951863,55.384319
+					33.951992,55.385053
+					33.952705,55.385292
+					33.953991,55.386021
+					33.959695,55.384761
+					33.960704,55.384596
+					33.961787,55.384675
+					33.962935,55.385010
+					33.963053,55.385206
+					33.963182,55.385912
+					33.964126,55.387814
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Смоленской области</name>
+			<Point>
+				<coordinates>33.949947,55.382972,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Старт маршрута</name>
+			<Point>
+				<coordinates>33.964126,55.387814,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Поворот на Марьино</name>
+			<Point>
+				<coordinates>33.954034,55.385997,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

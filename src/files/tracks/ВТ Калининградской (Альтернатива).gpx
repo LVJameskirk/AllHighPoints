@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-13T15:55:39.775Z</time>
+	</metadata>
+	<wpt lat="54.421723" lon="22.546463">
+		<name>Гора Дозор (230)</name>
+	</wpt>
+	<wpt lat="54.433747" lon="22.526994">
+		<name>Посёлок Пугачёво</name>
+	</wpt>
+	<wpt lat="54.431813" lon="22.534767">
+		<name>Начало тропы</name>
+	</wpt>
+	<wpt lat="54.430240" lon="22.545716">
+		<name>Разветвление тропы</name>
+	</wpt>
+	<trk>
+		<name>ВТ Калининградской (Альтернатива)</name>
+		<trkseg>
+			<trkpt lat="54.433760" lon="22.527037"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.433853" lon="22.527766"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.433853" lon="22.528496"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.433597" lon="22.531071"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.433360" lon="22.531800"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.432374" lon="22.533699"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.431657" lon="22.535083"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.431039" lon="22.536532"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.430508" lon="22.537937"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.430053" lon="22.539085"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.429653" lon="22.540126"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.429616" lon="22.540941"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.430022" lon="22.544063"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.430253" lon="22.545748"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.429891" lon="22.545791"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.429416" lon="22.546059"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.429123" lon="22.546359"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.428330" lon="22.546692"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.428180" lon="22.546681"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.427993" lon="22.546284"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.427744" lon="22.546016"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.427818" lon="22.545319"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.427319" lon="22.545308"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.426639" lon="22.545372"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.426033" lon="22.545329"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.425515" lon="22.545512"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.425091" lon="22.545415"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.424267" lon="22.545490"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.423693" lon="22.545619"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.423424" lon="22.545640"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.422900" lon="22.545758"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.422526" lon="22.545716"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.421995" lon="22.545716"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.421745" lon="22.545844"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.421723" lon="22.546467"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

@@ -20,18 +20,15 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
-    </header>  
+      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>   
 
     <main>
       <section class="banner-section banner-karelia">
@@ -75,8 +72,8 @@
             <div class="highpoint-article__item">
               <span class="highpoint-article__item__title">Сложность восхождения</span>
               <div class="highpoint-article__contain">
-                <span class="highpoint-article__item__icon icon-not-climbing"></span>
-              <span class="highpoint-article__item__description">Простой подъём в гору</span>
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Не категорийная</span>
               </div>
             </div>
           </div>
@@ -89,12 +86,22 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Гора Нуорунен находится в северо-западной части Лоухского района 
-              Республики Карелия. Ее вершина расположена в южной части озера Паанаярви, неподалеку от главного горного 
-              хребта Маансельке. На вершине горы почти полностью отсутствует растительность, практически весь год Нуорунен 
-              покрыта льдом и снегом. С высшей точки горы открывается потрясающий вид на окрестности. Гора Нуорунен имеет 
-              линзовидную форму. Она покрыта крупным зернистым гранитом в перемешку с кварцем.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karelia/karelia1.jpg" alt="">
+            <p class="highpoint-article__content">
+              Гора Нуорнен находится на северо-западе области. Является частью возвышенности Маанселькя, для которой характерна
+              холмистая местность, представленная мелкими сопками.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karelia/map-karelia.jpg" alt="">
+            <p class="highpoint-article__content">
+              Гора Нуорунен находится в северо-западной части Лоухского района. Ближайший населённый пункт к горе - посёлок 
+              Пяозерский.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karelia/map-point-karelia.png" alt="">
+            <p class="highpoint-article__content">
+              Ее вершина расположена в южной части озера Паанаярви. На вершине горы почти полностью отсутствует растительность, 
+              она покрыта крупным зернистым гранитом в перемешку с кварцем. С высшей точки горы открывается потрясающий вид на 
+              окрестности. Гора Нуорунен имеет линзовидную форму. 
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karelia/point-karelia.jpg" alt="">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -102,11 +109,19 @@
             <p class="highpoint-article__content">
               Гора Нуорунен распологается на территории национального парка Паанаярви. Для её посещения парком был 
               разработан специальный маршрут, протяжённость которого - 16 км в одну сторону, а время прохождения - 2 дня. 
-              В детали углубляться не буду, но маршрут, как и сама гора, ооочень живописный. 
-              <a class="highpoint-page-link" href="https://www.tourister.ru/world/europe/russia/city/petrozavodsk/mount/27808" target="_blank">Почитать подробнее о маршруте</a>.<br>
-              <a class="highpoint-page-link" href="https://paanajarvi-park.com/o-parke/" target="_blank">Сайт национального парка Паанаярви</a>.
+              <a class="highpoint-page-link" href="https://paanajarvi-park.com/marshrut-9-gora-nuoronen-peshij/" target="_blank">
+                Почитать подробнее о маршруте и правилах посещения</a>.<br>
+                <a class="highpoint-page-link" href="https://paanajarvi-park.com/o-parke/" target="_blank">Сайт национального парка Паанаярви</a>.
             </p>
             <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karelia/табличка НП.jpeg" alt="">
+            <p class="highpoint-article__content">
+              Для вашего и своего удобства я повторил туристический летний маршрут на карте. Можете скачать в нужном формате
+              и загрузить в навигатор. 
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karelia/route-karelia.png" alt="">
+            <p class="highpoint-article__content">
+              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+            </p>
           </div>
           
           <div class="article-check" id="article-check">
@@ -116,21 +131,21 @@
         </section>
 
         <aside class="highpoint-aside">
-          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
           <div class="highpoint-aside__routes">
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__nakarte-icon"></span>
-              <a href="https://nakarte.me/#m=10/54.11135/58.37997&l=Y&nktl=AI5XyeZ8yU9FXFyOk6dCDQ" target="_blank">Посмотреть nakarte.me</a>
+              <a href="https://nakarte.me/#m=11/66.13946/30.46532&l=O&nktl=9tAlIPzCnwF_XBeKZZmUHA" target="_blank">Посмотреть nakarte.me</a>
             </div>
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__kml-icon"></span>
-              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.kml">Скачать KML трек</a>
+              <a href="/src/files/tracks/ВТ Карелии.kml">Скачать KML трек</a>
             </div>
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__gpx-icon"></span>
-              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.gpx">Скачать GPX трек</a>
+              <a href="/src/files/tracks/ВТ Карелии.gpx">Скачать GPX трек</a>
             </div>
-          </div> -->
+          </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
             src="https://www.youtube.com/embed/oDUPONHM6X8?si=MzcLDy93lPw9qrxK"

@@ -1,11 +1,175 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Город Москва</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="/src/img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav> 
+    
+      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>  
 
+    <main>
+      <section class="banner-section banner-moscow">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Теплостанская возвышенность</h1>
+            <p class="banner-section__description">
+              <span>Город Москва</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=18/55.61746/37.50458&l=S&q=N%2055%C2%B037%E2%80%B203.10%E2%80%B3%20E%2037%C2%B030%E2%80%B213.58%E2%80%B3&r=55.617528/37.503772/N%2055%C2%B037%E2%80%B23.1%E2%80%B3%20E%2037%C2%B030%E2%80%B213.58%E2%80%B3">
+                N 55°37′03.10″ E 37°30′13.58″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-field"></span>
+                <span class="highpoint-article__item__description">255 метров</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно определена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-available"></span>
+                <span class="highpoint-article__item__description">Доступен всем</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-not-climbing"></span>
+              <span class="highpoint-article__item__description">Восхождение отсутствует</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a class="article-section__link" href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a class="article-section__link" href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a class="article-section__link" href="#article-check"><li class="article-section__item">Проверка точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">
+              Высшая точка города Москвы располагается на юге города. В рельефе чётко прослеживаются водораздельные поверхности,
+              наиболее высокой из них является водораздел рек Москва и Пахра - Теплостанская возвышенность. 
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/federal_cities/moscow/map-moscow.jpg" alt="">      
+            <p class="highpoint-article__content">
+              Находится возле метро Тёплый Стан, Профсоюзная улица, Ясеневский район города.
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/federal_cities/moscow/map-point-moscow.png" alt="">
+            <p class="highpoint-article__content">
+               До 2011 года здесь располагался триангуляцонный пункт. Теперь же на месте высшей точке Москвы парковка и опора 
+               линии высоковольных передач (как символично). 
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/federal_cities/moscow/point-moscow.JPG" alt="">
+          </div>              
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Думаю маршурт для города составлять нет необходимости. Скажу лишь, что сейчас принято считать высшей точкой 
+              опору ЛЭП, но раньше высшей точкой считался булыжник, который лежит между полосами движения на Новоясеневском 
+              проспекте. Можете посетить и его тоже :)
+            </p>
+            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/federal_cities/moscow/route-moscow.png" alt="">
+            <!-- <p class="highpoint-article__content">
+              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+            </p> -->
+          </div>
+            
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверка точки</h3>
+            <div class="article_check__info">
+              <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
+              <span>Когда: </span><span><strong>04.12.2020</strong></span><br>
+            </div>
+            <p class="highpoint-article__content">
+              К сожалению тогда ещё не фиксировал высоту встроенным альтиметром.
+            </p>
+          </div>
+        </section>
+        <aside class="highpoint-aside">
+          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=14/57.08324/38.59551&l=O&nktl=VBbGWyjsyeDkrGevfv7oaw" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Ярославской области.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Ярославской области.gpx">Скачать GPX трек</a>
+            </div>
+          </div> -->
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/N550pb6Ij6o?si=ysr_oH44zlRuLysk"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
 </body>
 </html>

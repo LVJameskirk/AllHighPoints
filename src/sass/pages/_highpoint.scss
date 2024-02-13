@@ -6,6 +6,10 @@
   height: 40vh;
 }
 
+.banner-section__title {
+  line-height: 115%;
+}
+
 .banner-section__container {
   width: 30%;
   padding: 100px 20px;
@@ -94,6 +98,7 @@
 
 .highpoint-article__subtitle-route {
   padding-left: 30px;
+  margin-bottom: 0px;
 }
 
 .highpoint-article__content {
