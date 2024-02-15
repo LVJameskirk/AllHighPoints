@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Псковской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					29.401217,56.853689
+					29.401238,56.853419
+					29.401565,56.853126
+					29.402289,56.852961
+					29.402890,56.852433
+					29.403062,56.852011
+					29.402611,56.851002
+					29.402611,56.850673
+					29.402879,56.850327
+					29.402751,56.850028
+					29.402204,56.849330
+					29.401828,56.848620
+					29.401828,56.848362
+					29.400970,56.847282
+					29.400530,56.846983
+					29.399318,56.846795
+					29.398255,56.846731
+					29.396131,56.846719
+					29.395573,56.846537
+					29.395101,56.846220
+					29.394962,56.845956
+					29.394050,56.845598
+					29.390026,56.847840
+					29.387870,56.847382
+					29.387258,56.847505
+					29.386894,56.847687
+					29.383267,56.850650
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Псковской области</name>
+			<Point>
+				<coordinates>29.383278,56.850644,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Деревня Наумково</name>
+			<Point>
+				<coordinates>29.401217,56.853712,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Поворот на лесополосу?</name>
+			<Point>
+				<coordinates>29.394050,56.845604,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Ещё одна лесополоса</name>
+			<Point>
+				<coordinates>29.390037,56.847840,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Полянка</name>
+			<Point>
+				<coordinates>29.387258,56.847493,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Деревня Шнитово</name>
+			<Point>
+				<coordinates>29.382777,56.842279,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

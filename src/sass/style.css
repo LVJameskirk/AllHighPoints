@@ -1205,8 +1205,20 @@ tbody tr .point-done {
   background-image: url(/src/img/highpoint-page/regions/moscow-oblast/banner-moscow-oblast.png);
 }
 
+.banner-murmansk {
+  background-image: url(/src/img/highpoint-page/regions/murmansk/banner-murmansk.jpg);
+}
+
+.banner-novgorod {
+  background-image: url(/src/img/highpoint-page/regions/novgorod/banner-novgorod.jpg);
+}
+
 .banner-oryol {
   background-image: url(/src/img/highpoint-page/regions/oryol/banner-oryol.jpg);
+}
+
+.banner-pskov {
+  background-image: url(/src/img/highpoint-page/regions/pskov/banner-pskov.jpg);
 }
 
 .banner-ryazan {
@@ -1236,6 +1248,15 @@ tbody tr .point-done {
 /* Города федерального значения */
 .banner-moscow {
   background-image: url(/src/img/highpoint-page/federal_cities/moscow/banner-moscow.png);
+}
+
+.banner-saint-petersburg {
+  background-image: url(/src/img/highpoint-page/federal_cities/saint-petersburg/banner-saint-petersburg.jpg);
+}
+
+/* Автономные округа */
+.banner-nenets {
+  background-image: url(/src/img/highpoint-page/autonomous_districts/nenets/banner-nenets.png);
 }
 
 /*# sourceMappingURL=style.css.map */

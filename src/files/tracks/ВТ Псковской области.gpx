@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-14T16:46:43.621Z</time>
+	</metadata>
+	<wpt lat="56.850644" lon="29.383278">
+		<name>ВТ Псковской области</name>
+	</wpt>
+	<wpt lat="56.853712" lon="29.401217">
+		<name>Деревня Наумково</name>
+	</wpt>
+	<wpt lat="56.845604" lon="29.394050">
+		<name>Поворот на лесополосу?</name>
+	</wpt>
+	<wpt lat="56.847840" lon="29.390037">
+		<name>Ещё одна лесополоса</name>
+	</wpt>
+	<wpt lat="56.847493" lon="29.387258">
+		<name>Полянка</name>
+	</wpt>
+	<wpt lat="56.842279" lon="29.382777">
+		<name>Деревня Шнитово</name>
+	</wpt>
+	<trk>
+		<name>ВТ Псковской области</name>
+		<trkseg>
+			<trkpt lat="56.853689" lon="29.401217"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.853419" lon="29.401238"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.853126" lon="29.401565"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.852961" lon="29.402289"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.852433" lon="29.402890"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.852011" lon="29.403062"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.851002" lon="29.402611"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.850673" lon="29.402611"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.850327" lon="29.402879"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.850028" lon="29.402751"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.849330" lon="29.402204"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.848620" lon="29.401828"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.848362" lon="29.401828"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.847282" lon="29.400970"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.846983" lon="29.400530"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.846795" lon="29.399318"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.846731" lon="29.398255"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.846719" lon="29.396131"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.846537" lon="29.395573"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.846220" lon="29.395101"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.845956" lon="29.394962"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.845598" lon="29.394050"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.847840" lon="29.390026"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.847382" lon="29.387870"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.847505" lon="29.387258"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.847687" lon="29.386894"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="56.850650" lon="29.383267"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

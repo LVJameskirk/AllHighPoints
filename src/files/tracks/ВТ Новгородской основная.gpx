@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-14T12:14:15.084Z</time>
+	</metadata>
+	<wpt lat="57.231875" lon="32.341038">
+		<name>ВТ Новгородской 299</name>
+	</wpt>
+	<wpt lat="57.259691" lon="32.305470">
+		<name>Деревня Манцы</name>
+	</wpt>
+	<wpt lat="57.247361" lon="32.324197">
+		<name>Лесовозная дорога через лес?</name>
+	</wpt>
+	<wpt lat="57.242117" lon="32.343793">
+		<name>Сворот с дороги</name>
+	</wpt>
+	<wpt lat="57.258020" lon="32.315426">
+		<name>Лесовозная дорога</name>
+	</wpt>
+	<trk>
+		<name>ВТ Новгородской основная</name>
+		<trkseg>
+			<trkpt lat="57.259691" lon="32.305491"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.258867" lon="32.307487"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.258669" lon="32.310233"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.258333" lon="32.314095"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.257880" lon="32.315383"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.256975" lon="32.315683"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.256302" lon="32.315812"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.255002" lon="32.316113"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.254039" lon="32.317507"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.253284" lon="32.318709"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.252379" lon="32.319524"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.251810" lon="32.320468"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.251299" lon="32.320898"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.250301" lon="32.320619"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.249639" lon="32.320468"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.249134" lon="32.321230"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.248670" lon="32.322850"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.248200" lon="32.323934"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.247556" lon="32.324127"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.247329" lon="32.324213"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.246906" lon="32.325034"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.246705" lon="32.325886"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.246755" lon="32.327217"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.246482" lon="32.327941"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.246212" lon="32.329014"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.246026" lon="32.330157"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.245855" lon="32.332163"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.245716" lon="32.333665"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.245066" lon="32.335231"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.245286" lon="32.337635"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.244590" lon="32.339373"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.243498" lon="32.341089"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.242651" lon="32.341819"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.242195" lon="32.343804"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.242093" lon="32.343782"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="57.231968" lon="32.341046"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-15T14:17:39.791Z</time>
+	</metadata>
+	<wpt lat="59.697876" lon="30.133477">
+		<name>Гора Ореховая</name>
+	</wpt>
+	<wpt lat="59.699195" lon="30.122395">
+		<name>Вход в парк</name>
+	</wpt>
+	<wpt lat="59.702237" lon="30.118284">
+		<name>Станция Дудергоф</name>
+	</wpt>
+	<trk>
+		<name>ВТ Санкт-Петербург</name>
+		<trkseg>
+			<trkpt lat="59.702234" lon="30.118284"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.702177" lon="30.118804"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.702083" lon="30.119120"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.701564" lon="30.119047"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.700474" lon="30.118976"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.699776" lon="30.118933"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.699305" lon="30.118997"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.699213" lon="30.122312"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.698915" lon="30.123843"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.698417" lon="30.125109"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.698374" lon="30.126922"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.698266" lon="30.127716"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697713" lon="30.128177"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697681" lon="30.128489"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697735" lon="30.128649"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697706" lon="30.128975"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697387" lon="30.129286"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697170" lon="30.129769"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697181" lon="30.130005"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697224" lon="30.130348"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697722" lon="30.131325"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697874" lon="30.131925"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697917" lon="30.132344"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697852" lon="30.132773"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697777" lon="30.132912"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697728" lon="30.132912"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697820" lon="30.133256"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="59.697885" lon="30.133492"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>
