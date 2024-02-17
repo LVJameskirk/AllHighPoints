@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-02-17T13:18:12.732Z</time>
+	</metadata>
+	<wpt lat="48.062484" lon="39.847491">
+		<name>ВТ Ростовской области</name>
+	</wpt>
+	<wpt lat="48.046415" lon="39.928951">
+		<name>Гуково</name>
+	</wpt>
+	<trk>
+		<name>ВТ Ростовской области</name>
+		<trkseg>
+			<trkpt lat="48.046281" lon="39.928436"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.046109" lon="39.912643"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.050909" lon="39.885178"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.054008" lon="39.867153"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.055365" lon="39.860687"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.058745" lon="39.849578"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.059633" lon="39.848013"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.059876" lon="39.847627"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="48.062386" lon="39.847494"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

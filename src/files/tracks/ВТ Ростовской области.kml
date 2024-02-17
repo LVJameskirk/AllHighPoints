@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Ростовской области</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					39.928436,48.046281
+					39.912643,48.046109
+					39.885178,48.050909
+					39.867153,48.054008
+					39.860687,48.055365
+					39.849578,48.058745
+					39.848013,48.059633
+					39.847627,48.059876
+					39.847494,48.062386
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Ростовской области</name>
+			<Point>
+				<coordinates>39.847491,48.062484,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Гуково</name>
+			<Point>
+				<coordinates>39.928951,48.046415,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

@@ -20,18 +20,15 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
-    </header>  
+      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>   
 
     <main>
       <section class="banner-section banner-kalmykia">
@@ -89,17 +86,25 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Гора Шаред находится на юге Калмыкии, недалеко от посёлка Маныч. Является 
-              самой высокой точкой Ергенинской возвышенности, которая относится к хребту Чолун-Хамур. Для горы характерна 
-              холмистая местность и растительность естественных пастбищ.</p>
             <p class="highpoint-article__content">
-              Сама точка находится прямо на территории вышки связи. Пытаться проникнуть на которую без разрешения естественно
+              Высшая точка республики Калмыкия находится на юге региона. Является частью хребта Чолун-Хамур, который 
+              принадлежит Ергенинской возвышенности.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/map-kalmykia.jpg" alt="">
+            <p class="highpoint-article__content">
+              Располагается в Ики-Бурульском районе. Ближайший населённый пункт к горе - посёлок Маныч.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/map-point-kalmykia.png" alt="">
+            <p class="highpoint-article__content">
+              Для горы характерна холмистая местность и растительность естественных пастбищ. Сама точка находится прямо на 
+              территории вышки связи. Пытаться проникнуть на которую без разрешения естественно
               не стоит, поэтому можно ограничиться пребыванием в непосредственной близости от неё.
             </p>
             <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/kalmykia.jpg" alt="">
             <p class="highpoint-article__content">
               Ну или можно взойти на небольшой холм рядом, который венчает старый триангуляционный пункт. Я, например, 
-              именно так и поступил во время своего путешествия.
+              именно так и поступил во время своего путешествия. С холма можно разглядеть Чограйское водохранилище, а в хорошую 
+              погоду даже Эльбрус. По крайней мере так говорят, мне Эльбрус увидеть не удалось :(
             </p>
             <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/triangular-kalmykia.jpg" alt="">
           </div>
@@ -113,7 +118,7 @@
               <br>
               <a class="highpoint-page-link" href="#aside__routes">Посмотеть и скачать маршрут</a>
             </p>
-              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/kalmykia/map-kalmykia.png" alt="">
+              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/kalmykia/route-kalmykia.png" alt="">
           </div>
           
           <div class="article-check" id="article-check">
@@ -128,8 +133,8 @@
             <img class="altimeter-img" src="/src/img/highpoint-page/republics/kalmykia/altimetr-kalmykia.jpg" alt="">
             <p class="highpoint-article__content">Данная высота была зафиксирована мной прямо у триангуляционного пункта, а 
               не рядом с вышкой связи. Поэтому говорить о корректности проверки этой точки не приходится. Тем не менее эти 
-              цифры совпадают с горизонталями 210 метров, на которых и стоит репер. А вот вокруг вышки связи  как раз 
-              проходит 220-ая горионталь, что свидетествует о высоте свыше этого значения.</p>
+              цифры совпадают с горизонталями 210 метров, на которых и стоит репер. А вот вокруг вышки связи как раз 
+              проходит 220-ая горизонталь, что свидетествует о высоте свыше этого значения.</p>
             <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/altimetr-point.png" alt="">
           </div>
         </section>
@@ -149,7 +154,7 @@
               <a href="/src/files/tracks/ВТ Калмыкии.gpx">Скачать GPX трек</a>
             </div>
           </div>
-          <h3 class="highpoint-aside__title">Видео посещения:</h3>
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
             src="https://www.youtube.com/embed/RL5TII2bolE?si=zNcD3mDRSd04mbLb"
             frameborder="0"
