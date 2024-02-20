@@ -38,6 +38,12 @@
   border: 1px solid $color-border;
   border-radius: 25px;
   cursor: pointer;
+  transition: 0.2s linear;
+}
+
+.region-tabs__item:hover {
+  background-color: $color-border;
+  color: $color-text-buttons;
 }
 
 .item-active {

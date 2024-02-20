@@ -2,6 +2,7 @@ html {
   font-size: 10px;
   background-color: $color-background;
   color: $color-text;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,4 +51,8 @@ h2 {
 
 .not-clickable {
   cursor: default;
+}
+
+.highpoints-grid .list-disable {
+  display: none;
 }

@@ -1,1 +1,1 @@
-window.onload=console.log("Проверка работы JS");
+window.onload=function(){console.log("hello"),addTagsClickHandler()};
