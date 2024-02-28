@@ -14,6 +14,13 @@
     grid-template-columns: repeat(auto-fill, minmax(22%, 310px));
     grid-template-rows: repeat(506px);
     gap: 40px;
+    @include media-tablet {
+        gap: 60px;
+    }
+
+    @include media-mobile {
+        gap: 20px;
+    }
 }
 
 // .list-disable {

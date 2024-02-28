@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>   
 
     <main>
       <section class="banner-section banner-komi">
@@ -90,25 +96,25 @@
               Высшая точка республики Коми находится на востоке региона, в горах Приполярного Урала. Гора Карпинского 
               является частью 12-километрового горного хребта, протянувшемся с юга на север от горы Народная. 
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/map-komi.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/komi/map-komi.jpg" alt="Карта республики Коми">
             <p class="highpoint-article__content">
               Гора Карпинского находится в городском округе Инта. Ближайшие населённые пункты к горе - посёлок Косью и посёлок 
               Кожым. В некоторых источниках есть информация, что высшая точка Коми - гора Народная. Это не так. Граница 
               республики Коми проходит в 1.5 километрах западнее от горы Народная. Поэтому она относится уже к 
               Ханты-Мансийскому автономному округу.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/map-point-komi.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/komi/map-point-komi.png" alt="Местонахождение высшей точки республики Коми">
             <p class="highpoint-article__content"> 
               Вершина горы представляет собой обширное плато, на запад обрывается скальными сбросами. Горные склоны покрыты преимущественно тундрой, в предгорьях имеются хвойные леса. Горе 
               присвоено название в 1927 году в честь первого президента Академии наук СССР А. П. Карпинского — еще при его 
               жизни. В 1968 году на вершину установлен памятный знак с барельефом ученого.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/pik karpinskogo.jpg" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/komi/pik karpinskogo.jpg" alt="Высшая точка республики Коми">
             <p class="highpoint-article__content">
               Гора Карпинского включена в проект уральского путешественника Олега Чегодаева - "Высшие вершины Урала".
             <a class="highpoint-page-link" href="https://www.exje.ru/7summits-of-ural" target="_blank">Подробнее о проекте</a>.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/ural-logo.jpg" alt="">
+            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/ural-logo.jpg" alt="Логотип проекта Высшие вершины Урала">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -120,7 +126,7 @@
               ознакомиться с ценами: завоз группы от г. Инты до турбазы будет стоить 30.000 на ТРЭКОЛе (за 6 человек) и 33.000 
               на вахтовом автобусе (до 19 человек).
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/route-road-komi.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/republics/komi/route-road-komi.png" alt="Карта маршрута (заброска)">
             <p class="highpoint-article__content">
               Пеший маршрут начинается от турбазы Желанное, займёт 3 дня и общая протяжённость составит 48 километров.
               В первый день мы проходим по долине реки Балабанью 12 км, ставим лагерь и отдыхаем. На следующий день нас ждёт 
@@ -131,15 +137,14 @@
               ездить сюда дважды. Она здесь недалеко. Подробнее о маршруте сразу на 2 вершины, читайте в 
               <a class="highpoint-page-link" href="/src/pages/autonomous_districts/hanti_mansyskiy(yugra).html" target="_blank">статье о горе Народной.</a>
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/route-komi.png" alt="">
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/republics/komi/route-komi.png" alt="Карта маршрута (пешая часть)">
             <p class="highpoint-article__content">  
               Этот маршрут я подсмотрел у Олега Чегодаева, из его роликов посвященным Высшим Вершинам Урала. Видео о 
-              маршруте восхождения на эту вершину и её красотах, можете посмотреть по ссылке в
-              <a class="highpoint-page-link" href="#aside__video">боковом меню</a>.
+              маршруте восхождения на эту вершину и её красотах, можете <a class="highpoint-page-link" href="#aside__video">посмотреть по ссылке</a>
             </p>
             <img class="highpoint-photo" src="/src/img/highpoint-page/republics/komi/pik karpinskogo chegodaev.jpg" alt="">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
           
@@ -195,5 +200,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

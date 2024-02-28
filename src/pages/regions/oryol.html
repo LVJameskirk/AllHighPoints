@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,7 +33,7 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -90,17 +96,17 @@
               Высшая точка Орловской области располагается на северо-востоке региона. Вершина является частью Среднерусской
               возвышенности. Поверхность представляет собой сильно всхолмлённую равнину, расчленённую долинами рек.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/oryol/map-oryol.jpg" alt="">      
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/oryol/map-oryol.jpg" alt="Карта Орловской области">      
             <p class="highpoint-article__content">
               Нахоится в Новодеревеньковском районе. Ближайшие населённые пункты: деревни Дементьевка и Дубровка.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/oryol/map-point-oryol.png" alt="">
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/regions/oryol/map-point-oryol.png" alt="Местонахождение высшей точки Орловской области">
             <p class="highpoint-article__content">
               Вершина представляет собой заросший участок посреди поля. В центре этого участка Михаил и Катя Красновы 
               установили флаг Орловской области. Зимой здесь какой-то космический пейзаж, всё воркуг отдаёт пустотой. А летом 
               наоборот чувствуется тёплый деревенский флёр. 
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/oryol/point-oryol.jpg" alt="">
+            <img class="highpoint-article__map-image" id="pointImg" src="/src/img/highpoint-page/regions/oryol/point-oryol.jpg" alt="Высшая точка Орловской области">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -108,9 +114,9 @@
               От дороги, которая ведёт на Дубровку нужно проехать всего 1.5 километра. Припарковавшись на обочине вы сразу 
               увидите заросший участок, одиноко стоящий прямо посредине поля. До него останется пройти всего 200 метров.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/oryol/route-oryol.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/regions/oryol/route-oryol.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
             
@@ -144,9 +150,10 @@
           </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/x6MRHOpdn8Q?si=MAik46AoYm0njB2e"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/v3N7kYIfbiiM?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -172,5 +179,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

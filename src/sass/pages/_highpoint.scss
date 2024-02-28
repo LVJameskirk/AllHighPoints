@@ -13,6 +13,13 @@
 .banner-section__container {
   width: 30%;
   padding: 100px 20px;
+  @include media-tablet {
+    width: 55%;
+  }
+  @include media-mobile {
+    width: 90%;
+    padding: 20px 20px;
+  }
 }
 
 .banner-section__content {
@@ -24,7 +31,6 @@
 
 .banner-section__description {
   line-height: 150%;
-  text-align: justify;
   font-size: 1.1em;
 }
 
@@ -32,20 +38,34 @@
 .highpoint-article {
   margin-top: 20px;
   display: flex;
+  @include media-tablet {
+    flex-direction: column; 
+  }
 }
 
 .highpoint-article__info {
-  padding: 20px 30px 0px;
+  padding: 20px 20px 0px 10px;
   line-height: 150%;
   border-right: 1px solid $color-border;
+  @include media-tablet {
+    border-right: 0px solid $color-border;
+  }
+  @include media-mobile {
+    padding: 20px 0px;
+  }
 }
 
 .highpoint-article__items {
     display: flex;
-    justify-content: left;
-    padding-left: 30px;
+    justify-content: center;
     align-items: center;
     gap: 50px;
+    @include media-laptop {
+      gap: 10px;
+    }
+    @include media-mobile {
+      flex-direction: column;
+    }
 }
 
 .highpoint-article__item {
@@ -62,8 +82,14 @@
 
 .highpoint-article__item__icon {
   display: inline-block;
-  width: 25px;
-  height: 25px;
+  min-width: 25px;
+  min-height: 25px;
+}
+
+.highpoint-article__item__title {
+  @include media-mobile {
+    text-align: center;
+  }
 }
 
 .highpoint-article__item__description {
@@ -75,7 +101,9 @@
   display: flex;
   justify-content: space-around;
   margin-top: 20px;
-
+  @include media-mobile {
+    flex-direction: column;
+  }
 }
 
 .article-section__item {
@@ -92,49 +120,81 @@
 .highpoint-article__subtitle {
   margin-top: 20px;
   padding-top: 20px;
-  padding-left: 30px;
   border-top: 1px solid $color-border;
+  @include media-mobile {
+    text-align: center;
+  }
 }
 
 .highpoint-article__subtitle-route {
   padding-left: 30px;
   margin-bottom: 0px;
+  @include media-mobile {
+    text-align: center;
+  }
 }
 
 .highpoint-article__content {
-  padding: 10px 30px 10px;
+  padding: 10px 0px;
+  @include media-mobile {
+    text-align: center;
+  }
 }
 
 .article_check__info {
-  margin-left: 30px;
   margin-top: 20px;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   width: 60%;
   padding: 5px;
+  @include media-mobile {
+    width: 80%;
+  }
 }
 
 .highpoint-article__map-image {
-  margin-left: 30px;
   max-width: 800px;
   border: 1px solid $color-border;
   border-radius: 20px;
+  margin: auto;
+  @include media-laptop {
+    max-width: 600px;
+  }
+  @include media-mobile {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
 }
 
 .highpoint-photo {
   max-width: 800px;
-  margin-left: 30px;
   border: 1px solid $color-border;
   border-radius: 20px;
+  @include media-laptop {
+    max-width: 600px;
+  }
+  @include media-mobile {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
 }
 
 .altimeter-img
 {
   width: 300px;
-  margin-left: 30px;
   margin-top: 10px;
   border: 1px solid $color-border;
   border-radius: 20px;
+  @include media-laptop {
+    max-width: 600px;
+  }
+  @include media-mobile {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+  }
 }
 
 .highpoint-page-link {
@@ -151,6 +211,10 @@
     padding: 0px 20px;
     width: 50vw;
     min-width: 350px;
+    @include media-mobile {
+      padding: 0px;
+      width: 94vw;
+    }
 }
 
 .highpoint-aside__title {
@@ -199,4 +263,7 @@
     width: 100%;
     height: 22vh;
     border-radius: 20px;
+    @include media-tablet {
+      height: 25vh;
+    }
 }

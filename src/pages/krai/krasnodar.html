@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>   
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>     
 
     <main>
       <section class="banner-section banner-krasnodar">
@@ -90,18 +96,18 @@
               Высшая точка Краснодарского края находится на юге региона. Вершина расположена 
               в северной оконечности хребта Герцена, входящего в систему Главного Кавказского хребта.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/krai/krasnodar/map-krasnodar.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/krai/krasnodar/map-krasnodar.jpg" alt="Карта Краснодарского края">
             <p class="highpoint-article__content">
               Располагается в Мостовском районе. Ближайший населённый пункт посёлок Красная поляна, Сочинский территориальный 
               округ, Краснодарский край. 
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/krai/krasnodar/map-point-krasnodar.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/krai/krasnodar/map-point-krasnodar.png" alt="Местонахождение высшей точки Краснодарского края">
             <p class="highpoint-article__content">
               На северных склонах горы расположен один из самых больших в Краснодарском крае ледников общей площадью около 
               2500 квадратных метров, спускающийся по крутым скальным склонам тремя узкими языками. Гора Цахвоа — одна из 
               самых красивых вершин на Кавказе. Пользуется популярностью у туристов и альпинистов.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/adigea/point-adigea.png" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/adigea/point-adigea.png" alt="Высшая точка Краснодарского края">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -117,7 +123,7 @@
               Биосферного заповедника - горой Чугуш, нужно осуществить заброску. От Красной Поляны доезжают до кордона Пслух. 
               Там пересаживаются на внедорожники и доезжают до лагеря Аишха 2, который располагается перед перевалом Аишха.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/krai/krasnodar/route-zabroska-krasnodar.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/krai/krasnodar/route-zabroska-krasnodar.png" alt="Карта маршрута (заброска)">
             <p class="highpoint-article__content">
               Протяжённость маршрута - больше 20км в одну сторону, поэтому на маршруте предполагается как минимум одна ночёвка, 
               возможно даже две. Первым делом проходится перевал Аишха, затем тропа спускается к реке Малая Лаба. Продвигаясь 
@@ -125,9 +131,9 @@
               вдоль реки Безымянка двигаются к приюту Цахвоа. Там можно переночевать, а можно сразу отправиться на восхождение.
               Возвращаются назад тем же маршрутом.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/krai/krasnodar/route-hike-krasnodar.png" alt="">
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/krai/krasnodar/route-hike-krasnodar.png" alt="Карта маршрута (пешая часть)">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
             <p class="highpoint-article__content">
               Существует довольно много разных сайтов (компании и частники), которые предлагают свои программы по 
@@ -187,5 +193,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

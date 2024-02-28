@@ -1,5 +1,8 @@
 .about-top {
     display: flex;
+    @include media-mini-tablet {
+      flex-direction: column;
+    }
 }
 
 .about-photo {
@@ -9,16 +12,39 @@
     background-repeat: no-repeat;
     min-width: 550px;
     height: 600px;
-    margin: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    @include media-laptop {
+        min-width: 450px;
+        height: 500px;
+    }
+    @include media-tablet {
+        min-width: 350px;
+        height: 400px;
+    }
+    @include media-mini-tablet {
+        min-width: 350px;
+        height: 450px;
+    }
+    @include media-mobile {
+        min-width: 300px;
+        height: 350px;
+    }
 }
 
 .about-info {
     margin: 20px;
+    @include media-mini-tablet {
+        margin: 20px 0px 0px;
+      }
 }
 
 .about-title {
     padding: 0px 10px 10px;
     color: rgb(5, 110, 171);
+    @include media-mini-tablet {
+        text-align: center;
+    }
 }
 
 .about-content {

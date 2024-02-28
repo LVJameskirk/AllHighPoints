@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,16 +26,14 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="#russia-section">Поиск</a></li>
-          <li class="nav__item"><a class="nav__link" href="#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav> 
+      </nav>
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>
     
     <main>
@@ -44,740 +48,763 @@
 
         <h2 class="header-table">Общий зачёт</h2>
 
-        <table class="table">
-          <thead>
-            <tr>
-              <th>№</th>
-              <th class="table-fio">ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th title="Центральный Федеральный Округ"><a href="#central-FO">ЦФО</a></th>
-              <th title="Северо-Западный Федеральный Округ"><a href="#north-west-FO">СЗФО</a></th>
-              <th title="Южный Федеральный Округ"><a href="#south-FO">ЮФО</a></th>
-              <th title="Северо-Кавказский Федеральный Округ"><a href="#north-caucasus-FO">СКФО</a></th>
-              <th title="Приволжский Федеральный Округ"><a href="#volga-FO">ПФО</a></th>
-              <th title="Уральский Федеральный Округ"><a href="#ural-FO">УрФО</a></th>
-              <th title="Сибирский Федеральный Округ"><a href="#siberian-FO">СФО</a></th>
-              <th title="Дальневосточный Федеральный Округ"><a href="#far-eastern-FO">ДФО/ДВФО</a></th>
-              <th>Общее</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td>17/18</td>
-              <td>0/11</td>
-              <td>3/6</td>
-              <td>1/7</td>
-              <td>11/14</td>
-              <td>3/6</td>
-              <td>2/10</td>
-              <td>0/11</td>
-              <td><b>37/83</b></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td>13/18</td>
-              <td>2/11</td>
-              <td>4/6</td>
-              <td>2/7</td>
-              <td>10/14</td>
-              <td>1/6</td>
-              <td>0/10</td>
-              <td>0/11</td>
-              <td><b>32/83</b></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td>13/18</td>
-              <td>2/11</td>
-              <td>4/6</td>
-              <td>2/7</td>
-              <td>10/14</td>
-              <td>1/6</td>
-              <td>0/10</td>
-              <td>0/11</td>
-              <td><b>32/83</b></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Андрей (OM68)</td>
-              <td>Костомукша</td>
-              <td>17/18</td>
-              <td>4/11</td>
-              <td>0/6</td>
-              <td>0/7</td>
-              <td>0/14</td>
-              <td>0/6</td>
-              <td>0/10</td>
-              <td>0/11</td>
-              <td><b>21/83</b></td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Лалетин Владимир</td>
-              <td>Все высшие точки (Красноярск)</td>
-              <td>0/18</td>
-              <td>0/11</td>
-              <td>0/6</td>
-              <td>0/7</td>
-              <td>5/14</td>
-              <td>3/6</td>
-              <td>2/10</td>
-              <td>0/11</td>
-              <td><b>10/83</b></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <thead>
+              <tr>
+                <th>№</th>
+                <th class="table-fio">ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th title="Центральный Федеральный Округ"><a href="#central-FO">ЦФО</a></th>
+                <th title="Северо-Западный Федеральный Округ"><a href="#north-west-FO">СЗФО</a></th>
+                <th title="Южный Федеральный Округ"><a href="#south-FO">ЮФО</a></th>
+                <th title="Северо-Кавказский Федеральный Округ"><a href="#north-caucasus-FO">СКФО</a></th>
+                <th title="Приволжский Федеральный Округ"><a href="#volga-FO">ПФО</a></th>
+                <th title="Уральский Федеральный Округ"><a href="#ural-FO">УрФО</a></th>
+                <th title="Сибирский Федеральный Округ"><a href="#siberian-FO">СФО</a></th>
+                <th title="Дальневосточный Федеральный Округ"><a href="#far-eastern-FO">ДФО/ДВФО</a></th>
+                <th>Общее</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td>17/18</td>
+                <td>0/11</td>
+                <td>3/6</td>
+                <td>1/7</td>
+                <td>11/14</td>
+                <td>3/6</td>
+                <td>2/10</td>
+                <td>0/11</td>
+                <td><b>37/83</b></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td>13/18</td>
+                <td>2/11</td>
+                <td>4/6</td>
+                <td>2/7</td>
+                <td>10/14</td>
+                <td>1/6</td>
+                <td>0/10</td>
+                <td>0/11</td>
+                <td><b>32/83</b></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td>13/18</td>
+                <td>2/11</td>
+                <td>4/6</td>
+                <td>2/7</td>
+                <td>10/14</td>
+                <td>1/6</td>
+                <td>0/10</td>
+                <td>0/11</td>
+                <td><b>32/83</b></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Андрей (OM68)</td>
+                <td>Костомукша</td>
+                <td>17/18</td>
+                <td>4/11</td>
+                <td>0/6</td>
+                <td>0/7</td>
+                <td>0/14</td>
+                <td>0/6</td>
+                <td>0/10</td>
+                <td>0/11</td>
+                <td><b>21/83</b></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Лалетин Владимир</td>
+                <td>Все высшие точки (Красноярск)</td>
+                <td>0/18</td>
+                <td>0/11</td>
+                <td>0/6</td>
+                <td>0/7</td>
+                <td>5/14</td>
+                <td>3/6</td>
+                <td>2/10</td>
+                <td>0/11</td>
+                <td><b>10/83</b></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h2 class="header-table">Зачёт по регионам*</h2>
 
         <h3 class="header-FO-table" id="central-FO">Центральный федеральный округ (ЦФО)</h3>
 
-        <table class="table">
-          <caption>ЦФО. Часть 1</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th class="table-fio">ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/regions/belgorod.html">Белгородская область</a></th>
-              <th><a href="/src/pages/regions/bryansk.html">Брянская область</a></th>
-              <th><a href="/src/pages/regions/vladimir.html">Владимирская область</a></th>
-              <th><a href="/src/pages/regions/voronezh.html">Воронежская область</a></th>
-              <th><a href="/src/pages/regions/ivanovo.html">Ивановская область</a></th>
-              <th><a href="/src/pages/regions/kaluga.html">Калужская область</a></th>
-              <th><a href="/src/pages/regions/kostroma.html">Костромская область</a></th>
-              <th><a href="/src/pages/regions/kursk.html">Курская область</a></th>
-              <th><a href="/src/pages/regions/lipetsk.html">Липецкая область</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Андрей (OM68)</td>
-              <td>Костомукша</td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td class="point-done"><a href="">24.07.2021</a></td>
-              <td class="point-done"><a href="">27.03.2021</a></td>
-              <td class="point-done"><a href="">23.08.2022</a></td>
-              <td class="point-done"><a href="">21.04.2022</a></td>
-              <td class="point-done"><a href="">21.08.2020</a></td>
-              <td class="point-done"><a href="">05.09.2020</a></td>
-              <td class="point-done"><a href="">22.05.2021</a></td>
-              <td class="point-done"><a href="">25.07.2021</a></td>
-              <td class="point-done"><a href="">31.01.2021</a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>ЦФО. Часть 1</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th class="table-fio">ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/regions/belgorod.html">Белгородская область</a></th>
+                <th><a href="/src/pages/regions/bryansk.html">Брянская область</a></th>
+                <th><a href="/src/pages/regions/vladimir.html">Владимирская область</a></th>
+                <th><a href="/src/pages/regions/voronezh.html">Воронежская область</a></th>
+                <th><a href="/src/pages/regions/ivanovo.html">Ивановская область</a></th>
+                <th><a href="/src/pages/regions/kaluga.html">Калужская область</a></th>
+                <th><a href="/src/pages/regions/kostroma.html">Костромская область</a></th>
+                <th><a href="/src/pages/regions/kursk.html">Курская область</a></th>
+                <th><a href="/src/pages/regions/lipetsk.html">Липецкая область</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Андрей (OM68)</td>
+                <td>Костомукша</td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td class="point-done"><a href="">24.07.2021</a></td>
+                <td class="point-done"><a href="">27.03.2021</a></td>
+                <td class="point-done"><a href="">23.08.2022</a></td>
+                <td class="point-done"><a href="">21.04.2022</a></td>
+                <td class="point-done"><a href="">21.08.2020</a></td>
+                <td class="point-done"><a href="">05.09.2020</a></td>
+                <td class="point-done"><a href="">22.05.2021</a></td>
+                <td class="point-done"><a href="">25.07.2021</a></td>
+                <td class="point-done"><a href="">31.01.2021</a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table class="table">
-          <caption>ЦФО. Часть 2</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th class="table-fio">ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/regions/moscow_oblast.html">Московская область</a></th>
-              <th><a href="/src/pages/regions/oryol.html">Орловская область</a></th>
-              <th><a href="/src/pages/regions/ryazan.html">Рязанская область</a></th>
-              <th><a href="/src/pages/regions/smolensk.html">Смоленская область</a></th>
-              <th><a href="/src/pages/regions/tambov.html">Тамбовская область</a></th>
-              <th><a href="/src/pages/regions/tver.html">Тверская область</a></th>
-              <th><a href="/src/pages/regions/tula.html">Тульская область</a></th>
-              <th><a href="/src/pages/regions/yaroslavl.html">Ярославская область</a></th>
-              <th><a href="/src/pages/federal_cities/moscow.html">Город Москва</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Андрей (OM68)</td>
-              <td>Костомукша</td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td class="point-done"><a href="">04.12.2020</a></td>
-              <td class="point-done"><a href="">31.01.2021</a></td>
-              <td class="point-done"><a href="">16.08.2020</a></td>
-              <td class="point-done"><a href="">06.11.2020</a></td>
-              <td class="point-done"><a href="">10.11.2021</a></td>
-              <td></td>
-              <td class="point-done"><a href="">25.06.2021</a></td>
-              <td class="point-done"><a href="">07.08.2020</a></td>
-              <td class="point-done"><a href="">04.12.2020</a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>ЦФО. Часть 2</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th class="table-fio">ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/regions/moscow_oblast.html">Московская область</a></th>
+                <th><a href="/src/pages/regions/oryol.html">Орловская область</a></th>
+                <th><a href="/src/pages/regions/ryazan.html">Рязанская область</a></th>
+                <th><a href="/src/pages/regions/smolensk.html">Смоленская область</a></th>
+                <th><a href="/src/pages/regions/tambov.html">Тамбовская область</a></th>
+                <th><a href="/src/pages/regions/tver.html">Тверская область</a></th>
+                <th><a href="/src/pages/regions/tula.html">Тульская область</a></th>
+                <th><a href="/src/pages/regions/yaroslavl.html">Ярославская область</a></th>
+                <th><a href="/src/pages/federal_cities/moscow.html">Город Москва</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Андрей (OM68)</td>
+                <td>Костомукша</td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td class="point-done"><a href="">04.12.2020</a></td>
+                <td class="point-done"><a href="">31.01.2021</a></td>
+                <td class="point-done"><a href="">16.08.2020</a></td>
+                <td class="point-done"><a href="">06.11.2020</a></td>
+                <td class="point-done"><a href="">10.11.2021</a></td>
+                <td></td>
+                <td class="point-done"><a href="">25.06.2021</a></td>
+                <td class="point-done"><a href="">07.08.2020</a></td>
+                <td class="point-done"><a href="">04.12.2020</a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h3 class="header-FO-table" id="north-west-FO">Северо-Западный Федеральный округ (СЗФО)</h3>
 
-        <table class="table">
-          <caption>СЗФО</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/republics/karelia.html">Респубика Карелия</a></th>
-              <th><a href="/src/pages/republics/komi.html">Республика Коми</a></th>
-              <th><a href="/src/pages/regions/arkhangelsk.html">Архангельская область</a></th>
-              <th><a href="/src/pages/regions/vologda.html">Вологодская область</a></th>
-              <th><a href="/src/pages/regions/kaliningrad.html">Калининградская область</a></th>
-              <th><a href="/src/pages/regions/leningrad.html">Ленинградская область</a></th>
-              <th><a href="/src/pages/regions/murmansk.html">Мурманская область</a></th>
-              <th><a href="/src/pages/regions/novgorod.html">Новгородская область</a></th>
-              <th><a href="/src/pages/regions/pskov.html">Псковская область</a></th>
-              <th><a href="/src/pages/federal_cities/saint_petersburg.html">Город Санкт-Петербург</a></th>
-              <th><a href="/src/pages/autonomous_districts/nenets.html">Ненецкий АО</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Андрей (OM68)</td>
-              <td>Костомукша</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>СЗФО</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/republics/karelia.html">Респубика Карелия</a></th>
+                <th><a href="/src/pages/republics/komi.html">Республика Коми</a></th>
+                <th><a href="/src/pages/regions/arkhangelsk.html">Архангельская область</a></th>
+                <th><a href="/src/pages/regions/vologda.html">Вологодская область</a></th>
+                <th><a href="/src/pages/regions/kaliningrad.html">Калининградская область</a></th>
+                <th><a href="/src/pages/regions/leningrad.html">Ленинградская область</a></th>
+                <th><a href="/src/pages/regions/murmansk.html">Мурманская область</a></th>
+                <th><a href="/src/pages/regions/novgorod.html">Новгородская область</a></th>
+                <th><a href="/src/pages/regions/pskov.html">Псковская область</a></th>
+                <th><a href="/src/pages/federal_cities/saint_petersburg.html">Город Санкт-Петербург</a></th>
+                <th><a href="/src/pages/autonomous_districts/nenets.html">Ненецкий АО</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Андрей (OM68)</td>
+                <td>Костомукша</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h3 class="header-FO-table" id="south-FO">Южный Федеральный округ (ЮФО)</h3>
 
-        <table class="table">
-          <caption>ЮФО</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/republics/adigea.html">Респубика Адыгея</a></th>
-              <th><a href="/src/pages/republics/kalmykia.html">Республика Калмыкия</a></th>
-              <th><a href="/src/pages/krai/krasnodar.html">Краснодарский край</a></th>
-              <th><a href="/src/pages/regions/astrakhan.html">Астраханская область</a></th>
-              <th><a href="/src/pages/regions/volgograd.html">Волгоградская область</a></th>
-              <th><a href="/src/pages/regions/rostov.html">Ростовская область</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">27.04.2022</a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">24.04.2022</a></td>
-              <td class="point-done"><a href="">23.04.2022</a></td>
-              <td><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>ЮФО</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/republics/adigea.html">Респубика Адыгея</a></th>
+                <th><a href="/src/pages/republics/kalmykia.html">Республика Калмыкия</a></th>
+                <th><a href="/src/pages/krai/krasnodar.html">Краснодарский край</a></th>
+                <th><a href="/src/pages/regions/astrakhan.html">Астраханская область</a></th>
+                <th><a href="/src/pages/regions/volgograd.html">Волгоградская область</a></th>
+                <th><a href="/src/pages/regions/rostov.html">Ростовская область</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">27.04.2022</a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">24.04.2022</a></td>
+                <td class="point-done"><a href="">23.04.2022</a></td>
+                <td><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h3 class="header-FO-table" id="north-caucasus-FO">Северо-Кавказский Федеральный округ (СКФО)</h3>
 
-        <table class="table">
-          <caption>СКФО</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/republics/dagestan.html">Респубика Дагестан</a></th>
-              <th><a href="/src/pages/republics/ingushetia.html">Республика Ингушетия</a></th>
-              <th><a href="/src/pages/republics/kabardino-balkaria.html">Республика Кабардино-Балкария</a></th>
-              <th><a href="/src/pages/republics/karachay-cherkessia.html">Республика Карачаево-Черкессия</a></th>
-              <th><a href="/src/pages/republics/severnya_ossetia.html">Республика Северная Осетия - Алания</a></th>
-              <th><a href="/src/pages/republics/chechen_republic.html">Чеченская ресбулика</a></th>
-              <th><a href="/src/pages/krai/stavropol.html">Ставропольский край</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">28.04.2022</a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>СКФО</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/republics/dagestan.html">Респубика Дагестан</a></th>
+                <th><a href="/src/pages/republics/ingushetia.html">Республика Ингушетия</a></th>
+                <th><a href="/src/pages/republics/kabardino-balkaria.html">Республика Кабардино-Балкария</a></th>
+                <th><a href="/src/pages/republics/karachay-cherkessia.html">Республика Карачаево-Черкессия</a></th>
+                <th><a href="/src/pages/republics/severnya_ossetia.html">Республика Северная Осетия - Алания</a></th>
+                <th><a href="/src/pages/republics/chechen_republic.html">Чеченская ресбулика</a></th>
+                <th><a href="/src/pages/krai/stavropol.html">Ставропольский край</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">28.04.2022</a></td>
+              </tr>
+            </tbody>
+          </table>  
+        </div>
 
         <h3 class="header-FO-table" id="volga-FO">Приволжский Федеральный округ (ПФО)</h3>
 
-        <table class="table">
-          <caption>ПФО. Часть 1</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/republics/bashkortostan.html">Респубика Башкортостан</a></th>
-              <th><a href="/src/pages/republics/mari_el.html">Республика Марий Эл</a></th>
-              <th><a href="/src/pages/republics/mordovia.html">Республика Мордовия</a></th>
-              <th><a href="/src/pages/republics/tatarstan.html">Республика Татарстан</a></th>
-              <th><a href="/src/pages/republics/udmurtia.html">Удмуртская Республика</a></th>
-              <th><a href="/src/pages/republics/chuvashia.html">Чувашская ресбулика</a></th>
-              <th><a href="/src/pages/krai/perm.html">Пермский край</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">29.06.2023</a></td>
-              <td class="point-done"><a href="">17.09.2022</a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">01.07.2023</a></td>
-              <td class="point-done"><a href="">18.09.2022</a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Лалетин Владимир</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">17.09.2022</a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">18.09.2022</a></td>
-              <td><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>ПФО. Часть 1</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/republics/bashkortostan.html">Респубика Башкортостан</a></th>
+                <th><a href="/src/pages/republics/mari_el.html">Республика Марий Эл</a></th>
+                <th><a href="/src/pages/republics/mordovia.html">Республика Мордовия</a></th>
+                <th><a href="/src/pages/republics/tatarstan.html">Республика Татарстан</a></th>
+                <th><a href="/src/pages/republics/udmurtia.html">Удмуртская Республика</a></th>
+                <th><a href="/src/pages/republics/chuvashia.html">Чувашская ресбулика</a></th>
+                <th><a href="/src/pages/krai/perm.html">Пермский край</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">29.06.2023</a></td>
+                <td class="point-done"><a href="">17.09.2022</a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">01.07.2023</a></td>
+                <td class="point-done"><a href="">18.09.2022</a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Лалетин Владимир</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">17.09.2022</a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">18.09.2022</a></td>
+                <td><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table class="table">
-          <caption>ПФО. Часть 2</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/regions/kirov.html">Кировская область</a></th>
-              <th><a href="/src/pages/regions/nizhny_novgorod.html">Нижегородская область</a></th>
-              <th><a href="/src/pages/regions/orenburg.html">Оренбургская область</a></th>
-              <th><a href="/src/pages/regions/penza.html">Пензенская область</a></th>
-              <th><a href="/src/pages/regions/samara.html">Самарская область</a></th>
-              <th><a href="/src/pages/regions/saratov.html">Саратовская область</a></th>
-              <th><a href="/src/pages/regions/ulyanovsk.html">Ульяновская область</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td class="point-done"><a href="">01.07.2023</a></td>
-              <td class="point-done"><a href="">17.09.2022</a></td>
-              <td class="point-done"><a href="">22.09.2022</a></td>
-              <td class="point-done"><a href="">26.02.2022</a></td>
-              <td class="point-done"><a href="">19.09.2022</a></td>
-              <td class="point-done"><a href="">27.02.2022</a></td>
-              <td class="point-done"><a href="">22.04.2022</a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-              <td class="point-done"><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Лалетин Владимир</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">17.09.2022</a></td>
-              <td class="point-done"><a href="">22.09.2022</a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">19.09.2022</a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>ПФО. Часть 2</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/regions/kirov.html">Кировская область</a></th>
+                <th><a href="/src/pages/regions/nizhny_novgorod.html">Нижегородская область</a></th>
+                <th><a href="/src/pages/regions/orenburg.html">Оренбургская область</a></th>
+                <th><a href="/src/pages/regions/penza.html">Пензенская область</a></th>
+                <th><a href="/src/pages/regions/samara.html">Самарская область</a></th>
+                <th><a href="/src/pages/regions/saratov.html">Саратовская область</a></th>
+                <th><a href="/src/pages/regions/ulyanovsk.html">Ульяновская область</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td class="point-done"><a href="">01.07.2023</a></td>
+                <td class="point-done"><a href="">17.09.2022</a></td>
+                <td class="point-done"><a href="">22.09.2022</a></td>
+                <td class="point-done"><a href="">26.02.2022</a></td>
+                <td class="point-done"><a href="">19.09.2022</a></td>
+                <td class="point-done"><a href="">27.02.2022</a></td>
+                <td class="point-done"><a href="">22.04.2022</a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+                <td class="point-done"><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Лалетин Владимир</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">17.09.2022</a></td>
+                <td class="point-done"><a href="">22.09.2022</a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">19.09.2022</a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h3 class="header-FO-table" id="ural-FO">Уральский Федеральный округ (УрФО)</h3>
 
-        <table class="table">
-          <caption>УрФО</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/regions/kurgan.html">Курганская область</a></th>
-              <th><a href="/src/pages/regions/sverdlovsk.html">Свердловская область</a></th>
-              <th><a href="/src/pages/regions/tyumen.html">Тюменская область</a></th>
-              <th><a href="/src/pages/regions/chelyabinsk.html">Челябинская область</a></th>
-              <th><a href="/src/pages/autonomous_districts/hanti_mansyskiy(yugra).html">Ханты-Мансийский АО - Югра</a></th>
-              <th><a href="/src/pages/autonomous_districts/yamal-nenets.html">Ямало-Ненецкий АО</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">04.07.2023</a></td>
-              <td class="point-done"><a href="">06.07.2023</a></td>
-              <td class="point-done"><a href="">24.09.2022</a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Лалетин Владимир</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">04.07.2023</a></td>
-              <td class="point-done"><a href="">06.07.2023</a></td>
-              <td class="point-done"><a href="">24.09.2022</a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Краснов Михаил</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Краснова Екатерина</td>
-              <td>Earthwatching (Волгоград)</td>
-              <td class="point-done"><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>УрФО</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/regions/kurgan.html">Курганская область</a></th>
+                <th><a href="/src/pages/regions/sverdlovsk.html">Свердловская область</a></th>
+                <th><a href="/src/pages/regions/tyumen.html">Тюменская область</a></th>
+                <th><a href="/src/pages/regions/chelyabinsk.html">Челябинская область</a></th>
+                <th><a href="/src/pages/autonomous_districts/hanti_mansyskiy(yugra).html">Ханты-Мансийский АО - Югра</a></th>
+                <th><a href="/src/pages/autonomous_districts/yamal-nenets.html">Ямало-Ненецкий АО</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">04.07.2023</a></td>
+                <td class="point-done"><a href="">06.07.2023</a></td>
+                <td class="point-done"><a href="">24.09.2022</a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Лалетин Владимир</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">04.07.2023</a></td>
+                <td class="point-done"><a href="">06.07.2023</a></td>
+                <td class="point-done"><a href="">24.09.2022</a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Краснов Михаил</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Краснова Екатерина</td>
+                <td>Earthwatching (Волгоград)</td>
+                <td class="point-done"><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h3 class="header-FO-table" id="siberian-FO">Сибирский Федеральный округ (СФО)</h3>
 
-        <table class="table">
-          <caption>СФО</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/republics/altai_republic.html">Респубика Алтай</a></th>
-              <th><a href="/src/pages/republics/tuva.html">Респубика Тыва</a></th>
-              <th><a href="/src/pages/republics/hakassia.html">Республика Хакассия</a></th>
-              <th><a href="/src/pages/krai/altai_krai.html">Алтайский край</a></th>
-              <th><a href="/src/pages/krai/krasnoyarsk.html">Красноярский край</a></th>
-              <th><a href="/src/pages/regions/irkutsk.html">Иркутская область</a></th>
-              <th><a href="/src/pages/regions/kemerovo.html">Кемеровская область - Кузбасс</a></th>
-              <th><a href="/src/pages/regions/novosibirsk.html">Новосибирская область</a></th>
-              <th><a href="/src/pages/regions/omsk.html">Омская область</a></th>
-              <th><a href="/src/pages/regions/tomsk.html">Томская область</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">07.07.2023</a></td>
-              <td class="point-done"><a href="">10.07.2023</a></td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Лалетин Владимир</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td class="point-done"><a href="">07.07.2023</a></td>
-              <td class="point-done"><a href="">10.07.2023</a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>СФО</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/republics/altai_republic.html">Респубика Алтай</a></th>
+                <th><a href="/src/pages/republics/tuva.html">Респубика Тыва</a></th>
+                <th><a href="/src/pages/republics/hakassia.html">Республика Хакассия</a></th>
+                <th><a href="/src/pages/krai/altai_krai.html">Алтайский край</a></th>
+                <th><a href="/src/pages/krai/krasnoyarsk.html">Красноярский край</a></th>
+                <th><a href="/src/pages/regions/irkutsk.html">Иркутская область</a></th>
+                <th><a href="/src/pages/regions/kemerovo.html">Кемеровская область - Кузбасс</a></th>
+                <th><a href="/src/pages/regions/novosibirsk.html">Новосибирская область</a></th>
+                <th><a href="/src/pages/regions/omsk.html">Омская область</a></th>
+                <th><a href="/src/pages/regions/tomsk.html">Томская область</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">07.07.2023</a></td>
+                <td class="point-done"><a href="">10.07.2023</a></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Лалетин Владимир</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td class="point-done"><a href="">07.07.2023</a></td>
+                <td class="point-done"><a href="">10.07.2023</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <h3 class="header-FO-table" id="far-eastern-FO">Дальневосточный Федеральный округ (ДФО/ДВФО)</h3>
 
-        <table class="table">
-          <caption>ДФО/ДВФО</caption>
-          <thead>
-            <tr>
-              <th>№</th>
-              <th>ФИО</th>
-              <th>Турклуб (Город)</th>
-              <th><a href="/src/pages/republics/buryatia.html">Респубика Бурятия</a></th>
-              <th><a href="/src/pages/republics/sakha.html">Респубика Саха (Якутия)</a></th>
-              <th><a href="/src/pages/krai/zabaykalsky.html">Забайкальский край</a></th>
-              <th><a href="/src/pages/krai/kamchatka.html">Камчатский край</a></th>
-              <th><a href="/src/pages/krai/primorsky.html">Приморский край</a></th>
-              <th><a href="/src/pages/krai/habarovsk.html">Хабаровский край</a></th>
-              <th><a href="/src/pages/regions/amur.html">Амурская область</a></th>
-              <th><a href="/src/pages/regions/magadan.html">Магаданская область</a></th>
-              <th><a href="/src/pages/regions/sakhalin.html">Сахалинская область</a></th>
-              <th><a href="/src/pages/autonomous_regions/jewish.html">Еврейская автономная область</a></th>
-              <th><a href="/src/pages/autonomous_districts/chukotka.html">Чукотский автономный округ</a></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>Лалетин Виталий</td>
-              <td>Все высшие точки (Москва)</td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-              <td><a href=""></a></td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="table-container">
+          <table class="table">
+            <caption>ДФО/ДВФО</caption>
+            <thead>
+              <tr>
+                <th>№</th>
+                <th>ФИО</th>
+                <th>Турклуб (Город)</th>
+                <th><a href="/src/pages/republics/buryatia.html">Респубика Бурятия</a></th>
+                <th><a href="/src/pages/republics/sakha.html">Респубика Саха (Якутия)</a></th>
+                <th><a href="/src/pages/krai/zabaykalsky.html">Забайкальский край</a></th>
+                <th><a href="/src/pages/krai/kamchatka.html">Камчатский край</a></th>
+                <th><a href="/src/pages/krai/primorsky.html">Приморский край</a></th>
+                <th><a href="/src/pages/krai/habarovsk.html">Хабаровский край</a></th>
+                <th><a href="/src/pages/regions/amur.html">Амурская область</a></th>
+                <th><a href="/src/pages/regions/magadan.html">Магаданская область</a></th>
+                <th><a href="/src/pages/regions/sakhalin.html">Сахалинская область</a></th>
+                <th><a href="/src/pages/autonomous_regions/jewish.html">Еврейская автономная область</a></th>
+                <th><a href="/src/pages/autonomous_districts/chukotka.html">Чукотский автономный округ</a></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Лалетин Виталий</td>
+                <td>Все высшие точки (Москва)</td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+                <td><a href=""></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <p class="participants-info">
           *Места в рейтинге участников, выполняющих проект, ранжируются по двум критериям — количеству вершин на которые 
@@ -807,5 +834,6 @@
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
   </div>
+  <script src="/src/index.js"></script>
 </body>
 </html>

@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,7 +33,7 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -90,17 +96,17 @@
               Высшая точка Рязанской области располагается на северо-западе региона. Как и в случае с подавляющим большинством
               высших точек регионов Центрального Федерального округа, вершина является частью Среднерусской возвышенности. 
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/ryazan/map-ryazan.jpg" alt="">      
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/ryazan/map-ryazan.jpg" alt="Карта Рязанской области">      
             <p class="highpoint-article__content">
               Нахоится на самой границе с Московской областью, в Рыбновском районе. Ближайшие населённые пункты: сёла 
               Филлипово и Алтухово.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/ryazan/map-point-ryazan.png" alt="">
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/regions/ryazan/map-point-ryazan.png" alt="Местонахождение высшей точки Рязанской области">
             <p class="highpoint-article__content">
               Вершина холма, как и его большая часть находится на территории Московской области, а вот южные склоны 
               располгаются уже на Рязанской земле. На холме есть как поля, так и небольшие подлески.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/ryazan/point-ryazan.jpg" alt="">
+            <img class="highpoint-article__map-image" id="pointImg" src="/src/img/highpoint-page/regions/ryazan/point-ryazan.jpg" alt="Высшая точка Рязанской области">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -110,16 +116,16 @@
               территории Московской области. Доехать до точки нам не удалось из за одного низинного места, где скопилось
               много грязи, итак уже порядочно облипившей колёса. Соваться мы туда не решились, и потому оставшиеся 2.5 
               километра преодолели пешком.
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/ryazan/route1-ryazan.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/regions/ryazan/route1-ryazan.png" alt="Карта маршрута через Авдеево">
             <p class="highpoint-article__content">
               Вторым маршрутом пришли Миша и Катя Красновы. Он короче, но пешая часть получилась даже чуть больше, чем наша 
               (3.5км). Маршрут начинается с территории Рязанской области, из села Филлипово.
               <a class="highpoint-page-link" href="https://nakarte.me/#m=13/54.62074/38.92490&l=O&nktl=Ocmhlx5cyLJvuUNNq69f1A" target="_blank">
                 Посмотреть маршрут nakarte.me</a>
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/ryazan/route2-ryazan.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg2" src="/src/img/highpoint-page/regions/ryazan/route2-ryazan.png" alt="Карта маршрута через Филлипово">
           </div>
             
           <div class="article-check" id="article-check">
@@ -152,9 +158,10 @@
           </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/da4rCxkkQiw?si=eyoKiJtMpvhVc7gr"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/v-2mQFHPK3Ro?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -180,5 +187,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>
 
     <main>
       <section class="banner-section banner-tambov">
@@ -90,17 +96,17 @@
               Высшая точка Тамбовской области располагается на Окско-Донской равнине, к юго-востоку от Тамбова. Территория 
               представляет собой лесостепи, на которых развито сельское хозяйство.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/tambov/map-tambov.jpg" alt="">      
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/tambov/map-tambov.jpg" alt="Карта Тамбовской области">      
             <p class="highpoint-article__content">
               Находится в Тамбовском районе. Ближайший населённый пункт - село Краснополье, вершина находится прямо в поле в 
               километре к югу от него.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/tambov/map-point-tambov.png" alt="">
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/regions/tambov/map-point-tambov.png" alt="Местонахождение высшей точки Тамбовской области">
             <p class="highpoint-article__content">
               Высшая точка представляет собой заросший кустарником холм, который находится прямо в поле, недалеко от дороги. 
               Немного грустно, что рядом с холмом местные устроили мусорку.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/tambov/point-tambov.jpg" alt="">
+            <img class="highpoint-article__map-image" id="pointImg" src="/src/img/highpoint-page/regions/tambov/point-tambov.jpg" alt="Высшая точка Тамбовской области">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -109,9 +115,9 @@
               разбитая, но асфальтовая дорога. Затем примерно километр нужно проехать по полевой дороге, которая впрочем 
               достаточно хорошая: без глубоких ям, и, учитывая что вокруг одни лишь поля, вода в лужах надолго не задерживается.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/tambov/route-tambov.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/regions/tambov/route-tambov.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
             
@@ -144,9 +150,10 @@
           </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/aG9sBy6PZwI?si=nunblEY-0Gn-VyST"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/vUa-jvqz2nTw?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -172,5 +179,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

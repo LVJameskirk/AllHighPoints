@@ -3,6 +3,7 @@ html {
   background-color: $color-background;
   color: $color-text;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -20,6 +21,7 @@ ol {
 a {
   text-decoration: none;
   color: $color-text;
+  transition: 0.3s ease-in-out;
 }
 
 a:hover {
@@ -43,6 +45,9 @@ p {
 h1,
 h2 {
   line-height: 150%;
+  @include media-mobile {
+    line-height: 125%;
+  }
 }
 
 .disable {

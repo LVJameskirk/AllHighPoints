@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,7 +33,7 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -91,17 +97,17 @@
               являющаяся частью смоленско-московской возвышенности. Ближайший населённый пункт - деревни Коровкино, 
               Мосальский район.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaluga/map-kaluga.jpg" alt="">      
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/kaluga/map-kaluga.jpg" alt="Карта Калужской области">      
             <p class="highpoint-article__content">
               К сожалению на карте выше точка 279 не указана, но она есть на старых генштабовских картах.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/kaluga/map-point-kaluga.png" alt="">
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/regions/kaluga/map-point-kaluga.png" alt="Местонахождение высшей точки Калужской области">
             <p class="highpoint-article__content">
               Высшая точка представляет собой лесной платообразный холм с небольшим подлеском, по которому идёт линия
               электропередачи. Вид хоть и не сногсшибательный, но всё таки имеется, так как высота относительно ближайшего
               поля выше метров на 10-20.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/kaluga/point-kaluga.png" alt="">
+            <img class="highpoint-article__map-image" id="pointImg" src="/src/img/highpoint-page/regions/kaluga/point-kaluga.png" alt="Высшая точка Калужской области">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -110,9 +116,9 @@
               Есть информация, что где-то в лесу есть памятная табличка, обозначающая вершину Калужской области. К сожалению мне 
               найти её не удалось, но может получится у вас.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/kaluga/route-kaluga.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/regions/kaluga/route-kaluga.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
             
@@ -146,9 +152,10 @@
           </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/B_z2sb2vfa0?si=Cfqrcrh3astFfZM1"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/vq6aGXNvVvnY?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -174,5 +181,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

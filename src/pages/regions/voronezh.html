@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,7 +33,7 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -90,18 +96,18 @@
               областью, в Нижнедевицком районе. Ближайший населённы пункт станция-посёлок Нижнедевицк. Главное не перепутайте с 
               другим Нижнедевицком, который находится южнее :)
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/voronezh/map-voronezh.jpg" alt="">      
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/voronezh/map-voronezh.jpg" alt="Карта Воронежской области">      
             <p class="highpoint-article__content">
               Это южная часть Среднерусской возвышенности, которая в этих местах уже становится ниже. Искомая точка представляет
               собой платообразный холм длинною свыше 2 км и пересекающий границу с Круской областью. Поэтому находясь на вершине 
               вы не заметите особого перепада высот.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/voronezh/map-point-voronezh.png" alt="">
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/regions/voronezh/map-point-voronezh.png" alt="Местонахождение высшей точки Воронежской области">
             <p class="highpoint-article__content">
               На территории Воронежской области расположено 30% чернозёмных почв нашей страны. И её вершина находится прямо 
               на одном из таких плодородных полей.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/voronezh/field-voronezh.jpg" alt="">
+            <img class="highpoint-article__map-image" id="pointImg" src="/src/img/highpoint-page/regions/voronezh/field-voronezh.jpg" alt="Высшая точка Воронежской области">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -110,9 +116,9 @@
               полевая, но без глубоких ям и рытвин. Я правда был весной, поэтому не смог проехать из-за сильной грязи. Так или 
               иначе, дойти до вершины не составит труда. От окраины посёлка маршрут будет всего 2 километра. 
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/voronezh/route-voronezh.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/regions/voronezh/route-voronezh.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
           
@@ -128,7 +134,7 @@
             
             <p class="highpoint-article__content">
               Наибольшая высота, а именно - 266.67, была зафикисирована чуть севернее от высшей точки, указанной в маршруте. 
-              Видео посещения доступно в <a class="highpoint-page-link" href="#aside__video">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__video">Видео посещения</a>
             </p>
             <img class="altimeter-img" src="/src/img/highpoint-page/regions/voronezh/altimeter-voronezh.png" alt="">
           </div>
@@ -151,9 +157,10 @@
           </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/O2aNsoRgcvk?si=KAwVjR58ZdjL-uoH"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/vNEWTHywVPHE?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -179,5 +186,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

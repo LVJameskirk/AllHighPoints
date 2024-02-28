@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,7 +33,7 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>   
 
     <main>
@@ -90,17 +96,17 @@
               Высшая точка Псковской области, гора Липницкая находится в южной части региона. Является частью Бежаницкой 
               возвышенности.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/pskov/map-pskov.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/pskov/map-pskov.jpg" alt="Карта Псковской области">
             <p class="highpoint-article__content">
               Гора Липницкая расположена в Новоржевском районе. ближайший населённый пункт - деревня Наумково.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/pskov/map-point-pskov.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/regions/pskov/map-point-pskov.png" alt="Местонахождение высшей точки Псковской области">
             <p class="highpoint-article__content">
               Вершина и склоны полностью заросли густым лесом, поэтому пробраться туда очень непросто. На горе стоит старая, 
               практически полностью разрушившаяся геодезическая тренога. В 1,5 км к юго-востоку находится более известная 
               вершина Бежаницкой возвышенности — гора Лобно. Она ниже всего на метр и куда более благоустроена.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/pskov/point-pskov.png" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/regions/pskov/point-pskov.png" alt="Высшая точка Псковской области">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -109,16 +115,16 @@
               Добраться до деревни Наумково не должно составить проблем, дорога там неплохая. А вот проехать дальше может быть 
               затруднительно. Тем не менее дорога там есть и по ней можно пройти часть пути. Можно попытатья дойти до деревни 
               Шнитово и уже от неё двинуться напрямик к точке. Так, например, сделал Андрей (OM68), можете посмотреть об этом
-              видео по ссылке в <a class="highpoint-page-link" href="#aside__video">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__video">видео по ссылке</a>
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/pskov/route-pskov.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/regions/pskov/route-pskov.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
               Я чуть изменил маршрут, основываясь на спутниковых картах. Обнаружив 2 лесополосы, я проложил часть маршрута по 
               ним. Если они там действительно есть, то можно используя их, выйти на поляну, от которой до вершины останется 
               всего 400 метров по густому лесу. 
             </p>
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
           
@@ -174,5 +180,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

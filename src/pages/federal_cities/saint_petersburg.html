@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -25,9 +31,9 @@
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>   
 
     <main>
@@ -90,17 +96,17 @@
               Высшая точка Санкт-Петербурга находится на юге города, в Красносельском районе. Ближайшие населённые пункты: 
               деревни Вариксолово и Пикколово.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/federal_cities/saint-petersburg/map-saint-petersburg.png" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/federal_cities/saint-petersburg/map-saint-petersburg.png" alt="Карта Санкт-Петербурга">
             <p class="highpoint-article__content">
               Вершина располагается на Дудергофских высотах. Группой холмов которые расположены на территории города 
               Санкт-Петербурга и Ленинградской области. 
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/federal_cities/saint-petersburg/map-point-sant-petersburg.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/federal_cities/saint-petersburg/map-point-sant-petersburg.png" alt="Местонахождение высшей точки Санкт-Петербурга">
             <p class="highpoint-article__content">
               Гора Ореховая представляет собой холм, покрытый густой растительностью. Холм полностью облагорожен, по всей 
               его территории проложены лесные тропинки и лыжные трассы, установлены скамейки и информационные стенды.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/federal_cities/saint-petersburg/point-saint-petersburg.jpg" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/federal_cities/saint-petersburg/point-saint-petersburg.jpg" alt="Высшая точка Санкт-Петербурга">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -111,9 +117,9 @@
               пройти эко-тропу полностью. В этом случае от платформы сразу идите в парк на Воронью гору, и уже пройдя через 
               неё переходите к Ореховой горе. По отзывам - там есть что посмотреть.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/federal_cities/saint-petersburg/route-saint-petersburg.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/federal_cities/saint-petersburg/route-saint-petersburg.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
           
@@ -169,5 +175,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

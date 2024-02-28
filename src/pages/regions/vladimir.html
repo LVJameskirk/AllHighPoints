@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>   
 
     <main>
       <section class="banner-section banner-vladimir">
@@ -90,18 +96,18 @@
               от границы с Московской областью. В Александровском районе, севернее села Искра. Здесь располагается часть 
               Клинско-Дмитровской гряды, частью которой является вершина.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/vladimir/map-vladimir.jpg" alt="">      
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/vladimir/map-vladimir.jpg" alt="Карта Владимирской области">      
             <p class="highpoint-article__content">
               Рельеф в этой части области холмисто-грядовый. Леса хвойно-широколиственные, смешанные. Площадь лесов достигает
               свыше 50%. Собственно в лесу же и находится высшая точка области. На её вершине установлен триангуляционный пункт,
               а на ближайшем дереве прибита памятная табличка.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/vladimir/point-vladimir.jpg" alt="">
+            <img class="highpoint-article__map-image" id="pointImg" src="/src/img/highpoint-page/regions/vladimir/point-vladimir.jpg" alt="Высшая точка Владимирской области">
             <p class="highpoint-article__content">
               Относительно высоты 271 метр есть сомнения. Согласно картам GGC250 в 500 метрах севернее триангуляционного пункта
               есть точка 274, возможно именно эта высота является наивысшей. Требуется проверка.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/vladimir/point274-vladimir.png" alt="">
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/regions/vladimir/point274-vladimir.png" alt="Местонахождение высшей точки Владимирской области">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -112,9 +118,9 @@
               Маршрут начинается от деревни Ратьково и идёт на север. Самые примечательные места, которые вы встретите на пути:
               лесная просека и Урочище Кузнецово. От Урочища до точки останется пройти всего 1 километр.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/vladimir/route-vladimir.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/regions/vladimir/route-vladimir.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
           
@@ -131,8 +137,7 @@
             <p class="highpoint-article__content">
               Удивительно. Но недалеко от точки мне удалось зафиксировать высоту - 282.90 метра. Даже с учётом погрешности
               это всё равно сильно больше той высоты, которая указана на точке, более того измерения раз за разом повторялись. 
-              Возможно пора сюда съездть с геодезическим оборудованием и проверить высоты. Видео посещения доступно в 
-              <a class="highpoint-page-link" href="#aside__video">боковом меню</a>.
+              Возможно пора сюда съездть с геодезическим оборудованием и проверить высоты. <a class="highpoint-page-link" href="#aside__video">Видео посещения</a>
             </p>
             <img class="altimeter-img" src="/src/img/highpoint-page/regions/vladimir/altimeter-vladimir.PNG" alt="">
           </div>
@@ -155,9 +160,10 @@
           </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/xsRUfZPvP0c?si=PVfEHTPWTdKU1hDC"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/vKTQ3Hjwvqxs?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -183,5 +189,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+  
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

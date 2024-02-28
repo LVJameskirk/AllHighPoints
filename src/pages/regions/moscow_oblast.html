@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,7 +33,7 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -90,19 +96,19 @@
               Высшая точка Московской области находится на юго-востоке области, в Можайском районе. Является одной из 
               главных вершин всей Смоленско-Московской возвышенности.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/moscow-oblast/map-moscow-oblast.jpg" alt="">      
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/moscow-oblast/map-moscow-oblast.jpg" alt="Карта Московской области">      
             <p class="highpoint-article__content"> 
               Располагается севернее деревени Шапкино. В данном случае споров относительно наивысшей точки не 
               возникает. Замри-гора официально признана вершиной Московских земель.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/moscow-oblast/map-point-moscow-oblast.png" alt="">
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/regions/moscow-oblast/map-point-moscow-oblast.png" alt="Местонахождение высшей точки Московской области">
             <p class="highpoint-article__content"> 
               В 2017 году РГО был установлен булыжник и оборудована площадка для посещений вокруг него.
               Склоны Замри-горы не крутые и не отличаются большим перепадом в относительной высоте. Вершина его больше 
               смахивает на равнину, однако виды с неё открываются всё равно не плохие. В окрестном лесу находится исток 
               реки Москвы.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/moscow-oblast/point-moscow-oblast.JPG" alt="">
+            <img class="highpoint-article__map-image" id="pointImg" src="/src/img/highpoint-page/regions/moscow-oblast/point-moscow-oblast.JPG" alt="Высшая точка Московской области">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -110,7 +116,7 @@
               Точка расположена немного севернее деревни Шапкино. Пропустить её практически невозможно. Прямо на дороге будет 
               указатель, а всего в 20 метрах от неё сам булыжник.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/regions/moscow-oblast/route-moscow-oblast.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/regions/moscow-oblast/route-moscow-oblast.png" alt="Карта маршрута">
           </div>
           
           <div class="article-check" id="article-check">
@@ -143,9 +149,10 @@
           </div> -->
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/N550pb6Ij6o?si=DQjayfoxOatwrtQC"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/vZml3BDwcPBA?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -171,5 +178,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

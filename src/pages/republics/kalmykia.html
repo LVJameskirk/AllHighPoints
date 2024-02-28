@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>   
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>    
 
     <main>
       <section class="banner-section banner-kalmykia">
@@ -90,17 +96,17 @@
               Высшая точка республики Калмыкия находится на юге региона. Является частью хребта Чолун-Хамур, который 
               принадлежит Ергенинской возвышенности.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/map-kalmykia.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/kalmykia/map-kalmykia.jpg" alt="Карта республики Калмыкия">
             <p class="highpoint-article__content">
               Располагается в Ики-Бурульском районе. Ближайший населённый пункт к горе - посёлок Маныч.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/map-point-kalmykia.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/kalmykia/map-point-kalmykia.png" alt="Местонахождение высшей точки республики Калмыкия">
             <p class="highpoint-article__content">
               Для горы характерна холмистая местность и растительность естественных пастбищ. Сама точка находится прямо на 
               территории вышки связи. Пытаться проникнуть на которую без разрешения естественно
               не стоит, поэтому можно ограничиться пребыванием в непосредственной близости от неё.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/kalmykia.jpg" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/kalmykia/kalmykia.jpg" alt="Высшая точка республики Калмыкия">
             <p class="highpoint-article__content">
               Ну или можно взойти на небольшой холм рядом, который венчает старый триангуляционный пункт. Я, например, 
               именно так и поступил во время своего путешествия. С холма можно разглядеть Чограйское водохранилище, а в хорошую 
@@ -118,7 +124,7 @@
               <br>
               <a class="highpoint-page-link" href="#aside__routes">Посмотеть и скачать маршрут</a>
             </p>
-              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/kalmykia/route-kalmykia.png" alt="">
+              <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/republics/kalmykia/route-kalmykia.png" alt="Карта маршрута">
           </div>
           
           <div class="article-check" id="article-check">
@@ -130,12 +136,16 @@
               <span>Зафиксированная высота - </span><span><strong>217 метров</strong></span><br>
               <span>Координаты - </span><span><strong>N 45°38′18.48″ E 44°35′34.76″</strong></span><br>
             </div>
+            <p class="highpoint-article__content">
+              Данная высота была зафиксирована мной прямо у триангуляционного пункта, а не рядом с вышкой связи. 
+              Поэтому говорить о корректности проверки этой точки не приходится. 
+            </p>
             <img class="altimeter-img" src="/src/img/highpoint-page/republics/kalmykia/altimetr-kalmykia.jpg" alt="">
-            <p class="highpoint-article__content">Данная высота была зафиксирована мной прямо у триангуляционного пункта, а 
-              не рядом с вышкой связи. Поэтому говорить о корректности проверки этой точки не приходится. Тем не менее эти 
-              цифры совпадают с горизонталями 210 метров, на которых и стоит репер. А вот вокруг вышки связи как раз 
-              проходит 220-ая горизонталь, что свидетествует о высоте свыше этого значения.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kalmykia/altimetr-point.png" alt="">
+            <p class="highpoint-article__content">
+              Тем не менее эти цифры совпадают с горизонталями 210 метров, на которых и стоит репер. А вот вокруг вышки связи как раз 
+              проходит 220-ая горизонталь, что свидетествует о высоте свыше этого значения.
+            </p>
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/republics/kalmykia/altimetr-point.png" alt="Триангулярный пункт">
           </div>
         </section>
         <aside class="highpoint-aside">
@@ -156,9 +166,10 @@
           </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/RL5TII2bolE?si=zNcD3mDRSd04mbLb"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            src="https://dzen.ru/embed/vDkny54jPcGo?from_block=partner&from=zen&mute=0&autoplay=0&tv=0" 
+            allow="autoplay; fullscreen; accelerometer; gyroscope; picture-in-picture; encrypted-media" 
+            frameborder="0" 
+            scrolling="no" 
             allowfullscreen>
           </iframe>
         </aside>
@@ -184,5 +195,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

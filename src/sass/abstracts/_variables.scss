@@ -1,12 +1,14 @@
 $color-background: white;
-$color-background-text: rgba(255, 255, 255, 0.7);
+$color-background-text: rgba(255, 255, 255, 0.8);
 
 $color-text: #403F3D;
 $color-text-buttons: #f1f1f1;
 
 $color-border: rgba(2%, 43%, 67%, 1);
 
-$content-width: 1440px;
-$tablet-tablet-width: 768px;
-$mobile-big-width: 430px;
+$desktop-width: 1440px;
+$laptop-width: 1200px;
+$tablet-width: 1024px;
+$tablet-mini-width: 820px;
+$mobile-width: 431px;
 $mobile-small-width: 375px;

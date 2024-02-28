@@ -18,10 +18,27 @@
   padding: 20px 20px 10px;
 }
 
+.table-container {
+  max-width: 100%; /* Максимальная ширина контейнера */
+  overflow-x: auto; /* Горизонтальный скролл при необходимости */
+}
+
 .table {
   width: 100%;
   border-collapse: collapse;
   border: 1px solid #ddd;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+    @include media-tablet {
+    border: 0px solid #c1c0c0;
+  }
+}
+
+.table th:nth-child(2), .table td:nth-child(2) {
+  position: sticky; /* Зафиксировать первый столбец */
+  left: 0; /* Позиция зафиксированного столбца */
+  background-color: #f1f1f1; /* Цвет фона для зафиксированного столбца */
+  z-index: 1; /* Слой отображения для зафиксированного столбца */
 }
 
 caption {
@@ -36,6 +53,9 @@ th {
   border: 1px solid #c1c0c0;
   padding: 5px;
   line-height: 120%;
+  @include media-tablet {
+    border: 0px solid #c1c0c0;
+  }
 }
 
 td {

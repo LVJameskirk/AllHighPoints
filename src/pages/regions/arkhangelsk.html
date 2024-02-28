@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header> 
 
     <main>
       <section class="banner-section banner-arkhangelsk">
@@ -91,17 +97,17 @@
               Высшая точка Архангельской области находится не на её материковой части, а на острове Северный, который является
               частью архипелага - Новая земля.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/map-arkhangelsk.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/arkhangelsk/map-arkhangelsk.jpg" alt="Карта Архангелськой области">
             <p class="highpoint-article__content">
               Ближайший населённый пункт к горе находится в Городском округе Новая Земля. Это посёлок Рогачёво на острове Южный.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/map-point-arkhangelsk.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/regions/arkhangelsk/map-point-arkhangelsk.png" alt="Местонахождение высшей точки Архангельской области">
             <p class="highpoint-article__content"> 
               Гора Крузенштерна — уникальная вершина. Является высочайшей горой всей островной Российской Арктики. Возвышается 
               в глубине острова у северо-западного берега. У горы есть ещё старое название - гора СГЭ (Северной Гидрографической 
               экспедиции).
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/point-arkhangelsk.jpg" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/regions/arkhangelsk/point-arkhangelsk.jpg" alt="Высшая точка Архангельской области">
             <p class="highpoint-article__content">
               Гора Крузенштерна на Новой Земле пожалуй одна из сложнейших для достижения высших точек. Этот архипелаг является 
               самым закрытым в России — попасть на бо́льшую часть можно только по спецразрешению Минобороны. Из доступных вариантов
@@ -131,18 +137,18 @@
               принадлежит горной системе Тиманского кряжа. Сам Кряж располагается одновременно на территории Архангельской 
               области и республики Коми.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/map-alternative-arkhangelsk.jpg" alt="">
+            <img class="highpoint-photo" id="mapImgAlt" src="/src/img/highpoint-page/regions/arkhangelsk/map-alternative-arkhangelsk.jpg" alt="Карта Архангелськой области с альтернативной точкой">
             <p class="highpoint-article__content">
               Находится в Лешуконском муниципальном округе. Ближайший населённый пункт в 150 км юго-западнее - село Кослан.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/map-point-alternative-arkhangelsk.png" alt="">
+            <img class="highpoint-photo" id="mapPointImgAlt" src="/src/img/highpoint-page/regions/arkhangelsk/map-point-alternative-arkhangelsk.png" alt="Местонахождение альтернативной высшей точки Архангельской области">
             <p class="highpoint-article__content">
               Четласский камень представляет собой платообразную возвышенность Тиманского кряжа, между реками Мезень и Пижма. 
               Сама вершина сильно заросшая кустарником и небольшими деревьями. Поэтому разглядеть с неё что либо сложно. А вот
               если подойти к её курумным склонам (Да-да! На Четласском камне есть курумник, а значит его можно считать полноценной горой),
               то можно увидеть потрясающие виды на лесотундру.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/point-alternative-arkhangelsk.jpg" alt="">            
+            <img class="highpoint-photo" id="pointImgAlt" src="/src/img/highpoint-page/regions/arkhangelsk/point-alternative-arkhangelsk.jpg" alt="Альтернативная высшая точка Архангельской области">            
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -164,7 +170,7 @@
               автомобиль. Целью этой заброски станет промысловая изба, в которой можно заночевать (если не будет других 
               желающих), либо поставить палатки рядом. 
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/route-zabroska-alternative-arkhangelsk.png.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/regions/arkhangelsk/route-zabroska-alternative-arkhangelsk.png.png" alt="Карта маршрута (заброска)">
             <p class="highpoint-article__content">
               Пешая часть маршрута от избы займёт у вас чуть больше 10 милометров в одну сторону, и пролегать она будет по 
               лесотундрам и болотам. На пути будет брод через реку Чёрная, который найти или соорудить вам придётся 
@@ -175,9 +181,9 @@
               <a class="highpoint-page-link" href="#aside__video">Видео (из двух частей)</a> 
               о том, как группа байкеров съездила на эту высшую точку.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/arkhangelsk/route-hike-alternative-arkhangelsk.png" alt="">
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/regions/arkhangelsk/route-hike-alternative-arkhangelsk.png" alt="Карта маршрута (пешая часть)">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
             <p class="highpoint-article__content">
               Ещё я нашёл контакты человека, который водит на Четласский Камень, можете попробовать обратиться к нему
@@ -237,5 +243,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photoAlt.js"></script>
 </body>
 </html>

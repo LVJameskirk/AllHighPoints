@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>   
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>  
 
     <main>
       <section class="banner-section banner-nenets">
@@ -87,21 +93,21 @@
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
             <p class="highpoint-article__content">
-              Высшая точка Ненецкой Автономной области, гора Море-Из находится на крайнем северо-востоке регина (Югорский 
+              Высшая точка Ненецкого Автономного Округа, гора Море-Из находится на крайнем северо-востоке регина (Югорский 
               полуостров). Принадлежит хребту Пай-Хой.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/autonomous_districts/nenets/map-nenets.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/autonomous_districts/nenets/map-nenets.jpg" alt="Карта Ненецкого АО">
             <p class="highpoint-article__content">
               Вершина находится в Заполярном районе. Ближайший населённый пункт - посёлок Амдерма, с населением в районе 200
               человек.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/autonomous_districts/nenets/map-point-nenets.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/autonomous_districts/nenets/map-point-nenets.png" alt="Местонахождение высшей точки Ненецкого АО">
             <p class="highpoint-article__content">
               Гора Море-Из главная вершина хребта Пай-Хой, самого северного хребта Урала. Вокруг преобладают тундры, изрезанные
               большим количеством рек и ручьёы. Сама гора плоская, округлые формы холма состоят из остатка ледника – морены. На
               вершине располагается триангуляционный геодезический пункт.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/autonomous_districts/nenets/point-nenets.webp" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/autonomous_districts/nenets/point-nenets.webp" alt="Высшая точка Ненецкого АО">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -118,7 +124,7 @@
               могут помочь ребята из авиаотряда. Ну либо можете попробовать самостоятельно подать документы через госуслуги/в 
               соответствующие органы.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/autonomous_districts/nenets/airplane-nenets.jpg" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/autonomous_districts/nenets/airplane-nenets.jpg" alt="Вид из самолёта на арктическое побережье">
             <p class="highpoint-article__content">
               И вот, получив все необходимые пропуска и совершив 2 перелёта: в Нарьян-Мар и Амдерму, мы готовы отправляться к 
               горе Море-Из. Чтобы добраться до неё нужно преодолеть в одну сторону около 50 км по тундрам. Дорога есть только 
@@ -126,15 +132,15 @@
               сократите свой маршрут на 10 километров. Остальные 40 км до горы и ещё 40 обратно, вам придётся преодолеть на 
               своих двоих. Дорогами эти места не богаты :)
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/autonomous_districts/nenets/route-nenets.png" alt="">
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/autonomous_districts/nenets/route-nenets.png" alt="Карта маршрута">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
             <p class="highpoint-article__content">
               Маршрут на треть основан на путешествии Олега Чегодаева, но сильно изменён в финальной его части. Так как 
               знаменитый уральский путешественник от Горы Море-Из отправился не сразу в Амдерму, а к проливу Югорский Шар.
               Вообще он прошёл очень длинный маршрут со стороны Воркуты по тундрам и хребту Пай-Хой. Всячески советую к 
-              просмотру, по ссылке в <a class="highpoint-page-link" href="#aside__video">боковом меню</a>.
+              просмотру <a class="highpoint-page-link" href="#aside__video">видео Олега</a>
             </p>
           </div>
           
@@ -190,5 +196,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

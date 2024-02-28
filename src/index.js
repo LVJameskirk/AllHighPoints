@@ -1,3 +1,9 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("burger").addEventListener("click", function(){
+        document.querySelector("header").classList.toggle("open");
+    })
+})
+
 window.onload = function () {
     addTagsClickHandler();
 }
@@ -10,13 +16,6 @@ const addTagsClickHandler = () => {
             selectClickedTag(clickedTag);
             showGrid(clickedTag);
         }
-
-        // if(e.target.classList.contains('tab-icon') || e.target.classList.contains('tab-text')){
-        //     let clickedTag = e.target.parentElement;
-        //     removeSelectedTags();
-        //     selectClickedTag(clickedTag);
-        //     showGrid(clickedTag);
-        // }
     })
 }
 

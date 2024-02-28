@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>   
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>  
 
     <main>
       <section class="banner-section banner-kaliningrad">
@@ -92,18 +98,18 @@
               Является частью Балтийской гряды (высоты 200-300 метров), которая проходит по территориям Германии, Польши, России 
               (Калининградская область), Литвы и Латвии. 
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/map-kaliningrad.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/kaliningrad/map-kaliningrad.jpg" alt="Карта Калининградской области">
             <p class="highpoint-article__content">
               Высшая точка распоолагается в Нестеровском районе, на территории природного парка "Виштынецкий". Ближайший
               населённый пункт - посёлок Уварово.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/map-point-kaliningrad.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/regions/kaliningrad/map-point-kaliningrad.png" alt="Местонахождение высшей точки Калининградской области">
             <p class="highpoint-article__content">
               К сожалению, я не нашёл в интернете ни одной фотографии вершины 242. Хотя опять же - это не удивительно. Посетить
               эту вершину сложно (если не сказать невозможно), а уж сфотографировать ещё сложнее. Поэтому вместо вершины, вот 
               вам фотография на Виштынецкое озеро :)
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/point-kaliningrad.jpg" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/regions/kaliningrad/point-kaliningrad.jpg" alt="Высшая точка Калининградской области">
             <p class="highpoint-article__content">
               А теперь давайте поговорим о том возможно ли посещение этой вершины в принципе. Если мы взглянем на карту 
               маршрутов <a class="highpoint-page-link" href="http://www.vistenpark.ru/" target="_blank">парка Виштынецкий</a>, 
@@ -132,17 +138,17 @@
               Она находится также на юго-востоке области, но уже чуть более удалённо от границы. Как и высота 242 является 
               частью Виштынецкой возвышенности лежащей в пределах Балтийской гряды.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/map-alt-kaliningrad.jpg" alt="">
+            <img class="highpoint-photo" id="mapImgAlt" src="/src/img/highpoint-page/regions/kaliningrad/map-alt-kaliningrad.jpg" alt="Карта Калининградской области с альтернативной точкой">
             <p class="highpoint-article__content">
               Административно принадлежит также Нестеровскому району. Ближайший населённый пункт - посёлок Пугачёво, который 
               находится в 2 км северо-западнее горы.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/map-point-alt-kaliningrad.png" alt="">
+            <img class="highpoint-photo" id="mapPointImgAlt" src="/src/img/highpoint-page/regions/kaliningrad/map-point-alt-kaliningrad.png" alt="Местонахождение альтернативной высшей точки Калининградской области">
             <p class="highpoint-article__content">
               Гора Дозор имеет выраженное поднятие, а это значит что с неё открывается неплохой вид. На вершине есть 
               информационный стенд и обзорная площадка.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/point-alt-kaliningrad.png" alt="">            
+            <img class="highpoint-photo" id="pointImgAlt" src="/src/img/highpoint-page/regions/kaliningrad/point-alt-kaliningrad.png" alt="Альтернативная высшая точка Калининградской области">            
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -153,7 +159,7 @@
               карту OSM троп. Это тот путь, который предположительно можно попробовать согласовать с администрацией парка 
               и пограничной службой. А вот получится ли? Вопрос на который предстоит ответить.
             </p>           
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/route-kaliningrad.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/regions/kaliningrad/route-kaliningrad.png" alt="Карта маршрута (заброска)">
             <h4 class="highpoint-article__subtitle-route">Маршрут на гору Дозор</h4> 
             <p class="highpoint-article__content">
               Получить разрешение подняться на гору Дозор будет проще. Тут уже согласовывать свой маршрут нужно будет только с 
@@ -163,9 +169,9 @@
               Маршрут начинается от визит-центра в посёлке Пугачёво. Сначала он будет пролегать по дороге, но большая часть 
               пройдёт по тропе. Протяжённость в одну сторону - 2.5км.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/kaliningrad/route-alt-kaliningrad.png" alt="">
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/regions/kaliningrad/route-alt-kaliningrad.png" alt="Карта маршрута (пешая часть)">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
           </div>
           
@@ -221,5 +227,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photoAlt.js"></script>
 </body>
 </html>

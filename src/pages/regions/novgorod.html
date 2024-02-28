@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -27,8 +33,8 @@
         </ul>
       </nav> 
     
-      <a class="button" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
-    </header>   
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header> 
 
     <main>
       <section class="banner-section banner-novgorod">
@@ -92,27 +98,27 @@
               легко оспорить её звание. Одно можно сказать точно: высшая точка Новгородской области находится где-то на 
               юго-востоке области и является частью Валдайской возвышенности.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/map-novgorod.jpg" alt="">
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/regions/novgorod/map-novgorod.jpg" alt="Карта Новгородской области">
             <p class="highpoint-article__content">
               Давайте сразу разберёмся с горой Рыжоха. Она находится в Демянском районе, недалеко от знаменитой Валдайской тропы. 
               На вершине установлена смотровая площадка. Место классное, доступное и всячески облагороженное, наверное 
               поэтому есть соблазн считать её высшей точкой новгородщины. Однако высота её составляет 296 метров, что, как минимум, 
               на 3 метра ниже двух остальных вершин, располагающихся юго-западнее от неё.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/map-point-296-novgorod.png" alt="">
+            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/map-point-296-novgorod.png" alt="Местонахождение вершины Новгородской области - 296 метров">
             <p class="highpoint-article__content">
               Две другие вершины находятся в Марёском муниципальном округе, в 7 километрах друг от друга. Первая, не отмеченная 
               вершина, потенциально может иметь высоту 300 метров. Опираемся мы здесь на толстую линию высоты, которая намекает
               нам на значение выше 300+. Ни на одной другой карте конкретную цифру 300 мне обнаружить не удалось, что конечно 
               вызывает сонения в правдоподобности этой вершины.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/map-point300-novgorod.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/regions/novgorod/map-point300-novgorod.png" alt="Местонахождение вершины Новгородской области - 300 метров">
             <p class="highpoint-article__content">
               Ну и третья точка, на мой взгляд, имеет самые большие шансы стать высшей точкой Новгородской области - высота 299, 
               которая отмечена практически на всех картах. Также именно цифра 299 указана во всех энциклопедиях и словарях, как
               наивысшая в Новогородской области. 
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/map-point299-novgorod.png" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/regions/novgorod/map-point299-novgorod.png" alt="Местонахождение вершины Новгородской области - 299 метров">
             <p class="highpoint-article__content">
               <b>Таким образом предлагаю считать высшей точкой Новгородской области именно высоту 299, пока не будет 
               доказано обратное.</b>
@@ -126,24 +132,22 @@
               (заброшенной?) Манцы. Проехать к ней можно через деревню Рудаково, которая располагается севернее. На сколько 
               проходима дорога - не известно.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/route-zabroska-novgorod.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/regions/novgorod/route-zabroska-novgorod.png" alt="Карта маршрута (заброска)">
             <p class="highpoint-article__content">
               Деревня Манцы располагается на поляне и рядом с ней отлично видны очертания лесовозной дороги, более того на 
               спутниковых картах и старых картах GGC, даже в лесу проглядывается линия прореженного леса, что может 
               свидетельствовать о наличии там дороги. Дорога уходит в сторону, когда до вершины по прямой остаётся всего лишь 
               километр. Вот этот путь уже точно придётся преодолеть по густым лесам Новгородской земли.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/route-hike-novgorod.png" alt="">
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/regions/novgorod/route-hike-novgorod.png" alt="Карта маршрута (пешая часть)">
             <p class="highpoint-article__content">
-              Посмотреть и скачать маршрут можно в <a class="highpoint-page-link" href="#aside__routes">боковом меню</a>.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
             </p>
             <p class="highpoint-article__content">
               Что касается вершины 300, то её тоже бы очень хотелось проверить. Я точно планирую сделать, но если у вас будет
               желание и вы попробуете сходить и на неё, то я буду вам очень благодарен за любую информацию. 
               <a class="highpoint-page-link" href="https://nakarte.me/#m=13/57.18900/32.27451&l=S/F&nktl=mN6aSRr10ivObNuisU6kKw" target="_blank">Вот примерный трек</a>, которым я планирую пройти.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/regions/novgorod/route-hike-novgorod.png" alt="">
-            <p class="highpoint-article__content">
           </div>
           
           <div class="article-check" id="article-check">
@@ -198,5 +202,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>
