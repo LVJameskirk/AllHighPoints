@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,17 +26,14 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -76,7 +79,7 @@
               <span class="highpoint-article__item__title">Сложность восхождения</span>
               <div class="highpoint-article__contain">
                 <span class="highpoint-article__item__icon icon-climbing-light"></span>
-              <span class="highpoint-article__item__description">Категорийная (3Б)</span>
+              <span class="highpoint-article__item__description">Категорийная (3Б-6А)</span>
               </div>
             </div>
           </div>
@@ -89,19 +92,31 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Гора Домбай-Ульген - вершина западной части Главного, или Водораздельного, 
-              хребта Большого Кавказа (на границе Абхазии и Карачаево-Черкесской республики), в истоках реки Теберда. 
-              Домбай-Ульген является наиболее высокой вершиной Домбая, находится восточнее посёлка Домбай, имеет три вершины: 
+            <p class="highpoint-article__content">
+              Высшая точка Карачаево-Черкессии находится на юге региона, на границе с Абхазией. Является частью 
+              большого Кавказского хребта.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/karachay-cherkessia/map-karachay-cherkessia.jpg" alt="Карта республики Карачаево-Черкессии">
+            <p class="highpoint-article__content">
+              Располагается в Тебердинском государственном природном биосферном заповеднике. Ближайший населённый пункт 
+              к горе - посёлок Домбай, Карачаевский район.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/karachay-cherkessia/map-point-karachay-cherkessia.png" alt="Местонахождение высшей точки республики Карачаево-Черкессии">
+            <p class="highpoint-article__content">
+              Гора Домбай-Ульген - вершина западной части Главного хребта Большого Кавказа, находится в истоках реки Теберда. 
+              Домбай-Ульген является наиболее высокой вершиной Домбая, имеет три вершины: 
               западную (4036 м), главную (4046 м) и восточную (3950 м). От главной вершины на север отходит крутой гребень, 
               оканчивающийся понижением — «Домбайским седлом». От Домбайского седла наверх идёт классический маршрут 
               (категории 3Б), доступный для восхождения за один день со спуском к лагерю, расположенному либо на площадке 
-              «Домбайского седла», либо Птышском бивуаке</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karachay-cherkessia/Домбай-Ульген.jpg" alt="">
+              «Домбайского седла», либо Птышском бивуаке
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/karachay-cherkessia/dombai.jpg" alt="Гора Домбай-Ульген">
           </div>
 
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
             <p class="highpoint-article__content">
+              Маршруты восхождения на Домбай-Ульген варьируются от категорий 3Б до 6А.
               Классический маршрут восхождения на вершину Карачаево-Черкессии имеет категорию сложности 3Б. Это самая 
               популярная тропа на Домбай-Ульген – восхождение по ней востребовано чаще всего. На Домбайском седле разбит 
               удобный туристический лагерь. Маршрут рассчитан на прохождение гребня за один световой день. На троечном 
@@ -110,7 +125,7 @@
               так как весь маршрут проходит по кромке полуторакилометрового скального отвеса. 
               <a class="highpoint-page-link" href="https://travelask.ru/articles/gora-dombay-ulgen" target="_blank">Подробнее о маршрутах</a>.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/karachay-cherkessia/dombai.jpg" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/republics/karachay-cherkessia/route-karachay-cherkessia.jpg" alt="Маршруты восхождения 5-6 категории сложности">
             <p class="highpoint-article__content">
               Так как Гора Домбай-Ульген находятся в приграничной зоне (на границе с Абхазией), нужно взять паспорт и 
               оформить пропуск у сотрудников пограничной службы. Заявку можно подать через 
@@ -170,5 +185,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

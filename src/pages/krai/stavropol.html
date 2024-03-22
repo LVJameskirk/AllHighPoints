@@ -1,11 +1,211 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Ставропольский край</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav> 
+    
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>  
+
+    <main>
+      <section class="banner-section banner-stavropol">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Гора Баран</h1>
+            <p class="banner-section__description">
+              <span>Ставропольский край</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=16/43.81792/42.66738&l=O&q=N%2043%C2%B049%E2%80%B204.24%E2%80%B3%20E%2042%C2%B039%E2%80%B252.31%E2%80%B3&r=43.817844/42.664531/N%2043%C2%B049%E2%80%B24.24%E2%80%B3%20E%2042%C2%B039%E2%80%B252.31%E2%80%B3">
+                N 43°49′04.24″ E 42°39′52.31″</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-mountains"></span>
+                <span class="highpoint-article__item__description">1603 метра</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-walk"></span>
+                <span class="highpoint-article__item__description">Небольшая прогулка</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-climbing-light"></span>
+              <span class="highpoint-article__item__description">Не категорийная</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">
+              Высшая точка Ставропольского края находится на юге региона, на границе с Карачаево-Черкессией, также
+              неподалёку проходит граница с Кабардино-Балкарией.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/krai/stavropol/map-stavropol.jpg" alt="Карта Ставропольского края">
+            <p class="highpoint-article__content">
+              Гора Баран располагается на Кабардинском хребте. Ближайший населённый пункт - село Кичи-Балык, 
+              Малокарачаевский район, Карачаево-Черкесская Республика и посёлок Правоберёзовский, 
+              Предгорный район, Ставропольский край.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/krai/stavropol/map-point-stavropol.png" alt="Местонахождение высшей точки Ставропольского края">
+            <p class="highpoint-article__content">
+              Гора Баран почти полностью покрыта сосновым лесом, имеет
+              выраженные склоны, как в северную, так и в южную сторону. На северной стороне открыт горнолыжный комплекс 
+              - "Сосновый рай". Зимой сюда приезжают кататься на лыжах и санках, а весной, летом и осенью – любители 
+              конных прогулок. 
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/krai/stavropol/point-stavropol.jpg" alt="Вид с высшей точки Ставропольского края">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Чтобы добраться до горы Баран, нужно проехать из Кисловодска всего лишь 10 километров на юг. Дорога хорошего 
+              качества и очень живописная. Остановится вы сможете прямо на границе 2 республик (Карачаево-Черкессии и 
+              Кабардино-Балкарии) и Ставропольского края. Здесь есть парковка и кафе "Hichin House".
+            </p>
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/krai/stavropol/route-zabroska-stavropol.png" alt="Карта маршрута (заброска)">
+            <p class="highpoint-article__content">
+              Собственно сам "поход" как раз начинается от парковки у кафе и протяжённость его составит всего лишь 600 метров по 
+              ароматному сосновому лесу и прекрасной благоустроенной тропе. На вершине вас будет ждать знак, обозначающий
+              высшую точку Ставропольского края.
+              <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>
+            </p>
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/krai/stavropol/route-hike-stavropol.png" alt="Карта маршрута (пешая часть)">
+            </p>
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <div class="article_check__info">
+              <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
+              <span>Когда: </span><span><strong>28.04.2022</strong></span><br>
+              <span>Устройство проверки - </span><span><strong>Альтиметр (Встроенный в IPhone 12 Pro)</strong></span><br>
+              <span>Зафиксированная высота - </span><span><strong>1602.33 метра</strong></span><br>
+              <span>Координаты - </span><span><strong>N 43°49′04.24″ E 42°39′52.31″</strong></span><br>
+            </div>
+            <p class="highpoint-article__content">
+              Данная высота - 1602.33 метра, была зафиксирована мной прямо рядом со знаком, обозначающим высшую точку. 
+              Разница с высотой, указанной на топографических картах составила меньше метра.
+            </p>
+            <img class="altimeter-img" src="/src/img/highpoint-page/krai/stavropol/altimetr-stavropol.jpg" alt="">
+            <p class="highpoint-article__content">
+              Таким образом, высшая точка Ставропольского края подтвердилась. 
+              Посмотреть видео о моём посещении можете <a class="highpoint-page-link" href="#aside__video">здесь</a>.
+            </p>
+            <img class="highpoint-photo" src="/src/img/highpoint-page/krai/stavropol/point-altimetr.jpg" alt="Триангулярный пункт">
+          </div>
+        </section>
+
+        <aside class="highpoint-aside">
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=13/43.85799/42.70595&l=O&nktl=DVnZgZzzN1A3_E4lMSRxFg" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Ставропольского края (заброска+поход).kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Ставропольского края (заброска+поход).gpx">Скачать GPX трек</a>
+            </div>
+          </div>
+          <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://dzen.ru/embed/vXZcvzZtnqVU?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

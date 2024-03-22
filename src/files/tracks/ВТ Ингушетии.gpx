@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-03-09T10:54:25.498Z</time>
+	</metadata>
+	<wpt lat="42.788789" lon="44.783538">
+		<name>Погранзастава Шоан</name>
+	</wpt>
+	<wpt lat="42.793017" lon="44.778559">
+		<name>Село Шоани</name>
+	</wpt>
+	<wpt lat="42.675686" lon="44.757359">
+		<name>Гора Шан</name>
+	</wpt>
+	<wpt lat="42.698174" lon="44.797056">
+		<name>Начало подъёма</name>
+	</wpt>
+	<trk>
+		<name>ВТ Ингушетии</name>
+		<trkseg>
+			<trkpt lat="42.788532" lon="44.783323"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.788274" lon="44.786413"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.788124" lon="44.787743"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.785742" lon="44.790705"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.784412" lon="44.791992"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.784369" lon="44.793966"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.781923" lon="44.797485"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.778490" lon="44.800961"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.775529" lon="44.804223"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.771816" lon="44.806068"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.770829" lon="44.807141"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.769327" lon="44.806969"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.766795" lon="44.807785"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.755830" lon="44.806712"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.743235" lon="44.804480"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.727463" lon="44.804652"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.707036" lon="44.800189"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.697508" lon="44.796927"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.692723" lon="44.769891"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.684462" lon="44.764655"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.678154" lon="44.760707"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="42.675750" lon="44.757273"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

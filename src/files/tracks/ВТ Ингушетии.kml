@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Ингушетии</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					44.783323,42.788532
+					44.786413,42.788274
+					44.787743,42.788124
+					44.790705,42.785742
+					44.791992,42.784412
+					44.793966,42.784369
+					44.797485,42.781923
+					44.800961,42.778490
+					44.804223,42.775529
+					44.806068,42.771816
+					44.807141,42.770829
+					44.806969,42.769327
+					44.807785,42.766795
+					44.806712,42.755830
+					44.804480,42.743235
+					44.804652,42.727463
+					44.800189,42.707036
+					44.796927,42.697508
+					44.769891,42.692723
+					44.764655,42.684462
+					44.760707,42.678154
+					44.757273,42.675750
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Погранзастава Шоан</name>
+			<Point>
+				<coordinates>44.783538,42.788789,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Село Шоани</name>
+			<Point>
+				<coordinates>44.778559,42.793017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Гора Шан</name>
+			<Point>
+				<coordinates>44.757359,42.675686,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Начало подъёма</name>
+			<Point>
+				<coordinates>44.797056,42.698174,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

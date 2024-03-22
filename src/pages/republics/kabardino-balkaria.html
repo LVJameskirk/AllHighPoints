@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,18 +26,15 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header> 
 
     <main>
       <section class="banner-section banner-kabardino-balkaria">
@@ -76,7 +79,7 @@
               <span class="highpoint-article__item__title">Сложность восхождения</span>
               <div class="highpoint-article__contain">
                 <span class="highpoint-article__item__icon icon-climbing-light"></span>
-              <span class="highpoint-article__item__description">Категорийная (1Б)</span>
+              <span class="highpoint-article__item__description">Категорийная (1Б-6Б)</span>
               </div>
             </div>
           </div>
@@ -89,14 +92,25 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Гора Эльбрус - самая высокая горная вершина России и Европы, при условии 
-              проведения границы между Европой и Азией по Главному Кавказскому хребту или южнее. Эльбрус - это потухший 
+            <p class="highpoint-article__content">
+              Высшая точка Кабардино-Балкарии находится на юге-западе региона, на границе с Карачаево-Черкесией. Гора Эльбрус 
+              - самая высокая горная вершина России и Европы, при условии проведения границы между Европой и Азией 
+              по Главному Кавказскому хребту или южнее.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/kabardino-balkaria/map-kabardino-balkaria.jpg" alt="Карта республики Кабардино-Балкария">
+            <p class="highpoint-article__content">
+              Располагается в Эльбрусском районе. Ближайший населённый пункт к горе - посёлок Терскол, Эльбрусский район.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/kabardino-balkaria/map-point-kabardino-balkaria.png" alt="Местонахождение высшей точки республики Кабардино-Балкария">
+            <p class="highpoint-article__content">
+              Эльбрус - это потухший 
               вулкан, он имеет запоминающуюся форму из двух вершин, разница в высоте между которыми составляет всего лишь 
               21 метр. Между этими двумя вершинами проходит седловина, через которую проходит подавляющая часть восходителей.
               Наибольшую высоту имеет западная вершина - 5642 метра.<br> Эльбрус входит в список высочайших вершин частей 
               света «Семь вершин», в список десяти вершин Российской Федерации для присвоения звания «Снежный барс 
-              России», и, по совместительству, является горой с максимальной высотой в проекте "Все высшие точки России".</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kabardino-balkaria/elbrus.jpg" alt="">
+              России», и, по совместительству, является горой с максимальной высотой в проекте "Все высшие точки России".
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/kabardino-balkaria/elbrus.jpg" alt="Гора Эльбрус. Высшая точка республики Кабардино-Балкария">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -112,7 +126,7 @@
               встретите наибольшее количество восходителей, поэтому если у вас есть опыт восхождений и вым не страшны трудности, 
               можете попытать свои шансы на других маршрутах.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/kabardino-balkaria/all_routes_elbrus.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/republics/kabardino-balkaria/all_routes_elbrus.png" alt="Варианты маршрутов на Эльбрус">
           </div>
           
           <div class="article-check" id="article-check">
@@ -167,5 +181,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

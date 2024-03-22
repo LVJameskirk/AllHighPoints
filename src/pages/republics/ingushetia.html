@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,17 +26,14 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -76,7 +79,7 @@
               <span class="highpoint-article__item__title">Сложность восхождения</span>
               <div class="highpoint-article__contain">
                 <span class="highpoint-article__item__icon icon-climbing-light"></span>
-              <span class="highpoint-article__item__description">Категорийная (1Б)</span>
+              <span class="highpoint-article__item__description">Категорийная (?)</span>
               </div>
             </div>
           </div>
@@ -89,12 +92,24 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Гора Шан - одна из вершин главного хребта Большого Кавказа, на границе 
+            <p class="highpoint-article__content">
+              Высшая точка Ингушетии находится на юге региона, на границе с Грузией. Является частью
+              большого Кавказского хребта.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/ingushetia/map-ingushetia.jpg" alt="Карта республики Ингушетия">
+            <p class="highpoint-article__content">
+              Располагается в Джейрахском районе. Ближайший населённый пункт со стороны России - село Шоани, Джейрахский район.
+              Ближайший населённый пункт со стороны Грузии - посёлок Степанцминда.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/ingushetia/map-point-ingushetia.png" alt="Местонахождение высшей точки республики Ингушетия">
+            <p class="highpoint-article__content">
+              Гора Шан - одна из вершин главного хребта Большого Кавказа, на границе 
               Грузии и Ингушетии. Название горы переводится как "ледник". Но, на самом деле, снегами покрыта только 
               вершина горы. Она впечатляет своими природными чудесами: живописными пейзажами,величественными скалами и 
               густыми лесами. Гора известна своими многочисленными водопадами, кристально чистыми ручьями и богата 
-              флорой и фауной.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/ingushetia/shan.jpg" alt="">
+              флорой и фауной.
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/ingushetia/point-ingushetia.jpg" alt="Высшая точка республики Ингушетия">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -108,11 +123,19 @@
               <a class="highpoint-page-link" href="#aside__video">Видео восхождения на высоту - 4150</a><br>
             </p>
             <p class="highpoint-article__content">
-              Но в чём, лично у меня нет никаких сомнений, так это в том, что для восхождения на гору Шан потребуется 
+              Предполагаемый маршрут начинается от погранзаставы в селе Шоани. Идёт на юг по долине между двумя хребтами, 
+              вдоль реки Шондон. Не доходя 5 километров до горы уходим от реки и начинаем восхождение. А вот что нас там 
+              ждёт - большой вопрос. Гора довольно таки неприступная.
+            </p>
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/republics/ingushetia/route-ingushetia.png" alt="Карта предполагаемого маршрута со стороны России">
+            <p class="highpoint-article__content">
+              Лично у меня нет никаких сомнений, что для восхождения на гору Шан потребуется 
               организация целой экспедиции с подробным исследованием окрестностей, а также нахождением подходов к этой 
               вершине. Так или иначе понадобится приобрести альпинисткие навыки, чтобы сюда соваться. Пожалуй это одна из
               самых сложных вершин регионов России.<br>
-              Ну и поскольку гора Шан находятся в приграничной зоне (на границе с Грузией), желательно взять паспорт и 
+            </p>
+            <p class="highpoint-article__content">
+              Ну и поскольку гора Шан находятся в приграничной зоне (на границе с Грузией), нужно будет 
               оформить пропуск у сотрудников пограничной службы. Заявку можно подать через 
               <a class="highpoint-page-link" href="https://www.gosuslugi.ru/" target="_blank">Госуслуги</a>.
             </p>
@@ -125,21 +148,21 @@
         </section>
 
         <aside class="highpoint-aside">
-          <!-- <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
           <div class="highpoint-aside__routes">
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__nakarte-icon"></span>
-              <a href="https://nakarte.me/#m=10/54.11135/58.37997&l=Y&nktl=AI5XyeZ8yU9FXFyOk6dCDQ" target="_blank">Посмотреть nakarte.me</a>
+              <a href="https://nakarte.me/#m=12/42.73218/44.82067&l=O&nktl=cMRdIGQVyrR_Auicjk4XTA" target="_blank">Посмотреть nakarte.me</a>
             </div>
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__kml-icon"></span>
-              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.kml">Скачать KML трек</a>
+              <a href="/src/files/tracks/ВТ Ингушетии.kml">Скачать KML трек</a>
             </div>
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__gpx-icon"></span>
-              <a href="/src/files/tracks/ВТ Башкортостана. Чегодаев-трек.gpx">Скачать GPX трек</a>
+              <a href="/src/files/tracks/ВТ Ингушетии.gpx">Скачать GPX трек</a>
             </div>
-          </div> -->
+          </div>
           <h3 class="highpoint-aside__title" id="aside__video">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
             src="https://www.youtube.com/embed/YBH3_FuxO1Y?si=mmU1ZhaFGmb4r5uH"
@@ -170,5 +193,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,18 +26,15 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header> 
 
     <main>
       <section class="banner-section banner-severnya-ossetia">
@@ -89,11 +92,22 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">
+              Высшая точка Северной Осетии (Алании) находится на юге региона, на границе с Грузией. Гора Казбек является 
+              частью большого Кавказского хребта и принадлежит восточной части Хохского хребта.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/severnaya_ossetia/map-severnya-ossetia.jpg" alt="Карта республики Северная Осетия (Алания)">
+            <p class="highpoint-article__content">
+              Располагается в Тебердинском государственном природном биосферном заповеднике. Ближайший населённый пункт со 
+              стороны Грузии - посёлок Степанцминда. Со стороны России - село Верхний Ларс, Городской Округ Владикавказ.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/severnaya_ossetia/map-point-severnya-osetia.png" alt="Местонахождение высшей точки республики Северная Осетия (Алания)">
             <p class="highpoint-article__content">Северная Осетия (Алания) (СКФО)
-              Гора Казбек — потенциально активный стратовулкан, самый восточный пятитысячник Кавказа. Расположен в 
-              восточной части Центрального Кавказа, на границе России и Грузии, в восточной части Хохского хребта. 
+              Гора Казбек — потенциально активный стратовулкан, самый восточный пятитысячник Кавказа. Последний раз 
+              извергался в шестом столетии до нашей эры. На Казбеке до сих пор можно увидеть следы затвердевшей магмы. 
+              Они выделяются из большого количества темных отложений розово-серым оттенком.
               Казбек входит в список десяти вершин Российской Федерации для присвоения звания «Снежный барс России».</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/severnaya_ossetia/kazbek_1.jpg" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/severnaya_ossetia/kazbek_1.jpg" alt="Гора Казбек. Высшая точка Северной Осетии (Алании)">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -106,7 +120,7 @@
               Подъем со стороны России немного сложнее технически, категории 2 Б, и занимает больше времени от 7 до 9 дней. 
               <a class="highpoint-page-link" href="https://travelask.ru/articles/gora-kazbek-velichestvennyy-gigantskiy-pik-kavkaza" target="_blank">Подробнее о горе Казбек и о маршрутах</a>.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/severnaya_ossetia/kazbek_2.jpg" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/republics/severnaya_ossetia/kazbek_2.jpg" alt="Гора Казбек со стороны Грузии">
             <p class="highpoint-article__content">
               Так как Гора Казбек находятся в приграничной зоне (на границе с Грузией), нужно взять паспорт и 
               оформить пропуск у сотрудников пограничной службы. Заявку можно подать через 
@@ -166,5 +180,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>
