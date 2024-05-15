@@ -48,6 +48,36 @@
     opacity: 0.8;
 }
 
+#mapImgAlt {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#mapImgAlt:hover {
+    opacity: 0.8;
+}
+
+#mapPointImgAlt {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#mapPointImgAlt:hover {
+    opacity: 0.8;
+}
+
+#pointImgAlt {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#pointImgAlt:hover {
+    opacity: 0.8;
+}
+
 .modal {
     display: none;
     position: fixed;

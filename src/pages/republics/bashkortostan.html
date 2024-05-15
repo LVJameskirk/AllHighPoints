@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,17 +26,14 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -90,19 +93,29 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Ямантау - высшая точка Южного Урала. Расположена в Белорецком районе 
-              Республики Башкортостан Российской Федерации. В двух километрах к юго-востоку расположена вершина Малый 
-              Ямантау (1512,7 м). Находится на территории Южно-Уральского заповедника. По данным Стратегического командования 
+            <p class="highpoint-article__content">
+              Высшая точка республики Башкортостан - гора Ямантау, находится на северо-востоке области.
+              Является частью Южного Урала, наиболее широкой горной системы Уральских гор.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/bashkortostan/map-bashkortostan.jpg" alt="Карта республики Башкортостан">
+            <p class="highpoint-article__content">
+              Высшая точка располагается в Белорецком районе, на территории Южно-Уральского заповедника. Ближайший
+              населённый пункт - Город Межгорье (На карте старое название - "Кузъелга"), являющийся закрытым 
+              административно-территориальным образованием.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/bashkortostan/map-point-bashkortostan.png" alt="Местонахождение горы Ямантау, основной высшей точки республики Башкортостан">
+            <p class="highpoint-article__content">
+              Высота Ямантау - 1640,4 метра над уровнем моря. В двух километрах к юго-востоку расположена вершина Малый 
+              Ямантау (1512,7 м). Посещение горы осложняется тем, что она находится на в самом центре Южно-Уральского заповедника. 
+              Официальных маршрутов и троп от парка на гору нет, поэтому в случае несанкционированного посещения вам, 
+              в соответствии с ФЗ «Об особо охраняемых природных территориях», грозит штраф от 3 до 4 тысяч рублей.
+              Ещё одной проблемой является тот факт, что рядом с горой располагается закрытый город - Межгорье. Существует
+              множество теорий, которые, впрочем, имеют по собой определённые основания, что под горой Ямантау располагается 
+              секретный объект. По данным Стратегического командования 
               Вооружённых сил США, горы Ямантау и Косьвинский Камень могут являться ядерными объектами или секретными 
               комплексами бомбоубежищ. В конце 1990-х годов на спутниковых снимках были обнаружены крупные строительные 
               мероприятия.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/bashkortostan/Ямантау.jpg" alt="">
-            <p class="highpoint-article__content">
-              Основная сложность связана с тем, что гора Ямантау находится в самом сердце Южно-Уральсого природного 
-              заповедника и отправляясь в путь вы без всяких сомнений нарушите ФЗ «Об особо охраняемых природных территориях».
-              Однако, если вы готовы заплатить штраф (от 3 до 4 тысяч рублей), то можете собирать рюкзак и отправляться в путь.
-              Правда это не все сложности, которые вы встретите на пути к вершине. 
-            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/bashkortostan/Ямантау.jpg" alt="Гора Ямантау. Основная высшая точка республики Башкортостан">
             <p class="highpoint-article__content">
               По этой причине в Башкортостане есть альтернативная вершина, о которой читайте далее.
             </p>
@@ -111,16 +124,23 @@
           <div class="article-info" id="article-alternative">
             <h3 class="highpoint-article__subtitle">Альтернативная вершина</h3>
             <p class="highpoint-article__content">
-              Иремель -вторая по высоте вершина Южного Урала, расположена на северо-востоке 
-              Белорецкого района Башкортостана, северо-западные склоны находятся в границах Катав-Ивановского района Челябинской 
-              области. 
+              Альтернативной вершиной для посещения в республике Башкортостан станет её вторая по высоте вершина - гора Иремель.
+              Она находится также на северо-востоке области и является частью Южного Урала.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/bashkortostan/Iremel.jpg" alt="">
+            <img class="highpoint-photo" id="mapImgAlt" src="/src/img/highpoint-page/republics/bashkortostan/map-alt-bashkortostan.jpg" alt="Карта республики Башкортостан с альтернативной точкой">
             <p class="highpoint-article__content">
-              Гора представляет собой двухвершинный массив, в состав которого входят:<br>             
-              Большой Иремель с платообразной вершиной Кабан (башк.  — стог), высота 1582,3 м.;<br>
-              Малый Иремель, высота 1449,4 м.
-            </p>            
+              Административно, как и Ямантау, принадлежит Белорецкому району Башкортостана, однако северо-западные склоны находятся
+              уже в границах Катав-Ивановского района Челябинской области. Ближайший населённый пункт - Село Тюлюк, который 
+              находится в 10 км северо-западнее горы.
+            </p>
+            <img class="highpoint-photo" id="mapPointImgAlt" src="/src/img/highpoint-page/republics/bashkortostan/map-point-alt-bashkortostan.png" alt="Местонахождение горы Иремель, альтернативной высшей точки республики Башкортостан">
+            <p class="highpoint-article__content">
+              Иремель - вторая по высоте вершина Южного Урала. Гора представляет собой двухвершинный массив, в состав 
+              которого входят Большой Иремель с платообразной вершиной Кабан, высота 1582,3 м и Малый Иремель, высота 1449,4 м. 
+              Решением Правительства Республики Башкортостан от 31 декабря 2010 года на территории, прилегающей к вершине 
+              Иремель, создан природный парк "Иремель".
+            </p>
+            <img class="highpoint-photo" id="pointImgAlt" src="/src/img/highpoint-page/republics/bashkortostan/Iremel.jpg" alt="Гора Иремель. Альтренативная высшая точка республики Башкортостан">            
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -130,9 +150,8 @@
               В 2016 году Олег Чегодаев (знаменитый 
               уральский путешественник) и Раис Габитов отправились к вершине.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/bashkortostan/Чегодаев-трек.jpg" alt="">
             <p class="highpoint-article__content">
-              И вот о каких ещё сложностях пишет Олег Чегодаев:<br>
+              О каких ещё сложностях пишет Олег Чегодаев:<br>
               <cite>"Гора Ямантау по причине нахождения в заповеднике относительно труднодоступна. Окружена высокими хребтами,
               курумными реками, лесами населенными диким зверем. Погода на ее вершине может быть очень суровой. Однажды 
               летом, в июне, я схватил жуткое переохлаждение на ее склонах и так и не смог дойти до вершины. Поэтому надо 
@@ -141,12 +160,22 @@
               Подробнее об их походе вы можете почитать
               <a class="highpoint-page-link" href="https://www.exje.ru/marshrut_na_yamantau" target="_blank">здесь.</a>
             </p>
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/republics/bashkortostan/route-hike-bashkortostan-yamantau.png" alt="Карта маршрута к горе Ямантау">
             <p class="highpoint-article__content">
               Сам маршрут был разбит на 3 части и соответственно - 3 дня. Маршрут не простой, но поход крайне хорошо описан и 
               имеет подробный трек.<br>
               <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a><br>
             </p>
             <h4 class="highpoint-article__subtitle-route">Маршрут на Иремель</h4>
+            <p class="highpoint-article__content">
+              Маршрут на Иремель будет куда более простым вариантом, его можно осуществить за один день. Путь проходит по 
+              территории одноимённого природного парка "Иремель" и начинается от шлагбаума и места под названием "Медвежий Хутор.
+              Дорога к горе по самой короткой тропе займёт чуть больше 5 километров, таким образом, легко можно уложиться в 
+              однодневное восхождение. Но вообще, в парке "Иремель" множество гор и живописных маршрутов, поэтому здесь можно 
+              задержаться и на подольше.<br>
+              <a class="highpoint-page-link" href="#aside__routes2">Посмотреть и скачать маршрут</a><br>             
+            </p>
+            <img class="highpoint-photo" id="routeImg2" src="/src/img/highpoint-page/republics/bashkortostan/route-hike-bashkortostan-iremel.png" alt="Карта маршрута к горе Иремель">
           </div>
           
           <div class="article-check" id="article-check">
@@ -155,7 +184,8 @@
           </div>
         </section>
         <aside class="highpoint-aside">
-          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <h3 class="highpoint-aside__title">Ямантау (Основная врешина)</h3>
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут:</h3>
           <div class="highpoint-aside__routes">
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__nakarte-icon"></span>
@@ -173,6 +203,29 @@
           <h3 class="highpoint-aside__title">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
             src="https://www.youtube.com/embed/f14JWEVm86w?si=hN9klY-oz-175yTY"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+          <h3 class="highpoint-aside__title">Иремель (Альтернативная вершина)</h3>
+          <h3 class="highpoint-aside__title" id="aside__routes2">Маршрут:</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=13/54.54215/58.84266&l=O&nktl=n_aRjqTp2D2pBpDLoGLXqw" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ (Алтернатив) Башкортостана.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ (Алтернатив) Башкортостана.gpx">Скачать GPX трек</a>
+            </div>
+          </div>
+          <h3 class="highpoint-aside__title">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://www.youtube.com/embed/kgE8OUB3wPk?si=jm80lV8PnDo1qe5h"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
@@ -200,5 +253,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photoAlt.js"></script>
 </body>
 </html>
