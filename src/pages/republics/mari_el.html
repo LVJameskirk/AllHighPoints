@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,17 +26,14 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
     </header>  
 
     <main>
@@ -89,11 +92,25 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Гора Чукша представляет собой холм, расположенный в 15 км от районного центра - Морки, 
-              и в 2 км от деревни Большой Шоръял. Чукшинская гора богата полезными ископаемыми: гипс, доломит, ангидрит, 
-              бутовый камень. Имеется карьер, где производится выработка бытового камня.
-              С вершины открывается потрясающая панорама на весь Моркинский район.</p>
-              <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mari_el/mari_el_photo.jpg" alt="">
+            <p class="highpoint-article__content">
+              Высшая точка республики Марий Эл - гора Чукша, находится на востоке региона и представляет собой холм, частично заросший
+              лесом. Принадлежит Вятскому Увалу - возывшенной равнине, сильно расчленённой долинами рек и овражно-балочной сетью, 
+              протянувшейся в субмеридиональном направлении. 
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/mari_el/map-mari-el.jpg" alt="Карта республики Марий Эл">
+            <p class="highpoint-article__content">
+              Гора Чукша располагается в Моркинском районе, в 15 км от районного центра - г. Морки. Ближайшие населённые пункы - 
+              одноименная деревня Чукша, к северу от горы, и деревня Большой Шоръял, в 2 км к юго-востоку.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/mari_el/map-point-mari-el.png" alt="Местонахождение горы Чукша, высшей точки республики Марий Эл">
+            <p class="highpoint-article__content">
+              Чукшинская гора богата полезными ископаемыми: гипс, доломит, ангидрит, бутовый камень. 
+              Сейчас на горе располагается карьер, где производится выработка бытового камня. Несколько десятков лет назад 
+              вершина холма была срыта, а в образовавшейся котловине вырос густой лес. Таким образом гора Чукша немного потеряла
+              в своей высоте, что не повлияло на её привлекательность для туристов и энтузиастов.
+              С вершины открывается потрясающая панорама на весь Моркинский район.
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/mari_el/mari_el_photo.jpg" alt="Вид с горы Чукша, высшей точки республики Марий Эл">
           </div>
 
           <div class="article-routes" id="article-routes">
@@ -104,7 +121,7 @@
               но если возникнет такое желание, можете прогуляться до высоты 281 метр, которая находится тут неподалёку.<br>
               <a class="highpoint-page-link" href="#aside__routes">Посмотеть и скачать маршрут</a>
             </p>
-              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/mari_el/Mari_el_map.png" alt="">
+              <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/republics/mari_el/route-hike-mari-el.png" alt="Карта маршрута по вершинам горы Чукша">
           </div>
           
           <div class="article-check" id="article-check">
@@ -140,7 +157,7 @@
           </div>
           <h3 class="highpoint-aside__title">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/ywIk7bZZlFc"
+            src="https://dzen.ru/embed/v6PhL28C75QQ?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
@@ -168,5 +185,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>
