@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,18 +26,15 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>
 
     <main>
       <section class="banner-section banner-mordovia">
@@ -89,17 +92,24 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Самая высокая точка распологается на Приволжской возвышенности, в Чамзинском 
-              районе. Еще три десятилетия назад вершиной Мордовии была гора Лысая. Ее высота достигала отметки 337,3 м. над 
-              уровнем моря. Гора оказалась в зоне добычи сырья для Алексеевского цементного завода и была срыта (на новой 
-              топографической карте её высота - 329 метров).</p>
-              <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mordovia/Лысая гора.jpg" alt="">
-              <p class="highpoint-article__content">
-              Сейчас в Чамзинском районе распологается сразу несколько лесных точек, которые могут поспорить за звание высшей.
-              К сожалению полноценного исследования по определению новой вершины Мордовии не проводилось. Но я успел 
-              съездить в Мордовию и провести своё. Подробнее об этом читайте далее.
-              </p>
-              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/mordovia/tochki2.png" alt="">
+            <p class="highpoint-article__content">
+              Высшая точка республики Мордовия точно не определена. Но можно, с полной уверенностью, сказать, что она 
+              располагается на востоке региона. В той её части, которая принадлежит Приволжской возвышенности.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/mordovia/map-mordovia.jpg" alt="Карта республики Мордовия">
+            <p class="highpoint-article__content">
+              Высшая точка находится где-то в Чамзинском районе. Ближайшие населённые пункты - село Киржеманы и посёлок городского типа
+              Чамзинка. Сейчас, в том районе есть сразу несколько лесных точек, которые могут 
+              поспорить за звание высшей. К сожалению полноценного исследования по определению новой вершины Мордовии не проводилось.
+              Но я успел съездить в Мордовию и провести своё.
+            </p>
+            <img class="highpoint-article__map-image" id="mapPointImg" src="/src/img/highpoint-page/republics/mordovia/map-point-mordovia.png" alt="Местонахождение потенциальных высших точек республики Мордовия">
+            <p class="highpoint-article__content">
+              Еще три десятилетия назад вершиной Мордовии была гора Лысая. Ее высота достигала отметки 337,3 м. над уровнем моря. 
+              Гора оказалась в зоне добычи сырья для Алексеевского цементного завода и была срыта (на новой 
+              топографической карте её высота - 329 метров).
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/mordovia/Лысая гора.jpg" alt="Старая высшая точка Мордовии - гора Лысая (329 метров над уровнем моря)">
           </div>              
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
@@ -112,7 +122,7 @@
               с высокой степенью точности.
               <a class="highpoint-page-link" href="#aside__routes">Посмотреть и скачать маршрут</a>.
             </p>
-            <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/mordovia/Marshrut.png" alt="">
+            <img class="highpoint-article__map-image" id="routeImg" src="/src/img/highpoint-page/republics/mordovia/route-mordovia.png" alt="Карта маршрута по высшим точкам республики Мордовия">
             <p class="highpoint-article__content">  
               В рамках маршрута вы посетите вершину, которая распологается прямо в месте нашей остановки, недалеко от кафе 
               55 км на трассе Р-178.
@@ -172,7 +182,7 @@
           </div>
           <h3 class="highpoint-aside__title">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/zxCt5FdDDck?si=wf4RsVDCJjO9ofgv"
+            src="https://dzen.ru/embed/vmhuCxboA8Hk?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
@@ -200,5 +210,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>
