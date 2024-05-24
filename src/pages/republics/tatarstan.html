@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,18 +26,15 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>
 
     <main>
       <section class="banner-section banner-tatarstan">
@@ -94,29 +97,29 @@
               можно было считать высшей. Есть мнение, что высшей точкой является гора Чатыр-Тау, но оно ошибочно. 
               Я понимаю причину соблазна сделать эту точку высшей. Она ярко выделяется на местности и имеет хорошие обзорные 
               виды. Однако её высота составляет всего лишь 334 метра, что гораздо меньше других высот, которые также есть в 
-              Татарстане. С высокой долей вероятности вершина республики располагается в холмистых лесостепях 
-              Бугульминско-Белебеевской возвышенности.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/tatarstan/vid-tataratan-1.jpg" alt="">
+              Татарстане. С высокой долей вероятности вершина республики располагается на юго-востоке региона, в холмистых 
+              лесостепях Бугульминско-Белебеевской возвышенности.</p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/tatarstan/map-tatarstan.jpg" alt="Карта республики Татарстан">
             <p class="highpoint-article__content">
-              На этой возвышенности, к югу от деревни Ефановка, располагаются сразу 2 точки, претендующие на звание высшей, 
-              Обе они имеют высоты чуть больше 376 метров.
+              Высшая точка находится в Бугульминском районе. Ближайший населённый пункт - деревня Ефановка.
+              К югу от деревни, располагаются сразу 2 точки, претендующие на звание высшей. Обе они имеют высоты чуть больше 376 метров.
             </p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/tatarstan/map-tatarstan.png" alt="">
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/tatarstan/map-point-tatarstan.png" alt="Местонахождение потенциальных высших точек республики Татарстан">
             <p class="highpoint-article__content">
-              Обе точки представляют собой возвышенность, находящуюся прямо в поле. На точке, которой были Миша и Катя 
+              Обе точки представляют собой платообразную возвышенность, находящуюся прямо в поле. На точке, которой были Миша и Катя 
               установлен довольно свежий триангуляционный пункт, никаких других опозновательных знаков нет.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/tatarstan/tochka-tatarstan.jpg" alt="">
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/tatarstan/point-tatarstan.jpg" alt="Одна из предполагаемых вершин республики Татарстан">
           </div>
 
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
             <p class="highpoint-article__content">
               Проехать к точкам можно по грунтовой дороге на юг от деревни Ефановка. Их здесь довольно много, так что главное
-              придерживаться направление и выбрать ту, что позволит преодолеть расстояние на авто до искомых точек. Было бы 
+              придерживаться направления и выбрать ту, что позволит преодолеть расстояние на авто до искомых точек. Было бы 
               круто провести исследование и проверить обе высоты, чтобы определить какая из них в действительности является 
               высшей точкой. Вот <a class="highpoint-page-link" href="#aside__routes">примерный маршрут</a>, по которому я 
               планирую посетить эти точки, можете воспользоваться им.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/tatarstan/map-tatarstan2.png" alt="">
+            <img class="highpoint-photo" id="routeImg" src="/src/img/highpoint-page/republics/tatarstan/route-tatarstan.png" alt="Карта маршрута на 2 предполагаемые вершины республики Татарстан">
             <p class="highpoint-article__content">
               А пока можете прочитать отчёт о путешествии в 
               <a class="highpoint-page-link" href="https://earthwatching.livejournal.com/tag/%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD" target="_blank">
@@ -176,5 +179,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>
