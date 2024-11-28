@@ -1,11 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Республика Алтай</title>
+  <title>Республика Чувашия</title>
+  <link rel="stylesheet" href="/src/sass/style.css">
+  <link rel="shortcut icon" href="../../img/logo/logo.png" type="image/png">
 </head>
 <body>
+  <div class="wrapper">
+    <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
 
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+        
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
+          <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
+        </ul>
+      </nav> 
+    
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>
+
+    <main>
+      <section class="banner-section banner-udmurtia">
+        <div class="banner-section__container">
+          <div class="banner-section__content">
+            <h1 class="banner-section__title">Безымянная вершина</h1>
+            <p class="banner-section__description">
+              <span>Республика Чувашия</span><br>
+              <span>Координаты:</span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=17/58.31806/53.17816&l=O&q=58.31806%2053.17816&r=58.318060/53.178160/58.31806%C2%B0%2053.17816%C2%B0">
+                58.31806 53.17816</a></strong></span>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <article class="highpoint-article">
+        <section class="highpoint-article__info">
+          <div class="highpoint-article__items">
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Высота</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-forest"></span>
+                <span class="highpoint-article__item__description">332 метра</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Уверенность в точке</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-check"></span>
+                <span class="highpoint-article__item__description">Точно опеределена</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Труднодоступность</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-walk"></span>
+                <span class="highpoint-article__item__description">Небольшая прогулка</span>
+              </div>
+            </div>
+            <div class="highpoint-article__item">
+              <span class="highpoint-article__item__title">Сложность восхождения</span>
+              <div class="highpoint-article__contain">
+                <span class="highpoint-article__item__icon icon-not-climbing"></span>
+              <span class="highpoint-article__item__description">Восхождение отсутствует</span>
+              </div>
+            </div>
+          </div>
+
+          <ul class="article-section__list">
+            <a href="#article-info"><li class="article-section__item">Общая информация</li></a>
+            <a href="#article-routes"><li class="article-section__item">Маршруты</li></a>
+            <a href="#article-check"><li class="article-section__item">Проверки точки</li></a>
+          </ul>
+
+          <div class="article-info" id="article-info">
+            <h3 class="highpoint-article__subtitle">Общая информация</h3>
+            <p class="highpoint-article__content">
+              Высшая точка республики Удмуртии находится на севере региона и представляет собой безымянный лесной холм. 
+              Принадлежит Верхнекамской возвышенности. Тер­ри­то­рия силь­но рас­чле­не­на реч­ны­ми до­ли­на­ми и ов­ра­га­ми.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/udmurtia/map-udmurtia.jpg" alt="Карта республики Удмуртия">
+            <p class="highpoint-article__content">
+              Лесной холм располагается в Балезинском районе. Ближайший населённый пункт - 
+              деревня Новосёлы, в 2 км к юго-востку от холма.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/udmurtia/map-point-udmurtia.png" alt="Местонахождение высшей точки республики Удмуртия">
+            <p class="highpoint-article__content">
+              Сама точка находится на маленьком расчищенном участке посередине леса. Благо дорога к ней хороша натоптана и представляет собой 
+              тропинку, начинающуюся от лесовозной дороги. Тропа помечена оранжевыми лентами, поэтому заблудиться очень сложно. На точке 
+              установлена памятная табличка.
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/udmurtia/tochka-udmurtia.jpg" alt="Указатель на вершине лесного холма, высшей точки республики Удмуртия">
+          </div>
+
+          <div class="article-routes" id="article-routes">
+            <h3 class="highpoint-article__subtitle">Маршруты</h3>
+            <p class="highpoint-article__content">
+              Чтобы добраться до высшей точки Удмуртии, нужно сначала добраться до деревни Новосёлы. Дорога проходимая даже 
+              для седана, но в относительно сухую погоду. Если выпадет много осадков, то легко можно завязнуть в глинистом 
+              грунте. Трек до самой вершины и обратно займёт у вас около 6 км. Первая часть пути пройдёт по накатанной полевой
+              дороге, вторая часть по довольно разбитой лесовозной дороге, ну и третья часть, самая короткая, пройдёт по лесной 
+              тропе прямо к вершине.<br>
+              <a class="highpoint-page-link" href="#aside__routes">Посмотеть и скачать маршрут</a>
+            </p>
+              <img class="highpoint-article__map-image"  id="routeImg" src="/src/img/highpoint-page/republics/udmurtia/route-udmurtia.png" alt="Маршрут на высшую точку республики Удмуртия">
+          </div>
+          
+          <div class="article-check" id="article-check">
+            <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
+            <div class="article_check__info">
+              <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
+              <span>Когда: </span><span><strong>01.07.2023</strong></span><br>
+              <span>Устройство проверки - </span><span><strong>Альтиметр (Встроенный в IPhone 12 Pro)</strong></span><br>
+              <span>Зафиксированная высота - </span><span><strong>334 метра</strong></span><br>
+              <span>Координаты - </span><span><strong>58.31940 53.18020</strong></span><br>
+            </div>
+            <img class="altimeter-img" src="/src/img/highpoint-page/republics/udmurtia/altimeter-udmurtia.PNG" style="width: 350px;" alt="Высота, зафиксированная моим альтиметром">
+            <p class="highpoint-article__content">
+              Наибольшую высоту, а именно 334.12 метра удалось зафиксировать недалеко от указателя высшей точки. 
+              В нескольких десятках метров к северо-востоку от него.
+            </p>
+          </div>
+        </section>
+        <aside class="highpoint-aside">
+          <h3 class="highpoint-aside__title" id="aside__routes">Маршрут</h3>
+          <div class="highpoint-aside__routes">
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__nakarte-icon"></span>
+              <a href="https://nakarte.me/#m=15/58.31477/53.16726&l=O&nktl=LqWtl2LFY-aGcmYmk_1uTQ" target="_blank">Посмотреть nakarte.me</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__kml-icon"></span>
+              <a href="/src/files/tracks/ВТ Удмуртии.kml">Скачать KML трек</a>
+            </div>
+            <div class="highpoint-aside__route">
+              <span class="highpoint-aside__gpx-icon"></span>
+              <a href="/src/files/tracks/ВТ Удмуртии.gpx">Скачать GPX трек</a>
+            </div>
+          </div>
+          <h3 class="highpoint-aside__title">Видео посещения:</h3>
+          <iframe class="highpoint-aside__video"
+            src="https://dzen.ru/embed/vT8EaUsNC8F0?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </aside>
+    </article>
+    </main>
+
+    <footer class="footer">
+      <div class="logo">
+        <a href="/index.html">
+          <span class="logo__icon"></span>
+          <span class="logo__title">Все высшие точки</span>
+        </a>
+      </div>
+      
+      <div class="enjoy">
+        <span class="enjoy__title">Присоединяйтесь к нам в: </span>
+        <ul class="enjoy__list">
+          <li class="enjoy__item"><a href="https://www.youtube.com/@Allhighpoints" target="_blank">YouTube</a></li>
+          <li class="enjoy__item"><a href="https://dzen.ru/id/5fba53d16400187737358656" target="_blank">Дзен</a></li>
+          <li class="enjoy__item"><a href="https://t.me/+K4dU8Tb8N1lkMWMy" target="_blank">Telegram</a></li>
+        </ul> 
+      </div>
+
+      <span class="copyright">© SpaceMutiny 2024</span>
+    </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>

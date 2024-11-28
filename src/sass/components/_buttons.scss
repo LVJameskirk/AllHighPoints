@@ -3,14 +3,14 @@
     border-radius: 10px;
     border: 2px solid $color-border;
     cursor: pointer;
-}
 
-.button:hover {
-    padding: 5px 10px;
-    background-color: $color-border;
-    border: 2px solid $color-border;
-    color: $color-text-buttons;
-    cursor: pointer;
+    &:hover {
+      padding: 5px 10px;
+      background-color: $color-border;
+      border: 2px solid $color-border;
+      color: $color-text-buttons;
+      cursor: pointer;
+  }
 }
 
 .welcome-section .enjoy-button {

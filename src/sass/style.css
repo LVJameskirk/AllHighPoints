@@ -1364,7 +1364,6 @@ tbody tr .point-done {
   border: 2px solid rgb(5, 110, 171);
   cursor: pointer;
 }
-
 .button:hover {
   padding: 5px 10px;
   background-color: rgb(5, 110, 171);
@@ -1541,6 +1540,10 @@ tbody tr .point-done {
 
 .banner-tuva {
   background-image: url(/src/img/highpoint-page/republics/tuva/banner-tuva.jpg);
+}
+
+.banner-udmurtia {
+  background-image: url(/src/img/highpoint-page/republics/udmurtia/banner-udmurtia.jpg);
 }
 
 /* Баннеры. Области*/

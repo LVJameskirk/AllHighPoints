@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-11-27T14:39:39.379Z</time>
+	</metadata>
+	<wpt lat="58.318055" lon="53.178141">
+		<name>Высшая точка Удмуртии</name>
+	</wpt>
+	<wpt lat="58.312752" lon="53.140456">
+		<name>Место, где можно оставить машину</name>
+	</wpt>
+	<wpt lat="58.313955" lon="53.151314">
+		<name>Водонапорная башня</name>
+	</wpt>
+	<wpt lat="58.321216" lon="53.165867">
+		<name>Перекрёсток</name>
+	</wpt>
+	<wpt lat="58.320596" lon="53.178302">
+		<name>Сворот на тропу</name>
+	</wpt>
+	<trk>
+		<name>Высшая точка Удмуртии</name>
+		<trkseg>
+			<trkpt lat="58.312735" lon="53.140483"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.314110" lon="53.151748"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.315282" lon="53.155632"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.315666" lon="53.157434"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.318303" lon="53.162026"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.320331" lon="53.165116"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.321210" lon="53.165889"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.320038" lon="53.168764"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.319993" lon="53.169708"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.320173" lon="53.173571"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.320590" lon="53.178270"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.319396" lon="53.178592"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.318990" lon="53.178077"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.318325" lon="53.177776"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="58.318066" lon="53.178098"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

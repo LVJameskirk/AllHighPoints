@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Высшая точка Удмуртии</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					53.140483,58.312735
+					53.151748,58.314110
+					53.155632,58.315282
+					53.157434,58.315666
+					53.162026,58.318303
+					53.165116,58.320331
+					53.165889,58.321210
+					53.168764,58.320038
+					53.169708,58.319993
+					53.173571,58.320173
+					53.178270,58.320590
+					53.178592,58.319396
+					53.178077,58.318990
+					53.177776,58.318325
+					53.178098,58.318066
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Высшая точка Удмуртии</name>
+			<Point>
+				<coordinates>53.178141,58.318055,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Место, где можно оставить машину</name>
+			<Point>
+				<coordinates>53.140456,58.312752,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Водонапорная башня</name>
+			<Point>
+				<coordinates>53.151314,58.313955,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Перекрёсток</name>
+			<Point>
+				<coordinates>53.165867,58.321216,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Сворот на тропу</name>
+			<Point>
+				<coordinates>53.178302,58.320596,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>

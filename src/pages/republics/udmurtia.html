@@ -10,6 +10,12 @@
 <body>
   <div class="wrapper">
     <header class="header">
+      <button class="header__hamburger-btn" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
       <div class="logo">
         <a href="/index.html">
           <span class="logo__icon"></span>
@@ -20,29 +26,26 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item"><a class="nav__link" href="/index.html">Главная</a></li>
-          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Россия</a></li>
-          <li class="nav__item"><a class="nav__link not-clickable" title="Скоро добавим" href="">Мир*</a></li>
+          <li class="nav__item"><a class="nav__link" href="/index.html#russia-section">Поиск</a></li>
           <li class="nav__item"><a class="nav__link" href="/index.html#news-section">Новости</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/participants.html">Участники</a></li>
           <li class="nav__item"><a class="nav__link" href="/src/pages/about.html">О проекте</a></li>
         </ul>
-      </nav>
+      </nav> 
     
-      <form class="enjoy-form">
-        <button class="button enjoy-button">Стать участником проекта</button>
-      </form>
-    </header>  
+      <a class="button button-become" href="/src/pages/about.html#participants-enjoy">Стать участником проекта</a>
+    </header>
 
     <main>
-      <section class="banner-section banner-mari_el">
+      <section class="banner-section banner-udmurtia">
         <div class="banner-section__container">
           <div class="banner-section__content">
             <h1 class="banner-section__title">Лесной холм</h1>
             <p class="banner-section__description">
               <span>Республика Удмуртия</span><br>
               <span>Координаты:</span>
-              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=17/58.31805/53.17812&l=O&q=N%2058%C2%B019%E2%80%B204.99%E2%80%B3%20E%2053%C2%B010%E2%80%B241.23%E2%80%B3&r=58.318053/53.178119/N%2058%C2%B019%E2%80%B24.99%E2%80%B3%20E%2053%C2%B010%E2%80%B241.23%E2%80%B3">
-                N 58°19′04.99″ E 53°10′41.23″</a></strong></span>
+              <span><strong><a class="highpoint-page-link" target="_blank" href="https://nakarte.me/#m=17/58.31806/53.17816&l=O&q=58.31806%2053.17816&r=58.318060/53.178160/58.31806%C2%B0%2053.17816%C2%B0">
+                58.31806 53.17816</a></strong></span>
             </p>
           </div>
         </div>
@@ -89,36 +92,51 @@
 
           <div class="article-info" id="article-info">
             <h3 class="highpoint-article__subtitle">Общая информация</h3>
-            <p class="highpoint-article__content">Лесной холм без названия. Находится в Балезинскиом районе, недалеко от 
-              деревни Новосёлы. Вход на тропу к высшей точке можно заметить идя по лесовозной дороге, тропа помечена 
-              оранжевыми лентами. На точке установлена памятная табличка.</p>
-              <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mari_el/mari_el_photo.jpg" alt="">
+            <p class="highpoint-article__content">
+              Высшая точка республики Удмуртии находится на севере региона и представляет собой безымянный лесной холм. 
+              Принадлежит Верхнекамской возвышенности. Тер­ри­то­рия силь­но рас­чле­не­на реч­ны­ми до­ли­на­ми и ов­ра­га­ми.
+            </p>
+            <img class="highpoint-photo" id="mapImg" src="/src/img/highpoint-page/republics/udmurtia/map-udmurtia.jpg" alt="Карта республики Удмуртия">
+            <p class="highpoint-article__content">
+              Лесной холм располагается в Балезинском районе. Ближайший населённый пункт - 
+              деревня Новосёлы, в 2 км к юго-востку от холма.
+            </p>
+            <img class="highpoint-photo" id="mapPointImg" src="/src/img/highpoint-page/republics/udmurtia/map-point-udmurtia.png" alt="Местонахождение высшей точки республики Удмуртия">
+            <p class="highpoint-article__content">
+              Сама точка находится на маленьком расчищенном участке посередине леса. Благо дорога к ней хороша натоптана и представляет собой 
+              тропинку, начинающуюся от лесовозной дороги. Тропа помечена оранжевыми лентами, поэтому заблудиться очень сложно. На точке 
+              установлена памятная табличка.
+            </p>
+            <img class="highpoint-photo" id="pointImg" src="/src/img/highpoint-page/republics/udmurtia/tochka-udmurtia.jpg" alt="Указатель на вершине лесного холма, высшей точки республики Удмуртия">
           </div>
 
           <div class="article-routes" id="article-routes">
             <h3 class="highpoint-article__subtitle">Маршруты</h3>
             <p class="highpoint-article__content">
-              Добраться до горы Чукша очень просто. На саму вершину, где распологается смотровая, есть неплохая грейдейрная 
-              дорога. Там же можно оставить свой автомобиль. Оказавшись на смотровой можете считать высшую точку посещённой, 
-              но если возникнет такое желание, можете прогуляться до высоты 281 метр, которая находится тут неподалёку.<br>
+              Чтобы добраться до высшей точки Удмуртии, нужно сначала добраться до деревни Новосёлы. Дорога проходимая даже 
+              для седана, но в относительно сухую погоду. Если выпадет много осадков, то легко можно завязнуть в глинистом 
+              грунте. Трек до самой вершины и обратно займёт у вас около 6 км. Первая часть пути пройдёт по накатанной полевой
+              дороге, вторая часть по довольно разбитой лесовозной дороге, ну и третья часть, самая короткая, пройдёт по лесной 
+              тропе прямо к вершине.<br>
               <a class="highpoint-page-link" href="#aside__routes">Посмотеть и скачать маршрут</a>
             </p>
-              <img class="highpoint-article__map-image" src="/src/img/highpoint-page/republics/mari_el/Mari_el_map.png" alt="">
+              <img class="highpoint-article__map-image"  id="routeImg" src="/src/img/highpoint-page/republics/udmurtia/route-udmurtia.png" alt="Маршрут на высшую точку республики Удмуртия">
           </div>
           
           <div class="article-check" id="article-check">
             <h3 class="highpoint-article__subtitle verification">Проверки точки</h3>
             <div class="article_check__info">
               <span>Кто: </span><span><strong>Лалетин Виталий (Автор проекта)</strong></span><br>
-              <span>Когда: </span><span><strong>29.06.2023</strong></span><br>
+              <span>Когда: </span><span><strong>01.07.2023</strong></span><br>
               <span>Устройство проверки - </span><span><strong>Альтиметр (Встроенный в IPhone 12 Pro)</strong></span><br>
-              <span>Зафиксированная высота - </span><span><strong>284 метра</strong></span><br>
-              <span>Координаты - </span><span><strong>N 56°30′50.04″ E 49°00′14.46″</strong></span><br>
+              <span>Зафиксированная высота - </span><span><strong>334 метра</strong></span><br>
+              <span>Координаты - </span><span><strong>58.31940 53.18020</strong></span><br>
             </div>
-            <img class="altimeter-img" src="/src/img/highpoint-page/republics/mari_el/Mari_el_altimeter.png" alt="">
-            <p class="highpoint-article__content"> Наибольшую высоту, а именно 284.05 метра удалось зафиксировать прямо на 
-              смотровой площадке, рядом с будкой смотрителя.</p>
-            <img class="highpoint-photo" src="/src/img/highpoint-page/republics/mari_el/mari_el_altimetr_point.png" alt="">
+            <img class="altimeter-img" src="/src/img/highpoint-page/republics/udmurtia/altimeter-udmurtia.PNG" style="width: 350px;" alt="Высота, зафиксированная моим альтиметром">
+            <p class="highpoint-article__content">
+              Наибольшую высоту, а именно 334.12 метра удалось зафиксировать недалеко от указателя высшей точки. 
+              В нескольких десятках метров к северо-востоку от него.
+            </p>
           </div>
         </section>
         <aside class="highpoint-aside">
@@ -126,20 +144,20 @@
           <div class="highpoint-aside__routes">
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__nakarte-icon"></span>
-              <a href="https://nakarte.me/#m=15/56.51221/49.01773&l=S/K&nktl=_oMSRXjP8hmtv2LU0SIGFw" target="_blank">Посмотреть nakarte.me</a>
+              <a href="https://nakarte.me/#m=15/58.31477/53.16726&l=O&nktl=LqWtl2LFY-aGcmYmk_1uTQ" target="_blank">Посмотреть nakarte.me</a>
             </div>
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__kml-icon"></span>
-              <a href="/src/files/tracks/ВТ Марий Эл.kml">Скачать KML трек</a>
+              <a href="/src/files/tracks/ВТ Удмуртии.kml">Скачать KML трек</a>
             </div>
             <div class="highpoint-aside__route">
               <span class="highpoint-aside__gpx-icon"></span>
-              <a href="/src/files/tracks/ВТ Марий Эл.gpx">Скачать GPX трек</a>
+              <a href="/src/files/tracks/ВТ Удмуртии.gpx">Скачать GPX трек</a>
             </div>
           </div>
           <h3 class="highpoint-aside__title">Видео посещения:</h3>
           <iframe class="highpoint-aside__video"
-            src="https://www.youtube.com/embed/ywIk7bZZlFc"
+            src="https://dzen.ru/embed/vT8EaUsNC8F0?from_block=partner&from=zen&mute=0&autoplay=0&tv=0"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
@@ -167,5 +185,14 @@
 
       <span class="copyright">© SpaceMutiny 2024</span>
     </footer>
+    <div id="myModal" class="modal">
+      <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </div>
+
+  <script src="/src/index.js"></script>
+  <script src="/src/photo.js"></script>
 </body>
 </html>
