@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" creator="http://nakarte.me" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1">
+	<metadata>
+		<time>2024-11-28T07:14:59.952Z</time>
+	</metadata>
+	<wpt lat="54.665877" lon="47.251253">
+		<name>ВТ Чувашии</name>
+	</wpt>
+	<wpt lat="54.670516" lon="47.248760">
+		<name>Старая лесная дорога</name>
+	</wpt>
+	<wpt lat="54.682565" lon="47.238336">
+		<name>Место, где я оставил машину</name>
+	</wpt>
+	<trk>
+		<name>ВТ Чувашии</name>
+		<trkseg>
+			<trkpt lat="54.682540" lon="47.238250"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.682168" lon="47.238550"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.681300" lon="47.238679"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.679935" lon="47.238507"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.676660" lon="47.236190"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.674129" lon="47.233915"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.673136" lon="47.236533"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.672342" lon="47.239537"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.671920" lon="47.241683"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.670543" lon="47.248764"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.670034" lon="47.249494"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.669041" lon="47.250137"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.667515" lon="47.250438"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.666721" lon="47.250566"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+			<trkpt lat="54.665914" lon="47.251232"><time>1970-01-01T00:00:01.000Z</time></trkpt>
+		</trkseg>
+	</trk>
+</gpx>

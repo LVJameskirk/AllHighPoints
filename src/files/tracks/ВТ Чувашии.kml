@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>ВТ Чувашии</name>
+		<Placemark>
+			<name>Line 1</name>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					47.238250,54.682540
+					47.238550,54.682168
+					47.238679,54.681300
+					47.238507,54.679935
+					47.236190,54.676660
+					47.233915,54.674129
+					47.236533,54.673136
+					47.239537,54.672342
+					47.241683,54.671920
+					47.248764,54.670543
+					47.249494,54.670034
+					47.250137,54.669041
+					47.250438,54.667515
+					47.250566,54.666721
+					47.251232,54.665914
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>ВТ Чувашии</name>
+			<Point>
+				<coordinates>47.251253,54.665877,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Старая лесная дорога</name>
+			<Point>
+				<coordinates>47.248760,54.670516,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Место, где я оставил машину</name>
+			<Point>
+				<coordinates>47.238336,54.682565,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+	</kml>
